@@ -34,7 +34,23 @@ library(kableExtra) # Construct Complex Table with 'kable' and Pipe Syntax # CRA
 library(metacoder) # Tools for Parsing, Manipulating, and Graphing Taxonomic Abundance Data  # [::NA/NA] v0.3.4 # CRAN v0.3.4 
 ```
 
-```{r functions, cache=T, include=F}
+```{r style settings, echo=F, message=F, warning=F, results="asis"}
+options(width = 90, 
+        knitr.table.format = "html") 
+knitr::opts_chunk$set(
+  cache = TRUE,
+  warning = FALSE, 
+  message = FALSE,
+  cache.lazy = FALSE,
+  dev = c("png"),
+  dev.args = list(png = list(bg = 'white', type = "cairo")),
+  dpi = 300,
+  cache.path = "EMP_cache/",
+  fig.path = "EMP_figures/"
+)
+```
+
+```{r functions, include=F}
 PS_merge_samples <- function(ps = Ps_obj, grouping_name = "empo_3", fun = "mean") {
   # Like phyloseq::merge_samples() but retains chr and fct information in sample_data()
 
@@ -96,46 +112,34 @@ PS_merge_samples <- function(ps = Ps_obj, grouping_name = "empo_3", fun = "mean"
 }
 ```
 
-```{r style settings, echo=F, message=F, warning=F, results="asis"}
-options(width = 90, 
-        knitr.table.format = "html") 
-knitr::opts_chunk$set(
-  dev = c("png"),
-  dev.args = list(png = list(bg = 'white', type = "cairo")),
-  dpi = 300,
-  cache.path = "EMP_cache/",
-  fig.path = "EMP_figures/"
-)
-```
-
 ## Summarise the taxonmic distribution across different sample types in the Earth Microbiome Project
 The Earth Microbiome Project ([EMP](1)) is collaborative effort to curate and characterise microbial taxonomy and function on Earth [@thompson_communal_2017].  
 The aim of this script is to summarise the taxonmic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonimc levels. The script uses the 3^rd^ calssification level of the [EMP Ontology](3) (`empo_3`), but this can also be altered.
 
 ### Set main parameters and download data tables from the EMP FTP site
 
-```{r parameters, cache=T}
+```{r parameters}
 ftp <- "ftp://ftp.microbio.me/emp/release1/"
-biom_file <- "emp_cr_silva_16S_123.subset_2k.biom"
-map_file <- "emp_qiime_mapping_subset_2k.tsv"
-new_map_file <- "emp_qiime_mapping_subset_2k_noBLNK.csv"
+biom_file <- "emp_cr_silva_16S_123.subset_10k.biom"
+map_file <- "emp_qiime_mapping_subset_10k.tsv"
+new_map_file <- "emp_qiime_mapping_subset_10k_noBLNK.csv"
 Rank <- "Phylum"
 Grouping_var <- "empo_3"
 EMPO_levels2keep <- c("Soil (non-saline)", "Plant rhizosphere", "Animal corpus", "Water (saline)", "Sediment (saline)", "Water (non-saline)", "Hypersaline (saline)", "Sediment (non-saline)", "Animal distal gut", "Animal proximal gut", "Aerosol (non-saline)", "Animal secretion", "Animal surface", "Plant corpus", "Surface (non-saline)", "Plant surface", "Surface (saline)") # remove unwanted environments
 ```
 
-```{r download files, cache=T}
+```{r download files}
 biom_ftp <- paste0(ftp, "otu_tables/closed_ref_silva/", biom_file)
 map_ftp <- paste0(ftp, "mapping_files/", map_file)
 download.file(biom_ftp, biom_file)
 download.file(map_ftp, map_file)
 
 # fill-in missing values with NA, convert to CSV
-system("awk 'BEGIN { FS = OFS = \"\t\" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = \"NA\" }; 1' emp_qiime_mapping_subset_2k.tsv  |  awk 'BEGIN { FS=\",\"; OFS=\";\" } {$1=$1; print}' |  awk 'BEGIN { FS=\"\t\"; OFS=\",\" } {$1=$1; print}' > emp_qiime_mapping_subset_2k_noBLNK.csv")
+system("awk 'BEGIN { FS = OFS = \"\t\" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = \"NA\" }; 1' emp_qiime_mapping_subset_2k.tsv  |  awk 'BEGIN { FS=\",\"; OFS=\";\" } {$1=$1; print}' |  awk 'BEGIN { FS=\"\t\"; OFS=\",\" } {$1=$1; print}' > emp_qiime_mapping_subset_10k_noBLNK.csv")
 ```
 
 ### Generate a phyloseq object from the biom and (modified) map files
-```{r generate phyloseq obj, cache=T}
+```{r generate phyloseq obj}
 (EMP_otu_tax <- import_biom(biom_file, parseFunction = parse_taxonomy_silva_128, 
                             parallel = TRUE))
 read_csv(new_map_file,
@@ -147,12 +151,12 @@ read_csv(new_map_file,
 EMP <- merge_phyloseq(EMP_otu_tax, EMP_map)
 
 # for debugging and testing
-EMP %>%
-  subset_samples(empo_3 %in% EMPO_levels2keep) %>%
-  prune_samples(sample_names(.)[sample(1:nsamples(.), 100)], .) %>%
-  phyloseq::filter_taxa(., function(x) sum(x) > 0, TRUE) %>%
-  prune_taxa(taxa_names(.)[sample(1:ntaxa(.), 1000)], .) ->
-  EMP_subset
+# EMP %>%
+#   subset_samples(empo_3 %in% EMPO_levels2keep) %>%
+#   prune_samples(sample_names(.)[sample(1:nsamples(.), 100)], .) %>%
+#   phyloseq::filter_taxa(., function(x) sum(x) > 0, TRUE) %>%
+#   prune_taxa(taxa_names(.)[sample(1:ntaxa(.), 1000)], .) ->
+#   EMP_subset
 
 EMP %>% 
   PS_merge_samples(grouping_name = Grouping_var, fun = "mean") ->
@@ -161,7 +165,7 @@ EMP %>%
 
 ### Generate a summary table of taxonomic distributions across sample types
 
-```{r summarise phyla, cache=T}
+```{r summarise phyla}
 # summarise abundance by environment and phylum
 EMP_merge %>%
   tax_glom(taxrank = Rank) %>%                     # agglomerate at 'Rank' level
@@ -197,7 +201,7 @@ taxa_sum_df %>%
 ```
 
 ### Plot a heatmap
-```{r plot heatmanp, fig.width=18, fig.height=25, cache=T}
+```{r plot heatmanp, fig.width=18, fig.height=25}
 # Agglomerate taxa
 EMP_merge %>% 
   tax_glom(Rank, NArm = TRUE) %>% 
@@ -221,7 +225,7 @@ plot_heatmap(
 ```
 
 ### Plot a bar chart
-```{r plot bar, fig.width=18, fig.height=30, cache=T}
+```{r plot bar, fig.width=18, fig.height=30}
 EMP_merge %>% 
   tax_glom(., Rank) %>% 
   transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
@@ -238,7 +242,7 @@ EMP_merge %>%
 ```
 
 ### Plot a violin and dot chart
-```{r plot violin, fig.width=12, fig.height=12, cache=T}
+```{r plot violin, fig.width=12, fig.height=12}
 EMP %>% 
   tax_glom(., Rank) %>% 
   transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
@@ -265,9 +269,9 @@ EMP %>%
 
 ## Generate heat-tree plots using [Metacoder][3] [@foster_metacoder_2017]
 
-```{r plot metacoder, fig.height = 30, fig.width = 18, cache=T}
+```{r plot metacoder, fig.height = 30, fig.width = 18}
 # Convert phyloseq to taxmap
-EMP_subset %>% 
+EMP %>% 
   # transform_sample_counts(function(x) x / sum(x) ) %>% # not really needed
   parse_phyloseq() %>% 
   taxa::filter_taxa(., !taxon_ranks %in% c("Species", "Genus", "Family", "Order")) -> # tips will be Class
@@ -315,6 +319,3 @@ sessioninfo::session_info() %>%
 [1]: https://earthmicrobiome.org/
 [2]: https://earthmicrobiome.org/protocols-and-standards/empo/
 [3]: https://grunwaldlab.github.io/metacoder_documentation/
-
-
-
