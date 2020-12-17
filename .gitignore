@@ -9,3 +9,12 @@ emp_qiime_mapping_subset_2k.tsv
 emp_qiime_mapping_subset_2k_edit.csv
 emp_qiime_mapping_subset_2k_noBLNK.csv
 emp_qiime_mapping_subset_2k_noBLNK.tsv
+EMP_cache
+EMP_figures
+emp_cr_silva_16S_123.subset_10k.biom
+emp_cr_silva_16S_123.subset_5k.biom
+emp_qiime_mapping_subset_10k.tsv
+emp_qiime_mapping_subset_10k_noBLNK.csv
+emp_qiime_mapping_subset_5k.tsv
+emp_qiime_mapping_subset_5k_noBLNK.csv
+run_knitr.sh
