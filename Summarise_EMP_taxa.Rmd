@@ -316,6 +316,8 @@ sessioninfo::session_info() %>%
   )
 ```
 
+## References
+
 [1]: https://earthmicrobiome.org/
 [2]: https://earthmicrobiome.org/protocols-and-standards/empo/
 [3]: https://grunwaldlab.github.io/metacoder_documentation/
