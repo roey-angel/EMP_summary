@@ -2,3 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+EMP_cache_2k
+EMP_figures_2k
+emp_cr_silva_16S_123.subset_2k.biom
+emp_qiime_mapping_subset_2k.tsv
+emp_qiime_mapping_subset_2k_edit.csv
+emp_qiime_mapping_subset_2k_noBLNK.csv
+emp_qiime_mapping_subset_2k_noBLNK.tsv
