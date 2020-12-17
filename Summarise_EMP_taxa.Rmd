@@ -1,0 +1,320 @@
+---
+title: "Summarise taxonmic distribution in the EMP dataset"
+author: 
+  name: "Roey Angel"
+  email: "roey.angel@bc.cas.cz"
+  affiliation: "Biology Centre CAS, Czechia"
+  github-repo: "https://github.com/roey-angel"
+  url: 'https://soilwater.eu/people/angel-roey/'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: references.bib
+link-citations: yes
+always_allow_html: true
+output:
+  rmarkdown::github_document:
+    toc: true
+    toc_depth: 5
+    df_print: "kable"
+    keep_html: TRUE
+---
+
+```{r libraries, include=F}
+library(extrafont) # Tools for using fonts, CRAN v0.17
+library(tidyverse) # Easily Install and Load the 'Tidyverse', CRAN v1.3.0 
+library(scales) # Scale Functions for Visualization, CRAN v1.1.1
+library(ggtext) # Improved Text Rendering Support for 'ggplot2', CRAN v0.1.0
+library(see) # Visualisation Toolbox for 'easystats' and Extra Geoms, Themes and Color Palettes for 'ggplot2', CRAN v0.6.0
+library(svglite) # An 'SVG' Graphics Device, CRAN v1.2.3.2 
+library(viridis) # Default Color Maps from 'matplotlib'
+library(phyloseq) # Handling and analysis of high-throughput microbiome census data, Bioconductor v1.32.0 
+library(speedyseq) # Faster implementations of phyloseq functions, [github::mikemc/speedyseq] v0.5.3.9001 
+library(patchwork) # The Composer of Plots 
+library(MicrobiomeR) # Analyze Microbiome Data, Bioconductor v0.7.0 
+library(kableExtra) # Construct Complex Table with 'kable' and Pipe Syntax # CRAN v1.3.1 
+library(metacoder) # Tools for Parsing, Manipulating, and Graphing Taxonomic Abundance Data  # [::NA/NA] v0.3.4 # CRAN v0.3.4 
+```
+
+```{r functions, cache=T, include=F}
+PS_merge_samples <- function(ps = Ps_obj, grouping_name = "empo_3", fun = "mean") {
+  # Like phyloseq::merge_samples() but retains chr and fct information in sample_data()
+
+  # Merge/agglomerate the sample indices of a phyloseq object according to a categorical variable contained in a sample_data or a provided factor.
+  # Unlike merge_samples() this function will only apply a `mean` to numeric variables in `samples_data()` and will retain all unique values of any non-numeric variable.
+  # chr or fct variables with non-identical levels in the marged samples are combined to a comma-separated string.
+  require(dplyr)
+  require(purrr)
+  require(phyloseq)
+
+  if (taxa_are_rows(ps)) {ps <- t(ps)} # needs to be in sample-by-species orientation
+  SD2merge <- as_tibble(sample_data(ps)) # grab sample_data
+  org_col_names <- colnames(SD2merge) # retain original sample_data variable order
+  grouping_col <- select(SD2merge, group = all_of(grouping_name)) # grab grouping var
+  # grap factor variables
+  SD2merge %>%
+    select_if(is.factor) %>%
+    colnames() ->
+    fct_vars
+
+  # merge the OTU table
+  ps %>%
+    otu_table() %>%
+    as(., "matrix") %>%
+    rowsum(., as_vector(grouping_col)) %>%
+    # convert back to otu_table, and return
+    otu_table(., taxa_are_rows = FALSE) ->
+    merged_OTU_table
+
+  # merge numeric
+  SD2merge %>%
+    select_if(is.numeric) %>%
+    bind_cols(grouping_col, .) %>%
+    group_by(group) %>%
+    summarise_all(., fun, na.rm = TRUE) ->
+    numeric_cols
+
+  # merge other
+  SD2merge %>%
+    select_if(negate(is.numeric)) %>%
+    bind_cols(grouping_col, .) %>%
+    group_by(group) %>%
+    summarise_all(list(~paste(unique(.), collapse = ",")))  ->
+    other_cols
+
+  # join merged numeric and other columns
+  full_join(numeric_cols, other_cols, by = "group") %>%
+    select(-group) %>%
+    select(all_of(org_col_names)) %>% # order columns like they were
+    mutate_at(fct_vars, ~(factor(.))) %>% # return factor type to fct vars
+    mutate(torownames = !!sym(grouping_name)) %>% 
+    column_to_rownames(var = "torownames") ->
+    merged_SD
+
+  # build and return a phyloseq object
+  return(phyloseq(otu_table(merged_OTU_table),
+                  sample_data(merged_SD),
+                  tax_table(ps)))
+}
+```
+
+```{r style settings, echo=F, message=F, warning=F, results="asis"}
+options(width = 90, 
+        knitr.table.format = "html") 
+knitr::opts_chunk$set(
+  dev = c("png"),
+  dev.args = list(png = list(bg = 'white', type = "cairo")),
+  dpi = 300,
+  cache.path = "EMP_cache/",
+  fig.path = "EMP_figures/"
+)
+```
+
+## Summarise the taxonmic distribution across different sample types in the Earth Microbiome Project
+The Earth Microbiome Project ([EMP](1)) is collaborative effort to curate and characterise microbial taxonomy and function on Earth [@thompson_communal_2017].  
+The aim of this script is to summarise the taxonmic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonimc levels. The script uses the 3^rd^ calssification level of the [EMP Ontology](3) (`empo_3`), but this can also be altered.
+
+### Set main parameters and download data tables from the EMP FTP site
+
+```{r parameters, cache=T}
+ftp <- "ftp://ftp.microbio.me/emp/release1/"
+biom_file <- "emp_cr_silva_16S_123.subset_2k.biom"
+map_file <- "emp_qiime_mapping_subset_2k.tsv"
+new_map_file <- "emp_qiime_mapping_subset_2k_noBLNK.csv"
+Rank <- "Phylum"
+Grouping_var <- "empo_3"
+EMPO_levels2keep <- c("Soil (non-saline)", "Plant rhizosphere", "Animal corpus", "Water (saline)", "Sediment (saline)", "Water (non-saline)", "Hypersaline (saline)", "Sediment (non-saline)", "Animal distal gut", "Animal proximal gut", "Aerosol (non-saline)", "Animal secretion", "Animal surface", "Plant corpus", "Surface (non-saline)", "Plant surface", "Surface (saline)") # remove unwanted environments
+```
+
+```{r download files, cache=T}
+biom_ftp <- paste0(ftp, "otu_tables/closed_ref_silva/", biom_file)
+map_ftp <- paste0(ftp, "mapping_files/", map_file)
+download.file(biom_ftp, biom_file)
+download.file(map_ftp, map_file)
+
+# fill-in missing values with NA, convert to CSV
+system("awk 'BEGIN { FS = OFS = \"\t\" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = \"NA\" }; 1' emp_qiime_mapping_subset_2k.tsv  |  awk 'BEGIN { FS=\",\"; OFS=\";\" } {$1=$1; print}' |  awk 'BEGIN { FS=\"\t\"; OFS=\",\" } {$1=$1; print}' > emp_qiime_mapping_subset_2k_noBLNK.csv")
+```
+
+### Generate a phyloseq object from the biom and (modified) map files
+```{r generate phyloseq obj, cache=T}
+(EMP_otu_tax <- import_biom(biom_file, parseFunction = parse_taxonomy_silva_128, 
+                            parallel = TRUE))
+read_csv(new_map_file,
+                    trim_ws = TRUE) %>% 
+  column_to_rownames("#SampleID") %>% 
+  sample_data() ->
+  EMP_map
+
+EMP <- merge_phyloseq(EMP_otu_tax, EMP_map)
+
+# for debugging and testing
+EMP %>%
+  subset_samples(empo_3 %in% EMPO_levels2keep) %>%
+  prune_samples(sample_names(.)[sample(1:nsamples(.), 100)], .) %>%
+  phyloseq::filter_taxa(., function(x) sum(x) > 0, TRUE) %>%
+  prune_taxa(taxa_names(.)[sample(1:ntaxa(.), 1000)], .) ->
+  EMP_subset
+
+EMP %>% 
+  PS_merge_samples(grouping_name = Grouping_var, fun = "mean") ->
+  EMP_merge
+```
+
+### Generate a summary table of taxonomic distributions across sample types
+
+```{r summarise phyla, cache=T}
+# summarise abundance by environment and phylum
+EMP_merge %>%
+  tax_glom(taxrank = Rank) %>%                     # agglomerate at 'Rank' level
+  psmelt() %>%                                         # Melt to long format
+  arrange(Rank)  %>%                                  # arrange by 'Rank'
+  group_by_at(c(Grouping_var, Rank)) %>% 
+  # summarise and create a column with the relative abundance
+  summarise(Abundance = sum(Abundance)) %>%
+  mutate(Rreq = paste0(round(100 * Abundance / sum(Abundance), 2), "%")) ->
+  taxa_sum_df
+
+# determine the phylum order by decreasing abundance (for plotting)
+EMP_merge %>%
+  tax_glom(taxrank = Rank) %>%                     # agglomerate at 'Rank' level
+    transform_sample_counts(., function(x) x / sum(x) ) %>% 
+  psmelt() %>%                                        # Melt to long format
+  arrange(Rank)  %>%                                  # arrange by 'Rank'
+  group_by_at(c("OTU", Rank)) %>% 
+  summarise(Abundance = sum(Abundance)) %>%
+  arrange(Abundance) ->
+  Rank_order 
+
+# print summary table
+taxa_sum_df %>% 
+  filter(Abundance != 0) %>%
+  kable(., digits = c( 0, 1)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F)
+
+# save summary table
+taxa_sum_df %>% 
+  filter(Abundance != 0) %>% 
+  write.csv(file = paste0("EMP_", Grouping_var,"_", Rank,".csv"))
+```
+
+### Plot a heatmap
+```{r plot heatmanp, fig.width=18, fig.height=25, cache=T}
+# Agglomerate taxa
+EMP_merge %>% 
+  tax_glom(Rank, NArm = TRUE) %>% 
+  transform_sample_counts(function(x) x / sum(x) * 100) ->
+  Ps_obj_filt_glom
+
+plot_heatmap(
+  Ps_obj_filt_glom,
+  # method = "NMDS",
+  # distance = "bray",
+  trans = log_trans(4),
+  sample.order = Grouping_var,
+  sample.label = Grouping_var,
+  taxa.label = Rank,
+  taxa.order = Rank_order$OTU
+) + 
+  theme_bw(base_size = 18) + 
+  theme(axis.text.x = element_text(angle = 45.0, vjust = 1, hjust = 1)) +
+  scale_fill_viridis(trans = "log", labels = scales::number_format(accuracy = 0.1), option = "magma", na.value = "black") +
+  labs(fill = "Abundance (%)")
+```
+
+### Plot a bar chart
+```{r plot bar, fig.width=18, fig.height=30, cache=T}
+EMP_merge %>% 
+  tax_glom(., Rank) %>% 
+  transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
+  psmelt() %>%  
+  mutate_if(is.character, as.factor) %>% 
+  mutate(Phylum = fct_relevel(pull(., Rank), rev(unique(pull(Rank_order, Rank))))) %>% 
+  ggplot(aes(fill = !!sym(Rank), x = !!sym(Grouping_var), y = log10(Abundance))) +
+  geom_col() +
+  theme_set(theme_bw()) +
+  theme(axis.text.x = element_text(angle = 45.0, vjust = 1, hjust = 1),
+        legend.position = "bottom") +
+  labs(y = "Log10 rel. abundance") +
+  facet_wrap(~get(Rank), ncol = 5) 
+```
+
+### Plot a violin and dot chart
+```{r plot violin, fig.width=12, fig.height=12, cache=T}
+EMP %>% 
+  tax_glom(., Rank) %>% 
+  transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
+  psmelt() %>%  
+  mutate_if(is.character, as.factor) %>% 
+  mutate(Taxa = fct_relevel(pull(., Rank), rev(unique(pull(Rank_order, Rank))))) %>%
+  mutate(Taxa = fct_other(Taxa, drop = pull(Rank_order, Rank)[Rank_order$Abundance < 0.1], other_level = "Rare")) %>% 
+  ggplot(aes(x = Taxa, y = Abundance)) +
+  geom_violin(aes(group = interaction(Taxa, !!sym(Grouping_var))),
+              scale = "width") +
+  geom_point2(aes(colour = Taxa), 
+              position = position_jitter(width = 0.2),
+             alpha = 1/4,
+             stroke = 0, 
+             size = 2) +
+  theme(axis.text = element_text(angle = 45.0), 
+        axis.text.x = element_text(vjust = 1, hjust = 1) ) + 
+  # scale_fill_locuszoom() +
+  # scale_color_manual(values = pal("d3js")[c(3, 4, 2)]) +
+  labs(x = NULL, y = "Abundance (%)", colour = Rank) + 
+  guides(colour = guide_legend(override.aes = list(size = 5, alpha = 1))) + 
+  facet_wrap(~get(Grouping_var), ncol = 2) 
+```
+
+## Generate heat-tree plots using [Metacoder][3] [@foster_metacoder_2017]
+
+```{r plot metacoder, fig.height = 30, fig.width = 18, cache=T}
+# Convert phyloseq to taxmap
+EMP_subset %>% 
+  # transform_sample_counts(function(x) x / sum(x) ) %>% # not really needed
+  parse_phyloseq() %>% 
+  taxa::filter_taxa(., !taxon_ranks %in% c("Species", "Genus", "Family", "Order")) -> # tips will be Class
+  EMP_taxmap
+
+# Potentially drop out low reads
+# EMP_taxmap$data$otu_table <- zero_low_counts(EMP_taxmap, "otu_table", min_count = 5)
+# no_reads <- rowSums(EMP_taxmap$data$otu_table[, EMP_taxmap$data$sample_data$sample_id]) == 0
+# EMP_taxmap <- filter_obs(EMP_taxmap, data = "tax_data", ! no_reads, drop_taxa = TRUE)
+
+# Sum counts per group
+EMP_taxmap$data$tax_counts <- calc_taxon_abund(EMP_taxmap, 
+                                                      data = 'otu_table', 
+                                                      cols = EMP_taxmap$data$sample_data$sample_id, 
+                                                      groups = pull(EMP_taxmap$data$sample_data, Grouping_var))
+
+# Generate a plot for each group
+my_plots <- lapply(sort(unique(get_variable(EMP, Grouping_var))), function(group) {
+  # do something with time point data
+  set.seed(2020) # Make each plot layout look the same if using another layout
+  EMP_taxmap %>% 
+    heat_tree(.,
+              node_label = taxon_names,
+              node_size = n_obs,
+              node_color = EMP_taxmap$data$tax_counts[[group]],
+              node_size_axis_label = 'OTU count',
+              node_color_axis_label = 'Sequence count',
+              layout = "automatic",
+              node_size_range = c(0.013, 0.04), # makes scale range the same in both
+              title = group)
+})
+
+wrap_plots(my_plots, ncol = 3)
+```
+
+## Colophon
+```{r colophon, eval=T}
+sessioninfo::session_info() %>%
+  details::details(
+    summary = 'Current session info',
+    open    = TRUE
+  )
+```
+
+[1]: https://earthmicrobiome.org/
+[2]: https://earthmicrobiome.org/protocols-and-standards/empo/
+[3]: https://grunwaldlab.github.io/metacoder_documentation/
+
+
+
