@@ -5,7 +5,7 @@ Summarise the taxonmic distribution across different sample types in the Earth M
 
 
 The Earth Microbiome Project ([EMP][1]) is collaborative effort to curate and characterise microbial taxonomy and function on Earth.  
-The aim of this script is to summarise the taxonmic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonimc levels. The script uses the 3^rd^ calssification level of the [EMP Ontology][2] (`empo_3`), but this can also be altered.
+The aim of this script is to summarise the taxonmic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonimc levels. The script uses the 3<sup>rd</sup> calssification level of the [EMP Ontology][2] (`empo_3`), but this can also be altered.
 
 Overview
 --------
@@ -14,14 +14,14 @@ Overview
     │   ├── plot heatmanp-1.png
     │   ├── plot metacoder-1.png
     │   ├── plot violin-1.png
+    ├── EMP_empo_3_Phylum.csv         # Taxonomic distribution by sample type table
+    ├── EMP_summary.Rproj # R project setup file
     ├── LICENCE            # Copyright information
     ├── README.md          # Overview of the repo
-    ├── references.bib          # Bibtex formatted refereces cited in the RMD file
-    ├── EMP_empo_3_Phylum.csv         # Taxonomic distribution by sample type table
-    ├── BRC_growth_rate_microbiome_analysis.Rproj          # R project file
-    ├── Summarise_EMP_taxa.html          # HTML output of the RMD file
     ├── Summarise_EMP_taxa.Rmd           # Executable R markdown script
-    └── EMP_summary.Rproj # R project setup file
+    ├── Summarise_EMP_taxa.html          # HTML output of the RMD file
+    └── references.bib          # Bibtex formatted refereces cited in the RMD file
+
 
 Running the analysis
 --------
