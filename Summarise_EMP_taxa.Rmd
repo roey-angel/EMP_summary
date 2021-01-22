@@ -43,7 +43,7 @@ knitr::opts_chunk$set(
   message = FALSE,
   cache.lazy = FALSE,
   dev = c("png"),
-  dev.args = list(png = list(bg = 'white', type = "cairo")),
+  dev.args = list(png = list(type = "cairo")),
   dpi = 150,
   cache.path = "EMP_cache/",
   fig.path = "EMP_figures/"
@@ -300,7 +300,7 @@ my_plots <- lapply(sort(unique(get_variable(EMP, Grouping_var))), function(group
               node_size_axis_label = 'OTU count',
               node_color_axis_label = 'Sequence count',
               layout = "automatic",
-              node_size_range = c(0.013, 0.04), # makes scale range the same in both
+              node_size_range = c(0.013, 0.04), 
               title = group)
 })
 
