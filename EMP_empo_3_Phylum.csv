@@ -1,1043 +1,1095 @@
-"","empo_3","Phylum","Abundance","Rreq"
-"1","Aerosol (non-saline)","Acidobacteria",65715,"0.8%"
-"2","Aerosol (non-saline)","Actinobacteria",718035,"8.73%"
-"3","Aerosol (non-saline)","Aerophobetes",3,"0%"
-"4","Aerosol (non-saline)","Aminicenantes",114,"0%"
-"5","Aerosol (non-saline)","aquifer1",2131,"0.03%"
-"6","Aerosol (non-saline)","Armatimonadetes",7036,"0.09%"
-"7","Aerosol (non-saline)","Atribacteria",171,"0%"
-"8","Aerosol (non-saline)","Bacteroidetes",825065,"10.03%"
-"9","Aerosol (non-saline)","Caldiserica",3,"0%"
-"10","Aerosol (non-saline)","Candidate division OP3",149,"0%"
-"11","Aerosol (non-saline)","Candidate division SR1",3317,"0.04%"
-"12","Aerosol (non-saline)","Chlamydiae",571,"0.01%"
-"13","Aerosol (non-saline)","Chlorobi",645,"0.01%"
-"14","Aerosol (non-saline)","Chloroflexi",22528,"0.27%"
-"15","Aerosol (non-saline)","Cloacimonetes",349,"0%"
-"16","Aerosol (non-saline)","Cyanobacteria",1425687,"17.33%"
-"17","Aerosol (non-saline)","Deferribacteres",12,"0%"
-"18","Aerosol (non-saline)","Deinococcus-Thermus",2993,"0.04%"
-"19","Aerosol (non-saline)","Elusimicrobia",759,"0.01%"
-"20","Aerosol (non-saline)","Euryarchaeota",6509,"0.08%"
-"21","Aerosol (non-saline)","Fibrobacteres",2681,"0.03%"
-"22","Aerosol (non-saline)","Firmicutes",2384579,"28.98%"
-"23","Aerosol (non-saline)","Fusobacteria",71051,"0.86%"
-"24","Aerosol (non-saline)","GAL08",1,"0%"
-"25","Aerosol (non-saline)","Gemmatimonadetes",17409,"0.21%"
-"26","Aerosol (non-saline)","Gracilibacteria",13,"0%"
-"27","Aerosol (non-saline)","Hyd24-12",11,"0%"
-"28","Aerosol (non-saline)","Hydrogenedentes",195,"0%"
-"29","Aerosol (non-saline)","JL-ETNP-Z39",28,"0%"
-"30","Aerosol (non-saline)","Latescibacteria",189,"0%"
-"31","Aerosol (non-saline)","Lentisphaerae",2958,"0.04%"
-"32","Aerosol (non-saline)","Marinimicrobia (SAR406 clade)",498,"0.01%"
-"33","Aerosol (non-saline)","Microgenomates",3,"0%"
-"34","Aerosol (non-saline)","Miscellaneous Crenarchaeotic Group",15,"0%"
-"35","Aerosol (non-saline)","Nitrospirae",2424,"0.03%"
-"36","Aerosol (non-saline)","Omnitrophica",3,"0%"
-"37","Aerosol (non-saline)","Parcubacteria",660,"0.01%"
-"38","Aerosol (non-saline)","PAUC34f",2,"0%"
-"39","Aerosol (non-saline)","Planctomycetes",17895,"0.22%"
-"40","Aerosol (non-saline)","Proteobacteria",2538308,"30.85%"
-"41","Aerosol (non-saline)","Saccharibacteria",2235,"0.03%"
-"42","Aerosol (non-saline)","SHA-109",335,"0%"
-"43","Aerosol (non-saline)","SM2F11",5,"0%"
-"44","Aerosol (non-saline)","Spirochaetae",14928,"0.18%"
-"45","Aerosol (non-saline)","Synergistetes",1844,"0.02%"
-"46","Aerosol (non-saline)","TA06",9,"0%"
-"47","Aerosol (non-saline)","Tenericutes",14461,"0.18%"
-"48","Aerosol (non-saline)","Thaumarchaeota",6196,"0.08%"
-"49","Aerosol (non-saline)","Thermotogae",5877,"0.07%"
-"50","Aerosol (non-saline)","TM6",970,"0.01%"
-"51","Aerosol (non-saline)","uncultured archaeon",1,"0%"
-"52","Aerosol (non-saline)","Verrucomicrobia",59161,"0.72%"
-"53","Aerosol (non-saline)","WCHB1-60",9,"0%"
-"54","Aerosol (non-saline)","WD272",1656,"0.02%"
-"55","Aerosol (non-saline)","Woesearchaeota (DHVEG-6)",2,"0%"
-"56","Animal corpus","Acetothermia",47,"0%"
-"57","Animal corpus","Acidobacteria",33383,"0.65%"
-"58","Animal corpus","Actinobacteria",940836,"18.35%"
-"59","Animal corpus","Aerophobetes",243,"0%"
-"60","Animal corpus","Aminicenantes",244,"0%"
-"61","Animal corpus","aquifer1",23,"0%"
-"62","Animal corpus","Aquificae",12,"0%"
-"63","Animal corpus","Armatimonadetes",2576,"0.05%"
-"64","Animal corpus","Atribacteria",1014,"0.02%"
-"65","Animal corpus","Bacteroidetes",265073,"5.17%"
-"66","Animal corpus","Caldiserica",2,"0%"
-"67","Animal corpus","Candidate division OP3",118,"0%"
-"68","Animal corpus","Candidate division SR1",58,"0%"
-"69","Animal corpus","Chlamydiae",114,"0%"
-"70","Animal corpus","Chlorobi",926,"0.02%"
-"71","Animal corpus","Chloroflexi",2474,"0.05%"
-"72","Animal corpus","Cyanobacteria",123478,"2.41%"
-"73","Animal corpus","Deferribacteres",52,"0%"
-"74","Animal corpus","Deinococcus-Thermus",474,"0.01%"
-"75","Animal corpus","Elusimicrobia",17,"0%"
-"76","Animal corpus","Euryarchaeota",416,"0.01%"
-"77","Animal corpus","Fibrobacteres",58,"0%"
-"78","Animal corpus","Firmicutes",540593,"10.54%"
-"79","Animal corpus","Fusobacteria",9791,"0.19%"
-"80","Animal corpus","Gemmatimonadetes",2488,"0.05%"
-"81","Animal corpus","GOUTA4",10,"0%"
-"82","Animal corpus","Gracilibacteria",7,"0%"
-"83","Animal corpus","Hyd24-12",54,"0%"
-"84","Animal corpus","Hydrogenedentes",40,"0%"
-"85","Animal corpus","JL-ETNP-Z39",20,"0%"
-"86","Animal corpus","Latescibacteria",12,"0%"
-"87","Animal corpus","LCP-89",8,"0%"
-"88","Animal corpus","Lentisphaerae",29,"0%"
-"89","Animal corpus","Marinimicrobia (SAR406 clade)",920,"0.02%"
-"90","Animal corpus","Microgenomates",3,"0%"
-"91","Animal corpus","Miscellaneous Crenarchaeotic Group",4,"0%"
-"92","Animal corpus","Nitrospirae",268,"0.01%"
-"93","Animal corpus","Parcubacteria",35,"0%"
-"94","Animal corpus","Planctomycetes",1799,"0.04%"
-"95","Animal corpus","Proteobacteria",3180203,"62.02%"
-"96","Animal corpus","Saccharibacteria",181,"0%"
-"97","Animal corpus","SHA-109",12,"0%"
-"98","Animal corpus","SM2F11",12,"0%"
-"99","Animal corpus","Spirochaetae",544,"0.01%"
-"100","Animal corpus","Synergistetes",163,"0%"
-"101","Animal corpus","TA06",6,"0%"
-"102","Animal corpus","Tenericutes",7571,"0.15%"
-"103","Animal corpus","Thaumarchaeota",584,"0.01%"
-"104","Animal corpus","Thermotogae",39,"0%"
-"105","Animal corpus","TM6",137,"0%"
-"106","Animal corpus","Verrucomicrobia",10794,"0.21%"
-"107","Animal corpus","WCHB1-60",16,"0%"
-"108","Animal corpus","WD272",2,"0%"
-"109","Animal corpus","Woesearchaeota (DHVEG-6)",1,"0%"
-"110","Animal distal gut","Acidobacteria",1368,"0.02%"
-"111","Animal distal gut","Actinobacteria",255935,"2.81%"
-"112","Animal distal gut","Aerophobetes",1,"0%"
-"113","Animal distal gut","Aminicenantes",6,"0%"
-"114","Animal distal gut","aquifer1",17,"0%"
-"115","Animal distal gut","Armatimonadetes",306,"0%"
-"116","Animal distal gut","Bacteroidetes",1915725,"21.05%"
-"117","Animal distal gut","Caldiserica",6,"0%"
-"118","Animal distal gut","Candidate division OP3",2,"0%"
-"119","Animal distal gut","Candidate division SR1",8,"0%"
-"120","Animal distal gut","Chlamydiae",78,"0%"
-"121","Animal distal gut","Chlorobi",33,"0%"
-"122","Animal distal gut","Chloroflexi",2520,"0.03%"
-"123","Animal distal gut","CKC4",1039,"0.01%"
-"124","Animal distal gut","Cyanobacteria",173918,"1.91%"
-"125","Animal distal gut","Deferribacteres",42,"0%"
-"126","Animal distal gut","Deinococcus-Thermus",306,"0%"
-"127","Animal distal gut","Elusimicrobia",1639,"0.02%"
-"128","Animal distal gut","Euryarchaeota",29710,"0.33%"
-"129","Animal distal gut","Fibrobacteres",3715,"0.04%"
-"130","Animal distal gut","Firmicutes",3899629,"42.84%"
-"131","Animal distal gut","Fusobacteria",127764,"1.4%"
-"132","Animal distal gut","Gemmatimonadetes",117,"0%"
-"133","Animal distal gut","Gracilibacteria",252,"0%"
-"134","Animal distal gut","Hydrogenedentes",13,"0%"
-"135","Animal distal gut","Kazan-3B-09",1,"0%"
-"136","Animal distal gut","Latescibacteria",19,"0%"
-"137","Animal distal gut","Lentisphaerae",15139,"0.17%"
-"138","Animal distal gut","Marinimicrobia (SAR406 clade)",98,"0%"
-"139","Animal distal gut","Microgenomates",9,"0%"
-"140","Animal distal gut","Miscellaneous Crenarchaeotic Group",1,"0%"
-"141","Animal distal gut","Nitrospirae",82,"0%"
-"142","Animal distal gut","Omnitrophica",1,"0%"
-"143","Animal distal gut","Parcubacteria",9,"0%"
-"144","Animal distal gut","Planctomycetes",17076,"0.19%"
-"145","Animal distal gut","Proteobacteria",2414998,"26.53%"
-"146","Animal distal gut","RsaHF231",41,"0%"
-"147","Animal distal gut","Saccharibacteria",391,"0%"
-"148","Animal distal gut","SHA-109",273,"0%"
-"149","Animal distal gut","Spirochaetae",45267,"0.5%"
-"150","Animal distal gut","Synergistetes",1914,"0.02%"
-"151","Animal distal gut","TA06",2,"0%"
-"152","Animal distal gut","Tenericutes",93010,"1.02%"
-"153","Animal distal gut","Thaumarchaeota",107,"0%"
-"154","Animal distal gut","TM6",49,"0%"
-"155","Animal distal gut","Verrucomicrobia",99716,"1.1%"
-"156","Animal distal gut","WCHB1-60",27,"0%"
-"157","Animal distal gut","WD272",4,"0%"
-"158","Animal distal gut","Woesearchaeota (DHVEG-6)",2,"0%"
-"159","Animal proximal gut","Acidobacteria",2004,"0.03%"
-"160","Animal proximal gut","Actinobacteria",522437,"6.87%"
-"161","Animal proximal gut","aquifer1",43,"0%"
-"162","Animal proximal gut","Aquificae",5,"0%"
-"163","Animal proximal gut","Armatimonadetes",91,"0%"
-"164","Animal proximal gut","Bacteroidetes",1588077,"20.87%"
-"165","Animal proximal gut","Caldiserica",4,"0%"
-"166","Animal proximal gut","Candidate division OP3",1,"0%"
-"167","Animal proximal gut","Candidate division SR1",282,"0%"
-"168","Animal proximal gut","Chlamydiae",78,"0%"
-"169","Animal proximal gut","Chlorobi",38,"0%"
-"170","Animal proximal gut","Chloroflexi",1631,"0.02%"
-"171","Animal proximal gut","Cyanobacteria",198842,"2.61%"
-"172","Animal proximal gut","Deferribacteres",112,"0%"
-"173","Animal proximal gut","Deinococcus-Thermus",548,"0.01%"
-"174","Animal proximal gut","Elusimicrobia",52,"0%"
-"175","Animal proximal gut","Euryarchaeota",15879,"0.21%"
-"176","Animal proximal gut","Fibrobacteres",14306,"0.19%"
-"177","Animal proximal gut","Firmicutes",3358560,"44.14%"
-"178","Animal proximal gut","Fusobacteria",11470,"0.15%"
-"179","Animal proximal gut","Gemmatimonadetes",601,"0.01%"
-"180","Animal proximal gut","Gracilibacteria",32,"0%"
-"181","Animal proximal gut","Hydrogenedentes",3,"0%"
-"182","Animal proximal gut","Latescibacteria",3,"0%"
-"183","Animal proximal gut","Lentisphaerae",9934,"0.13%"
-"184","Animal proximal gut","Marinimicrobia (SAR406 clade)",2,"0%"
-"185","Animal proximal gut","Nitrospirae",39,"0%"
-"186","Animal proximal gut","Omnitrophica",8,"0%"
-"187","Animal proximal gut","Parcubacteria",5,"0%"
-"188","Animal proximal gut","PAUC34f",1,"0%"
-"189","Animal proximal gut","Planctomycetes",89883,"1.18%"
-"190","Animal proximal gut","Proteobacteria",1371070,"18.02%"
-"191","Animal proximal gut","Saccharibacteria",57,"0%"
-"192","Animal proximal gut","SHA-109",337,"0%"
-"193","Animal proximal gut","SM2F11",1,"0%"
-"194","Animal proximal gut","Spirochaetae",137338,"1.8%"
-"195","Animal proximal gut","Synergistetes",2241,"0.03%"
-"196","Animal proximal gut","Tenericutes",21776,"0.29%"
-"197","Animal proximal gut","Thaumarchaeota",568,"0.01%"
-"198","Animal proximal gut","Thermotogae",4,"0%"
-"199","Animal proximal gut","TM6",56,"0%"
-"200","Animal proximal gut","Verrucomicrobia",261203,"3.43%"
-"201","Animal proximal gut","WCHB1-60",5,"0%"
-"202","Animal proximal gut","WD272",80,"0%"
-"203","Animal proximal gut","Woesearchaeota (DHVEG-6)",35,"0%"
-"204","Animal secretion","Acidobacteria",7412,"0.1%"
-"205","Animal secretion","Actinobacteria",750903,"10.03%"
-"206","Animal secretion","Aerophobetes",1,"0%"
-"207","Animal secretion","Aminicenantes",32,"0%"
-"208","Animal secretion","aquifer1",7206,"0.1%"
-"209","Animal secretion","Armatimonadetes",604,"0.01%"
-"210","Animal secretion","Bacteroidetes",982127,"13.12%"
-"211","Animal secretion","Candidate division OP3",2,"0%"
-"212","Animal secretion","Candidate division SR1",4813,"0.06%"
-"213","Animal secretion","Chlamydiae",781,"0.01%"
-"214","Animal secretion","Chlorobi",683,"0.01%"
-"215","Animal secretion","Chloroflexi",5634,"0.08%"
-"216","Animal secretion","Crenarchaeota",1,"0%"
-"217","Animal secretion","Cyanobacteria",46048,"0.62%"
-"218","Animal secretion","Deferribacteres",48,"0%"
-"219","Animal secretion","Deinococcus-Thermus",5777,"0.08%"
-"220","Animal secretion","Elusimicrobia",36,"0%"
-"221","Animal secretion","Euryarchaeota",842,"0.01%"
-"222","Animal secretion","Fibrobacteres",21,"0%"
-"223","Animal secretion","Firmicutes",2390653,"31.94%"
-"224","Animal secretion","Fusobacteria",309677,"4.14%"
-"225","Animal secretion","Gemmatimonadetes",3799,"0.05%"
-"226","Animal secretion","GOUTA4",2,"0%"
-"227","Animal secretion","Gracilibacteria",917,"0.01%"
-"228","Animal secretion","Hydrogenedentes",241,"0%"
-"229","Animal secretion","JL-ETNP-Z39",17,"0%"
-"230","Animal secretion","Latescibacteria",56,"0%"
-"231","Animal secretion","LCP-89",1,"0%"
-"232","Animal secretion","Lentisphaerae",162,"0%"
-"233","Animal secretion","Marinimicrobia (SAR406 clade)",471,"0.01%"
-"234","Animal secretion","Microgenomates",49,"0%"
-"235","Animal secretion","Miscellaneous Crenarchaeotic Group",17,"0%"
-"236","Animal secretion","Nitrospirae",786,"0.01%"
-"237","Animal secretion","OC31",1,"0%"
-"238","Animal secretion","Omnitrophica",1,"0%"
-"239","Animal secretion","Parcubacteria",160,"0%"
-"240","Animal secretion","PAUC34f",2,"0%"
-"241","Animal secretion","Planctomycetes",3125,"0.04%"
-"242","Animal secretion","Proteobacteria",2792267,"37.3%"
-"243","Animal secretion","Saccharibacteria",6599,"0.09%"
-"244","Animal secretion","SHA-109",31,"0%"
-"245","Animal secretion","SM2F11",15,"0%"
-"246","Animal secretion","Spirochaetae",7108,"0.09%"
-"247","Animal secretion","Synergistetes",967,"0.01%"
-"248","Animal secretion","TA06",17,"0%"
-"249","Animal secretion","Tenericutes",148187,"1.98%"
-"250","Animal secretion","Thaumarchaeota",627,"0.01%"
-"251","Animal secretion","TM6",61,"0%"
-"252","Animal secretion","Verrucomicrobia",6691,"0.09%"
-"253","Animal secretion","WCHB1-60",29,"0%"
-"254","Animal secretion","WD272",25,"0%"
-"255","Animal secretion","Woesearchaeota (DHVEG-6)",18,"0%"
-"256","Animal surface","Acidobacteria",22815,"0.24%"
-"257","Animal surface","Actinobacteria",1195171,"12.54%"
-"258","Animal surface","Aerophobetes",2,"0%"
-"259","Animal surface","Aminicenantes",13,"0%"
-"260","Animal surface","aquifer1",797,"0.01%"
-"261","Animal surface","Armatimonadetes",4434,"0.05%"
-"262","Animal surface","Atribacteria",29,"0%"
-"263","Animal surface","Bacteroidetes",939832,"9.86%"
-"264","Animal surface","Caldiserica",4,"0%"
-"265","Animal surface","Candidate division OP3",13,"0%"
-"266","Animal surface","Candidate division SR1",796,"0.01%"
-"267","Animal surface","Chlamydiae",334,"0%"
-"268","Animal surface","Chlorobi",908,"0.01%"
-"269","Animal surface","Chloroflexi",10418,"0.11%"
-"270","Animal surface","CKC4",26,"0%"
-"271","Animal surface","Cloacimonetes",4,"0%"
-"272","Animal surface","Cyanobacteria",208679,"2.19%"
-"273","Animal surface","Deferribacteres",72,"0%"
-"274","Animal surface","Deinococcus-Thermus",8109,"0.09%"
-"275","Animal surface","Elusimicrobia",157,"0%"
-"276","Animal surface","Euryarchaeota",937,"0.01%"
-"277","Animal surface","Fibrobacteres",157,"0%"
-"278","Animal surface","Firmicutes",1931918,"20.27%"
-"279","Animal surface","Fusobacteria",107148,"1.12%"
-"280","Animal surface","GAL08",1,"0%"
-"281","Animal surface","Gemmatimonadetes",8330,"0.09%"
-"282","Animal surface","GOUTA4",1,"0%"
-"283","Animal surface","Gracilibacteria",360,"0%"
-"284","Animal surface","Hydrogenedentes",500,"0.01%"
-"285","Animal surface","JL-ETNP-Z39",17,"0%"
-"286","Animal surface","Latescibacteria",170,"0%"
-"287","Animal surface","LCP-89",1,"0%"
-"288","Animal surface","Lentisphaerae",946,"0.01%"
-"289","Animal surface","Marine Hydrothermal Vent Group(MHVG)",5,"0%"
-"290","Animal surface","Marinimicrobia (SAR406 clade)",42,"0%"
-"291","Animal surface","Microgenomates",11,"0%"
-"292","Animal surface","Miscellaneous Crenarchaeotic Group",17,"0%"
-"293","Animal surface","Nitrospirae",1271,"0.01%"
-"294","Animal surface","OC31",1,"0%"
-"295","Animal surface","Omnitrophica",48,"0%"
-"296","Animal surface","Parcubacteria",45,"0%"
-"297","Animal surface","PAUC34f",186,"0%"
-"298","Animal surface","Planctomycetes",11390,"0.12%"
-"299","Animal surface","Proteobacteria",4884024,"51.25%"
-"300","Animal surface","RsaHF231",11,"0%"
-"301","Animal surface","Saccharibacteria",433,"0%"
-"302","Animal surface","SHA-109",688,"0.01%"
-"303","Animal surface","SM2F11",8,"0%"
-"304","Animal surface","Spirochaetae",2301,"0.02%"
-"305","Animal surface","Synergistetes",351,"0%"
-"306","Animal surface","TA06",188,"0%"
-"307","Animal surface","Tenericutes",153480,"1.61%"
-"308","Animal surface","Thaumarchaeota",1351,"0.01%"
-"309","Animal surface","Thermotogae",17,"0%"
-"310","Animal surface","TM6",239,"0%"
-"311","Animal surface","uncultured archaeon",1,"0%"
-"312","Animal surface","Verrucomicrobia",30320,"0.32%"
-"313","Animal surface","WCHB1-60",158,"0%"
-"314","Animal surface","WD272",161,"0%"
-"315","Animal surface","Woesearchaeota (DHVEG-6)",17,"0%"
-"316","Hypersaline (saline)","Acetothermia",3106,"0.34%"
-"317","Hypersaline (saline)","Acidobacteria",19360,"2.09%"
-"318","Hypersaline (saline)","Actinobacteria",47574,"5.15%"
-"319","Hypersaline (saline)","Aenigmarchaeota",210,"0.02%"
-"320","Hypersaline (saline)","Aerophobetes",77,"0.01%"
-"321","Hypersaline (saline)","Aminicenantes",1274,"0.14%"
-"322","Hypersaline (saline)","Armatimonadetes",1078,"0.12%"
-"323","Hypersaline (saline)","Atribacteria",82,"0.01%"
-"324","Hypersaline (saline)","Bacteroidetes",114614,"12.4%"
-"325","Hypersaline (saline)","Caldiserica",1,"0%"
-"326","Hypersaline (saline)","Candidate division OP3",364,"0.04%"
-"327","Hypersaline (saline)","Candidate division SR1",34,"0%"
-"328","Hypersaline (saline)","Chlamydiae",15,"0%"
-"329","Hypersaline (saline)","Chlorobi",462,"0.05%"
-"330","Hypersaline (saline)","Chloroflexi",18848,"2.04%"
-"331","Hypersaline (saline)","Cloacimonetes",26,"0%"
-"332","Hypersaline (saline)","Crenarchaeota",1,"0%"
-"333","Hypersaline (saline)","Cyanobacteria",8149,"0.88%"
-"334","Hypersaline (saline)","Deferribacteres",394,"0.04%"
-"335","Hypersaline (saline)","Deinococcus-Thermus",4400,"0.48%"
-"336","Hypersaline (saline)","Elusimicrobia",107,"0.01%"
-"337","Hypersaline (saline)","Euryarchaeota",304473,"32.95%"
-"338","Hypersaline (saline)","Fibrobacteres",330,"0.04%"
-"339","Hypersaline (saline)","Firmicutes",6631,"0.72%"
-"340","Hypersaline (saline)","Fusobacteria",77,"0.01%"
-"341","Hypersaline (saline)","GAL08",1,"0%"
-"342","Hypersaline (saline)","Gemmatimonadetes",4860,"0.53%"
-"343","Hypersaline (saline)","Gracilibacteria",119,"0.01%"
-"344","Hypersaline (saline)","Hyd24-12",508,"0.05%"
-"345","Hypersaline (saline)","Hydrogenedentes",165,"0.02%"
-"346","Hypersaline (saline)","JL-ETNP-Z39",27,"0%"
-"347","Hypersaline (saline)","Kazan-3B-09",5,"0%"
-"348","Hypersaline (saline)","Latescibacteria",1358,"0.15%"
-"349","Hypersaline (saline)","LCP-89",80,"0.01%"
-"350","Hypersaline (saline)","LD1-PA38",6,"0%"
-"351","Hypersaline (saline)","Lentisphaerae",3160,"0.34%"
-"352","Hypersaline (saline)","Marinimicrobia (SAR406 clade)",1611,"0.17%"
-"353","Hypersaline (saline)","Microgenomates",29,"0%"
-"354","Hypersaline (saline)","Miscellaneous Crenarchaeotic Group",279,"0.03%"
-"355","Hypersaline (saline)","Nanohaloarchaeota",1761,"0.19%"
-"356","Hypersaline (saline)","Nitrospirae",1651,"0.18%"
-"357","Hypersaline (saline)","Omnitrophica",306,"0.03%"
-"358","Hypersaline (saline)","Parcubacteria",400,"0.04%"
-"359","Hypersaline (saline)","PAUC34f",147,"0.02%"
-"360","Hypersaline (saline)","Planctomycetes",12674,"1.37%"
-"361","Hypersaline (saline)","Proteobacteria",333511,"36.09%"
-"362","Hypersaline (saline)","Saccharibacteria",1,"0%"
-"363","Hypersaline (saline)","SHA-109",14,"0%"
-"364","Hypersaline (saline)","Spirochaetae",5920,"0.64%"
-"365","Hypersaline (saline)","TA06",1053,"0.11%"
-"366","Hypersaline (saline)","Tenericutes",13494,"1.46%"
-"367","Hypersaline (saline)","Thaumarchaeota",5658,"0.61%"
-"368","Hypersaline (saline)","Thermotogae",12,"0%"
-"369","Hypersaline (saline)","TM6",59,"0.01%"
-"370","Hypersaline (saline)","Verrucomicrobia",2701,"0.29%"
-"371","Hypersaline (saline)","WD272",2,"0%"
-"372","Hypersaline (saline)","Woesearchaeota (DHVEG-6)",920,"0.1%"
-"373","Plant corpus","Acetothermia",11,"0%"
-"374","Plant corpus","Acidobacteria",11648,"0.07%"
-"375","Plant corpus","Actinobacteria",403923,"2.53%"
-"376","Plant corpus","Aerophobetes",140,"0%"
-"377","Plant corpus","Aminicenantes",218,"0%"
-"378","Plant corpus","aquifer1",9,"0%"
-"379","Plant corpus","Aquificae",1,"0%"
-"380","Plant corpus","Armatimonadetes",1494,"0.01%"
-"381","Plant corpus","Atribacteria",291,"0%"
-"382","Plant corpus","Bacteroidetes",160603,"1.01%"
-"383","Plant corpus","Candidate division OP3",21,"0%"
-"384","Plant corpus","Candidate division SR1",15,"0%"
-"385","Plant corpus","Chlamydiae",48,"0%"
-"386","Plant corpus","Chlorobi",139,"0%"
-"387","Plant corpus","Chloroflexi",3944,"0.02%"
-"388","Plant corpus","Cyanobacteria",12360725,"77.48%"
-"389","Plant corpus","Deferribacteres",34,"0%"
-"390","Plant corpus","Deinococcus-Thermus",1869,"0.01%"
-"391","Plant corpus","Elusimicrobia",8,"0%"
-"392","Plant corpus","Euryarchaeota",293,"0%"
-"393","Plant corpus","Fibrobacteres",71,"0%"
-"394","Plant corpus","Firmicutes",177325,"1.11%"
-"395","Plant corpus","Fusobacteria",12825,"0.08%"
-"396","Plant corpus","Gemmatimonadetes",1787,"0.01%"
-"397","Plant corpus","Gracilibacteria",15,"0%"
-"398","Plant corpus","Hydrogenedentes",122,"0%"
-"399","Plant corpus","JL-ETNP-Z39",21,"0%"
-"400","Plant corpus","Latescibacteria",14,"0%"
-"401","Plant corpus","Lentisphaerae",25,"0%"
-"402","Plant corpus","Marinimicrobia (SAR406 clade)",11,"0%"
-"403","Plant corpus","Microgenomates",11,"0%"
-"404","Plant corpus","Miscellaneous Crenarchaeotic Group",8,"0%"
-"405","Plant corpus","Nitrospirae",427,"0%"
-"406","Plant corpus","Omnitrophica",40,"0%"
-"407","Plant corpus","Parcubacteria",2,"0%"
-"408","Plant corpus","Planctomycetes",3647,"0.02%"
-"409","Plant corpus","Proteobacteria",2799980,"17.55%"
-"410","Plant corpus","Saccharibacteria",246,"0%"
-"411","Plant corpus","SHA-109",28,"0%"
-"412","Plant corpus","SM2F11",1,"0%"
-"413","Plant corpus","Spirochaetae",207,"0%"
-"414","Plant corpus","Synergistetes",41,"0%"
-"415","Plant corpus","TA06",6,"0%"
-"416","Plant corpus","Tenericutes",3237,"0.02%"
-"417","Plant corpus","Thaumarchaeota",3763,"0.02%"
-"418","Plant corpus","Thermotogae",1,"0%"
-"419","Plant corpus","TM6",37,"0%"
-"420","Plant corpus","Verrucomicrobia",3973,"0.02%"
-"421","Plant corpus","WCHB1-60",34,"0%"
-"422","Plant corpus","WD272",1,"0%"
-"423","Plant corpus","Woesearchaeota (DHVEG-6)",2,"0%"
-"424","Plant rhizosphere","Acidobacteria",1845110,"14.46%"
-"425","Plant rhizosphere","Actinobacteria",591199,"4.63%"
-"426","Plant rhizosphere","Aenigmarchaeota",369,"0%"
-"427","Plant rhizosphere","Aerophobetes",391,"0%"
-"428","Plant rhizosphere","Aminicenantes",2904,"0.02%"
-"429","Plant rhizosphere","Armatimonadetes",53517,"0.42%"
-"430","Plant rhizosphere","Atribacteria",1,"0%"
-"431","Plant rhizosphere","Bacteroidetes",1274309,"9.99%"
-"432","Plant rhizosphere","Caldiserica",334,"0%"
-"433","Plant rhizosphere","Candidate division OP3",7632,"0.06%"
-"434","Plant rhizosphere","Candidate division SR1",504,"0%"
-"435","Plant rhizosphere","Chlamydiae",4828,"0.04%"
-"436","Plant rhizosphere","Chlorobi",146367,"1.15%"
-"437","Plant rhizosphere","Chloroflexi",553957,"4.34%"
-"438","Plant rhizosphere","CKC4",2,"0%"
-"439","Plant rhizosphere","Cloacimonetes",186,"0%"
-"440","Plant rhizosphere","Cyanobacteria",422028,"3.31%"
-"441","Plant rhizosphere","Deferribacteres",316,"0%"
-"442","Plant rhizosphere","Deinococcus-Thermus",4420,"0.03%"
-"443","Plant rhizosphere","Diapherotrites",4,"0%"
-"444","Plant rhizosphere","Dictyoglomi",2,"0%"
-"445","Plant rhizosphere","Elusimicrobia",28048,"0.22%"
-"446","Plant rhizosphere","Euryarchaeota",105898,"0.83%"
-"447","Plant rhizosphere","Fibrobacteres",19751,"0.15%"
-"448","Plant rhizosphere","Firmicutes",264820,"2.08%"
-"449","Plant rhizosphere","Fusobacteria",615,"0%"
-"450","Plant rhizosphere","GAL08",120,"0%"
-"451","Plant rhizosphere","Gemmatimonadetes",193921,"1.52%"
-"452","Plant rhizosphere","GOUTA4",5137,"0.04%"
-"453","Plant rhizosphere","Gracilibacteria",1531,"0.01%"
-"454","Plant rhizosphere","Hydrogenedentes",4302,"0.03%"
-"455","Plant rhizosphere","JL-ETNP-Z39",432,"0%"
-"456","Plant rhizosphere","Kazan-3B-09",48,"0%"
-"457","Plant rhizosphere","Latescibacteria",41768,"0.33%"
-"458","Plant rhizosphere","Lentisphaerae",4903,"0.04%"
-"459","Plant rhizosphere","Marine Hydrothermal Vent Group(MHVG)",17,"0%"
-"460","Plant rhizosphere","Marinimicrobia (SAR406 clade)",142,"0%"
-"461","Plant rhizosphere","Microgenomates",2187,"0.02%"
-"462","Plant rhizosphere","Miscellaneous Crenarchaeotic Group",18573,"0.15%"
-"463","Plant rhizosphere","Miscellaneous Euryarchaeotic Group(MEG)",32,"0%"
-"464","Plant rhizosphere","Nitrospirae",187989,"1.47%"
-"465","Plant rhizosphere","OC31",10,"0%"
-"466","Plant rhizosphere","Omnitrophica",6420,"0.05%"
-"467","Plant rhizosphere","Parcubacteria",5648,"0.04%"
-"468","Plant rhizosphere","Parvarchaeota",829,"0.01%"
-"469","Plant rhizosphere","PAUC34f",228,"0%"
-"470","Plant rhizosphere","Planctomycetes",313880,"2.46%"
-"471","Plant rhizosphere","Proteobacteria",5742756,"45.02%"
-"472","Plant rhizosphere","Saccharibacteria",883,"0.01%"
-"473","Plant rhizosphere","SHA-109",465,"0%"
-"474","Plant rhizosphere","SM1K20",774,"0.01%"
-"475","Plant rhizosphere","SM2F11",2753,"0.02%"
-"476","Plant rhizosphere","Spirochaetae",64318,"0.5%"
-"477","Plant rhizosphere","Synergistetes",26,"0%"
-"478","Plant rhizosphere","TA06",4950,"0.04%"
-"479","Plant rhizosphere","Tenericutes",265,"0%"
-"480","Plant rhizosphere","Thaumarchaeota",75252,"0.59%"
-"481","Plant rhizosphere","Thermotogae",306,"0%"
-"482","Plant rhizosphere","TM6",3307,"0.03%"
-"483","Plant rhizosphere","Verrucomicrobia",733698,"5.75%"
-"484","Plant rhizosphere","WCHB1-60",2797,"0.02%"
-"485","Plant rhizosphere","WD272",87,"0%"
-"486","Plant rhizosphere","Woesearchaeota (DHVEG-6)",8614,"0.07%"
-"487","Plant surface","Acidobacteria",72806,"0.56%"
-"488","Plant surface","Actinobacteria",588202,"4.53%"
-"489","Plant surface","Aerophobetes",29,"0%"
-"490","Plant surface","Armatimonadetes",1164,"0.01%"
-"491","Plant surface","Atribacteria",1,"0%"
-"492","Plant surface","Bacteroidetes",2114039,"16.27%"
-"493","Plant surface","Candidate division OP3",34,"0%"
-"494","Plant surface","Candidate division SR1",68,"0%"
-"495","Plant surface","Chlamydiae",243,"0%"
-"496","Plant surface","Chlorobi",664,"0.01%"
-"497","Plant surface","Chloroflexi",22062,"0.17%"
-"498","Plant surface","Cloacimonetes",1,"0%"
-"499","Plant surface","Cyanobacteria",741341,"5.71%"
-"500","Plant surface","Deferribacteres",11,"0%"
-"501","Plant surface","Deinococcus-Thermus",13449,"0.1%"
-"502","Plant surface","Elusimicrobia",736,"0.01%"
-"503","Plant surface","Euryarchaeota",336,"0%"
-"504","Plant surface","Fibrobacteres",87,"0%"
-"505","Plant surface","Firmicutes",48050,"0.37%"
-"506","Plant surface","Fusobacteria",4605,"0.04%"
-"507","Plant surface","Gemmatimonadetes",16626,"0.13%"
-"508","Plant surface","Gracilibacteria",3973,"0.03%"
-"509","Plant surface","Hydrogenedentes",16,"0%"
-"510","Plant surface","JL-ETNP-Z39",3,"0%"
-"511","Plant surface","Latescibacteria",2228,"0.02%"
-"512","Plant surface","Lentisphaerae",497,"0%"
-"513","Plant surface","Marinimicrobia (SAR406 clade)",81,"0%"
-"514","Plant surface","Microgenomates",15,"0%"
-"515","Plant surface","Nitrospirae",3109,"0.02%"
-"516","Plant surface","Omnitrophica",128,"0%"
-"517","Plant surface","Parcubacteria",287,"0%"
-"518","Plant surface","PAUC34f",27,"0%"
-"519","Plant surface","Planctomycetes",824288,"6.34%"
-"520","Plant surface","Proteobacteria",7736640,"59.55%"
-"521","Plant surface","Saccharibacteria",32,"0%"
-"522","Plant surface","SHA-109",667,"0.01%"
-"523","Plant surface","SM2F11",76,"0%"
-"524","Plant surface","Spirochaetae",77,"0%"
-"525","Plant surface","Synergistetes",1,"0%"
-"526","Plant surface","TA06",1,"0%"
-"527","Plant surface","Tenericutes",53,"0%"
-"528","Plant surface","Thaumarchaeota",4756,"0.04%"
-"529","Plant surface","Thermotogae",10,"0%"
-"530","Plant surface","TM6",238,"0%"
-"531","Plant surface","Verrucomicrobia",789613,"6.08%"
-"532","Plant surface","WCHB1-60",107,"0%"
-"533","Plant surface","WD272",18,"0%"
-"534","Plant surface","Woesearchaeota (DHVEG-6)",11,"0%"
-"535","Sediment (non-saline)","Acetothermia",88,"0%"
-"536","Sediment (non-saline)","Acidobacteria",756499,"9.23%"
-"537","Sediment (non-saline)","Actinobacteria",359605,"4.39%"
-"538","Sediment (non-saline)","Aenigmarchaeota",16721,"0.2%"
-"539","Sediment (non-saline)","Aerophobetes",307,"0%"
-"540","Sediment (non-saline)","Aminicenantes",60421,"0.74%"
-"541","Sediment (non-saline)","aquifer1",4,"0%"
-"542","Sediment (non-saline)","Aquificae",2,"0%"
-"543","Sediment (non-saline)","Armatimonadetes",17176,"0.21%"
-"544","Sediment (non-saline)","Atribacteria",6934,"0.08%"
-"545","Sediment (non-saline)","Bacteroidetes",582641,"7.11%"
-"546","Sediment (non-saline)","Caldiserica",550,"0.01%"
-"547","Sediment (non-saline)","Candidate division OP3",39051,"0.48%"
-"548","Sediment (non-saline)","Candidate division SR1",621,"0.01%"
-"549","Sediment (non-saline)","Chlamydiae",1673,"0.02%"
-"550","Sediment (non-saline)","Chlorobi",94785,"1.16%"
-"551","Sediment (non-saline)","Chloroflexi",405243,"4.94%"
-"552","Sediment (non-saline)","CKC4",84,"0%"
-"553","Sediment (non-saline)","Cloacimonetes",202,"0%"
-"554","Sediment (non-saline)","Crenarchaeota",6941,"0.08%"
-"555","Sediment (non-saline)","Cyanobacteria",181583,"2.21%"
-"556","Sediment (non-saline)","Deferribacteres",33172,"0.4%"
-"557","Sediment (non-saline)","Deinococcus-Thermus",9001,"0.11%"
-"558","Sediment (non-saline)","Diapherotrites",24,"0%"
-"559","Sediment (non-saline)","Dictyoglomi",1,"0%"
-"560","Sediment (non-saline)","Elusimicrobia",12935,"0.16%"
-"561","Sediment (non-saline)","Euryarchaeota",151630,"1.85%"
-"562","Sediment (non-saline)","Fibrobacteres",5761,"0.07%"
-"563","Sediment (non-saline)","Firmicutes",152958,"1.87%"
-"564","Sediment (non-saline)","Fusobacteria",272,"0%"
-"565","Sediment (non-saline)","GAL08",191,"0%"
-"566","Sediment (non-saline)","Gemmatimonadetes",134999,"1.65%"
-"567","Sediment (non-saline)","GOUTA4",2663,"0.03%"
-"568","Sediment (non-saline)","Gracilibacteria",1910,"0.02%"
-"569","Sediment (non-saline)","Hyd24-12",120,"0%"
-"570","Sediment (non-saline)","Hydrogenedentes",4142,"0.05%"
-"571","Sediment (non-saline)","JL-ETNP-Z39",677,"0.01%"
-"572","Sediment (non-saline)","Kazan-3B-09",850,"0.01%"
-"573","Sediment (non-saline)","Latescibacteria",43904,"0.54%"
-"574","Sediment (non-saline)","LCP-89",182,"0%"
-"575","Sediment (non-saline)","LD1-PA38",9,"0%"
-"576","Sediment (non-saline)","Lentisphaerae",11508,"0.14%"
-"577","Sediment (non-saline)","Marine Hydrothermal Vent Group(MHVG)",86,"0%"
-"578","Sediment (non-saline)","Marinimicrobia (SAR406 clade)",1163,"0.01%"
-"579","Sediment (non-saline)","Microgenomates",699,"0.01%"
-"580","Sediment (non-saline)","Miscellaneous Crenarchaeotic Group",173745,"2.12%"
-"581","Sediment (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",332,"0%"
-"582","Sediment (non-saline)","Nitrospirae",292186,"3.56%"
-"583","Sediment (non-saline)","OC31",2465,"0.03%"
-"584","Sediment (non-saline)","Omnitrophica",6774,"0.08%"
-"585","Sediment (non-saline)","Parcubacteria",4000,"0.05%"
-"586","Sediment (non-saline)","Parvarchaeota",100,"0%"
-"587","Sediment (non-saline)","PAUC34f",1483,"0.02%"
-"588","Sediment (non-saline)","Planctomycetes",216888,"2.65%"
-"589","Sediment (non-saline)","Proteobacteria",3919770,"47.81%"
-"590","Sediment (non-saline)","Saccharibacteria",194,"0%"
-"591","Sediment (non-saline)","SHA-109",802,"0.01%"
-"592","Sediment (non-saline)","SM1K20",1308,"0.02%"
-"593","Sediment (non-saline)","SM2F11",520,"0.01%"
-"594","Sediment (non-saline)","Spirochaetae",25867,"0.32%"
-"595","Sediment (non-saline)","Synergistetes",386,"0%"
-"596","Sediment (non-saline)","TA06",38984,"0.48%"
-"597","Sediment (non-saline)","Tenericutes",837,"0.01%"
-"598","Sediment (non-saline)","Thaumarchaeota",71512,"0.87%"
-"599","Sediment (non-saline)","Thermotogae",35,"0%"
-"600","Sediment (non-saline)","TM6",3220,"0.04%"
-"601","Sediment (non-saline)","uncultured archaeon",32,"0%"
-"602","Sediment (non-saline)","Verrucomicrobia",321911,"3.93%"
-"603","Sediment (non-saline)","WCHB1-60",717,"0.01%"
-"604","Sediment (non-saline)","WD272",1612,"0.02%"
-"605","Sediment (non-saline)","Woesearchaeota (DHVEG-6)",12906,"0.16%"
-"606","Sediment (saline)","Acetothermia",1247,"0.01%"
-"607","Sediment (saline)","Acidobacteria",590604,"4.29%"
-"608","Sediment (saline)","Actinobacteria",327052,"2.38%"
-"609","Sediment (saline)","Aenigmarchaeota",329,"0%"
-"610","Sediment (saline)","Aerophobetes",35502,"0.26%"
-"611","Sediment (saline)","Aigarchaeota",21,"0%"
-"612","Sediment (saline)","Aminicenantes",24317,"0.18%"
-"613","Sediment (saline)","Ancient Archaeal Group(AAG)",1347,"0.01%"
-"614","Sediment (saline)","aquifer1",2140,"0.02%"
-"615","Sediment (saline)","Armatimonadetes",7397,"0.05%"
-"616","Sediment (saline)","Atribacteria",983436,"7.15%"
-"617","Sediment (saline)","Bacteroidetes",1490460,"10.83%"
-"618","Sediment (saline)","Caldiserica",326,"0%"
-"619","Sediment (saline)","Candidate division OP3",12604,"0.09%"
-"620","Sediment (saline)","Candidate division SR1",1575,"0.01%"
-"621","Sediment (saline)","Chlamydiae",2675,"0.02%"
-"622","Sediment (saline)","Chlorobi",50015,"0.36%"
-"623","Sediment (saline)","Chloroflexi",380903,"2.77%"
-"624","Sediment (saline)","Chrysiogenetes",1,"0%"
-"625","Sediment (saline)","CKC4",19,"0%"
-"626","Sediment (saline)","Cloacimonetes",3226,"0.02%"
-"627","Sediment (saline)","Crenarchaeota",1,"0%"
-"628","Sediment (saline)","Cyanobacteria",245168,"1.78%"
-"629","Sediment (saline)","Deferribacteres",27461,"0.2%"
-"630","Sediment (saline)","Deinococcus-Thermus",6808,"0.05%"
-"631","Sediment (saline)","Diapherotrites",33,"0%"
-"632","Sediment (saline)","Dictyoglomi",4,"0%"
-"633","Sediment (saline)","Elusimicrobia",5105,"0.04%"
-"634","Sediment (saline)","Euryarchaeota",157748,"1.15%"
-"635","Sediment (saline)","Fibrobacteres",7873,"0.06%"
-"636","Sediment (saline)","Firmicutes",444452,"3.23%"
-"637","Sediment (saline)","Fusobacteria",24249,"0.18%"
-"638","Sediment (saline)","GAL08",4,"0%"
-"639","Sediment (saline)","Gemmatimonadetes",76145,"0.55%"
-"640","Sediment (saline)","GOUTA4",311,"0%"
-"641","Sediment (saline)","Gracilibacteria",6211,"0.05%"
-"642","Sediment (saline)","Hyd24-12",8991,"0.07%"
-"643","Sediment (saline)","Hydrogenedentes",7288,"0.05%"
-"644","Sediment (saline)","JL-ETNP-Z39",708,"0.01%"
-"645","Sediment (saline)","Kazan-3B-09",1497,"0.01%"
-"646","Sediment (saline)","Latescibacteria",51000,"0.37%"
-"647","Sediment (saline)","LCP-89",1100,"0.01%"
-"648","Sediment (saline)","LD1-PA38",247,"0%"
-"649","Sediment (saline)","Lentisphaerae",55618,"0.4%"
-"650","Sediment (saline)","Marine Hydrothermal Vent Group(MHVG)",2390,"0.02%"
-"651","Sediment (saline)","Marinimicrobia (SAR406 clade)",18059,"0.13%"
-"652","Sediment (saline)","Microgenomates",2871,"0.02%"
-"653","Sediment (saline)","Miscellaneous Crenarchaeotic Group",6267,"0.05%"
-"654","Sediment (saline)","Miscellaneous Euryarchaeotic Group(MEG)",19,"0%"
-"655","Sediment (saline)","Nanohaloarchaeota",173,"0%"
-"656","Sediment (saline)","Nitrospirae",44673,"0.32%"
-"657","Sediment (saline)","OC31",252,"0%"
-"658","Sediment (saline)","Omnitrophica",5867,"0.04%"
-"659","Sediment (saline)","Parcubacteria",7781,"0.06%"
-"660","Sediment (saline)","Parvarchaeota",2,"0%"
-"661","Sediment (saline)","PAUC34f",3410,"0.02%"
-"662","Sediment (saline)","Planctomycetes",216790,"1.58%"
-"663","Sediment (saline)","Proteobacteria",7667735,"55.72%"
-"664","Sediment (saline)","RsaHF231",6,"0%"
-"665","Sediment (saline)","Saccharibacteria",348,"0%"
-"666","Sediment (saline)","SBYG-2791",5,"0%"
-"667","Sediment (saline)","SHA-109",1435,"0.01%"
-"668","Sediment (saline)","SM1K20",14,"0%"
-"669","Sediment (saline)","SM2F11",305,"0%"
-"670","Sediment (saline)","Spirochaetae",71715,"0.52%"
-"671","Sediment (saline)","Synergistetes",530,"0%"
-"672","Sediment (saline)","TA06",16875,"0.12%"
-"673","Sediment (saline)","Tenericutes",16848,"0.12%"
-"674","Sediment (saline)","Thaumarchaeota",183805,"1.34%"
-"675","Sediment (saline)","Thermotogae",223,"0%"
-"676","Sediment (saline)","TM6",4990,"0.04%"
-"677","Sediment (saline)","uncultured archaeon",1217,"0.01%"
-"678","Sediment (saline)","uncultured bacterium",39,"0%"
-"679","Sediment (saline)","Verrucomicrobia",410560,"2.98%"
-"680","Sediment (saline)","WCHB1-60",527,"0%"
-"681","Sediment (saline)","WD272",650,"0%"
-"682","Sediment (saline)","Woesearchaeota (DHVEG-6)",32339,"0.23%"
-"683","Soil (non-saline)","Acidobacteria",2745324,"19.61%"
-"684","Soil (non-saline)","Actinobacteria",1243107,"8.88%"
-"685","Soil (non-saline)","Aenigmarchaeota",60,"0%"
-"686","Soil (non-saline)","Aerophobetes",562,"0%"
-"687","Soil (non-saline)","Aigarchaeota",4043,"0.03%"
-"688","Soil (non-saline)","Aminicenantes",965,"0.01%"
-"689","Soil (non-saline)","aquifer1",56,"0%"
-"690","Soil (non-saline)","Aquificae",15461,"0.11%"
-"691","Soil (non-saline)","Armatimonadetes",50162,"0.36%"
-"692","Soil (non-saline)","Atribacteria",174,"0%"
-"693","Soil (non-saline)","Bacteroidetes",1567432,"11.19%"
-"694","Soil (non-saline)","Caldiserica",4530,"0.03%"
-"695","Soil (non-saline)","Candidate division OP3",4211,"0.03%"
-"696","Soil (non-saline)","Candidate division SR1",440,"0%"
-"697","Soil (non-saline)","Chlamydiae",8301,"0.06%"
-"698","Soil (non-saline)","Chlorobi",46480,"0.33%"
-"699","Soil (non-saline)","Chloroflexi",290621,"2.08%"
-"700","Soil (non-saline)","CKC4",2,"0%"
-"701","Soil (non-saline)","Cloacimonetes",24,"0%"
-"702","Soil (non-saline)","Crenarchaeota",17393,"0.12%"
-"703","Soil (non-saline)","Cyanobacteria",108375,"0.77%"
-"704","Soil (non-saline)","Deferribacteres",160,"0%"
-"705","Soil (non-saline)","Deinococcus-Thermus",6083,"0.04%"
-"706","Soil (non-saline)","Diapherotrites",1,"0%"
-"707","Soil (non-saline)","Dictyoglomi",1,"0%"
-"708","Soil (non-saline)","Elusimicrobia",27753,"0.2%"
-"709","Soil (non-saline)","Euryarchaeota",17627,"0.13%"
-"710","Soil (non-saline)","Fibrobacteres",7907,"0.06%"
-"711","Soil (non-saline)","Firmicutes",713447,"5.1%"
-"712","Soil (non-saline)","Fusobacteria",12458,"0.09%"
-"713","Soil (non-saline)","GAL08",44,"0%"
-"714","Soil (non-saline)","Gemmatimonadetes",298450,"2.13%"
-"715","Soil (non-saline)","GOUTA4",477,"0%"
-"716","Soil (non-saline)","Gracilibacteria",397,"0%"
-"717","Soil (non-saline)","Hyd24-12",1,"0%"
-"718","Soil (non-saline)","Hydrogenedentes",2145,"0.02%"
-"719","Soil (non-saline)","JL-ETNP-Z39",1827,"0.01%"
-"720","Soil (non-saline)","Kazan-3B-09",7,"0%"
-"721","Soil (non-saline)","Latescibacteria",31882,"0.23%"
-"722","Soil (non-saline)","Lentisphaerae",3993,"0.03%"
-"723","Soil (non-saline)","Marine Hydrothermal Vent Group(MHVG)",2,"0%"
-"724","Soil (non-saline)","Marinimicrobia (SAR406 clade)",32,"0%"
-"725","Soil (non-saline)","Microgenomates",1888,"0.01%"
-"726","Soil (non-saline)","Miscellaneous Crenarchaeotic Group",3186,"0.02%"
-"727","Soil (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",17,"0%"
-"728","Soil (non-saline)","Nitrospirae",122150,"0.87%"
-"729","Soil (non-saline)","OC31",2,"0%"
-"730","Soil (non-saline)","Omnitrophica",2620,"0.02%"
-"731","Soil (non-saline)","Parcubacteria",3130,"0.02%"
-"732","Soil (non-saline)","Parvarchaeota",56,"0%"
-"733","Soil (non-saline)","PAUC34f",52,"0%"
-"734","Soil (non-saline)","Planctomycetes",251808,"1.8%"
-"735","Soil (non-saline)","Proteobacteria",4787424,"34.19%"
-"736","Soil (non-saline)","RsaHF231",3,"0%"
-"737","Soil (non-saline)","Saccharibacteria",1394,"0.01%"
-"738","Soil (non-saline)","SHA-109",1093,"0.01%"
-"739","Soil (non-saline)","SM1K20",48,"0%"
-"740","Soil (non-saline)","SM2F11",2751,"0.02%"
-"741","Soil (non-saline)","Spirochaetae",5463,"0.04%"
-"742","Soil (non-saline)","Synergistetes",71,"0%"
-"743","Soil (non-saline)","TA06",769,"0.01%"
-"744","Soil (non-saline)","Tenericutes",8464,"0.06%"
-"745","Soil (non-saline)","Thaumarchaeota",96389,"0.69%"
-"746","Soil (non-saline)","Thermotogae",827,"0.01%"
-"747","Soil (non-saline)","TM6",5761,"0.04%"
-"748","Soil (non-saline)","uncultured archaeon",246,"0%"
-"749","Soil (non-saline)","Verrucomicrobia",1442243,"10.3%"
-"750","Soil (non-saline)","WCHB1-60",3901,"0.03%"
-"751","Soil (non-saline)","WD272",26823,"0.19%"
-"752","Soil (non-saline)","Woesearchaeota (DHVEG-6)",1264,"0.01%"
-"753","Surface (non-saline)","Acetothermia",1847,"0.02%"
-"754","Surface (non-saline)","Acidobacteria",614776,"6.57%"
-"755","Surface (non-saline)","Actinobacteria",867881,"9.28%"
-"756","Surface (non-saline)","Aerophobetes",329,"0%"
-"757","Surface (non-saline)","Aigarchaeota",1262,"0.01%"
-"758","Surface (non-saline)","Aminicenantes",255,"0%"
-"759","Surface (non-saline)","aquifer1",138,"0%"
-"760","Surface (non-saline)","Aquificae",19316,"0.21%"
-"761","Surface (non-saline)","Armatimonadetes",49233,"0.53%"
-"762","Surface (non-saline)","Atribacteria",312,"0%"
-"763","Surface (non-saline)","Bacteroidetes",648248,"6.93%"
-"764","Surface (non-saline)","Caldiserica",871,"0.01%"
-"765","Surface (non-saline)","Calescamantes",27,"0%"
-"766","Surface (non-saline)","Candidate division OP3",2401,"0.03%"
-"767","Surface (non-saline)","Candidate division SR1",5389,"0.06%"
-"768","Surface (non-saline)","Candidate division WS6",3,"0%"
-"769","Surface (non-saline)","Chlamydiae",24467,"0.26%"
-"770","Surface (non-saline)","Chlorobi",41754,"0.45%"
-"771","Surface (non-saline)","Chloroflexi",175841,"1.88%"
-"772","Surface (non-saline)","CKC4",15,"0%"
-"773","Surface (non-saline)","Cloacimonetes",8,"0%"
-"774","Surface (non-saline)","Crenarchaeota",1,"0%"
-"775","Surface (non-saline)","Cyanobacteria",480236,"5.14%"
-"776","Surface (non-saline)","Deferribacteres",836,"0.01%"
-"777","Surface (non-saline)","Deinococcus-Thermus",39626,"0.42%"
-"778","Surface (non-saline)","Diapherotrites",96,"0%"
-"779","Surface (non-saline)","Dictyoglomi",1,"0%"
-"780","Surface (non-saline)","Elusimicrobia",3787,"0.04%"
-"781","Surface (non-saline)","Euryarchaeota",5388,"0.06%"
-"782","Surface (non-saline)","Fibrobacteres",607,"0.01%"
-"783","Surface (non-saline)","Firmicutes",1145655,"12.25%"
-"784","Surface (non-saline)","Fusobacteria",60652,"0.65%"
-"785","Surface (non-saline)","GAL08",85,"0%"
-"786","Surface (non-saline)","Gemmatimonadetes",69596,"0.74%"
-"787","Surface (non-saline)","GOUTA4",119,"0%"
-"788","Surface (non-saline)","Gracilibacteria",2848,"0.03%"
-"789","Surface (non-saline)","Hyd24-12",49,"0%"
-"790","Surface (non-saline)","Hydrogenedentes",2173,"0.02%"
-"791","Surface (non-saline)","JL-ETNP-Z39",210,"0%"
-"792","Surface (non-saline)","Kazan-3B-09",16,"0%"
-"793","Surface (non-saline)","Latescibacteria",21691,"0.23%"
-"794","Surface (non-saline)","LCP-89",58,"0%"
-"795","Surface (non-saline)","Lentisphaerae",3243,"0.03%"
-"796","Surface (non-saline)","Marinimicrobia (SAR406 clade)",123,"0%"
-"797","Surface (non-saline)","Microgenomates",1006,"0.01%"
-"798","Surface (non-saline)","Miscellaneous Crenarchaeotic Group",26,"0%"
-"799","Surface (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",495,"0.01%"
-"800","Surface (non-saline)","Nitrospirae",148422,"1.59%"
-"801","Surface (non-saline)","OC31",5,"0%"
-"802","Surface (non-saline)","Omnitrophica",1408,"0.02%"
-"803","Surface (non-saline)","Parcubacteria",3071,"0.03%"
-"804","Surface (non-saline)","Parvarchaeota",9,"0%"
-"805","Surface (non-saline)","PAUC34f",213,"0%"
-"806","Surface (non-saline)","Planctomycetes",169615,"1.81%"
-"807","Surface (non-saline)","Proteobacteria",4195241,"44.86%"
-"808","Surface (non-saline)","RsaHF231",1,"0%"
-"809","Surface (non-saline)","S2R-29",1657,"0.02%"
-"810","Surface (non-saline)","Saccharibacteria",460,"0%"
-"811","Surface (non-saline)","SHA-109",494,"0.01%"
-"812","Surface (non-saline)","SM1K20",1,"0%"
-"813","Surface (non-saline)","SM2F11",1416,"0.02%"
-"814","Surface (non-saline)","Spirochaetae",1937,"0.02%"
-"815","Surface (non-saline)","Synergistetes",67,"0%"
-"816","Surface (non-saline)","TA06",4826,"0.05%"
-"817","Surface (non-saline)","Tenericutes",285008,"3.05%"
-"818","Surface (non-saline)","Thaumarchaeota",35957,"0.38%"
-"819","Surface (non-saline)","Thermodesulfobacteria",4,"0%"
-"820","Surface (non-saline)","Thermotogae",11029,"0.12%"
-"821","Surface (non-saline)","TM6",6330,"0.07%"
-"822","Surface (non-saline)","uncultured archaeon",1,"0%"
-"823","Surface (non-saline)","Verrucomicrobia",189643,"2.03%"
-"824","Surface (non-saline)","WCHB1-60",421,"0%"
-"825","Surface (non-saline)","WD272",152,"0%"
-"826","Surface (non-saline)","Woesearchaeota (DHVEG-6)",610,"0.01%"
-"827","Surface (saline)","Acetothermia",8257,"0.05%"
-"828","Surface (saline)","Acidobacteria",160810,"0.9%"
-"829","Surface (saline)","Actinobacteria",586234,"3.28%"
-"830","Surface (saline)","Aenigmarchaeota",24,"0%"
-"831","Surface (saline)","Aerophobetes",435,"0%"
-"832","Surface (saline)","Aminicenantes",1391,"0.01%"
-"833","Surface (saline)","Ancient Archaeal Group(AAG)",2,"0%"
-"834","Surface (saline)","aquifer1",45,"0%"
-"835","Surface (saline)","Aquificae",12605,"0.07%"
-"836","Surface (saline)","Armatimonadetes",14484,"0.08%"
-"837","Surface (saline)","Atribacteria",3530,"0.02%"
-"838","Surface (saline)","Bacteroidetes",2444346,"13.66%"
-"839","Surface (saline)","Caldiserica",22,"0%"
-"840","Surface (saline)","Candidate division OP3",6423,"0.04%"
-"841","Surface (saline)","Candidate division SR1",1490,"0.01%"
-"842","Surface (saline)","Chlamydiae",962,"0.01%"
-"843","Surface (saline)","Chlorobi",21168,"0.12%"
-"844","Surface (saline)","Chloroflexi",95925,"0.54%"
-"845","Surface (saline)","CKC4",5,"0%"
-"846","Surface (saline)","Cloacimonetes",723,"0%"
-"847","Surface (saline)","Cyanobacteria",2678289,"14.97%"
-"848","Surface (saline)","Deferribacteres",12332,"0.07%"
-"849","Surface (saline)","Deinococcus-Thermus",5101,"0.03%"
-"850","Surface (saline)","Diapherotrites",7,"0%"
-"851","Surface (saline)","Dictyoglomi",10,"0%"
-"852","Surface (saline)","Elusimicrobia",1933,"0.01%"
-"853","Surface (saline)","Euryarchaeota",12863,"0.07%"
-"854","Surface (saline)","Fibrobacteres",2937,"0.02%"
-"855","Surface (saline)","Firmicutes",1200575,"6.71%"
-"856","Surface (saline)","Fusobacteria",22255,"0.12%"
-"857","Surface (saline)","Gemmatimonadetes",31259,"0.17%"
-"858","Surface (saline)","GOUTA4",38,"0%"
-"859","Surface (saline)","Gracilibacteria",12179,"0.07%"
-"860","Surface (saline)","Hyd24-12",453,"0%"
-"861","Surface (saline)","Hydrogenedentes",2088,"0.01%"
-"862","Surface (saline)","JL-ETNP-Z39",290,"0%"
-"863","Surface (saline)","Kazan-3B-09",107,"0%"
-"864","Surface (saline)","Latescibacteria",13076,"0.07%"
-"865","Surface (saline)","LCP-89",52,"0%"
-"866","Surface (saline)","LD1-PA38",80,"0%"
-"867","Surface (saline)","Lentisphaerae",29810,"0.17%"
-"868","Surface (saline)","Marine Hydrothermal Vent Group(MHVG)",33,"0%"
-"869","Surface (saline)","Marinimicrobia (SAR406 clade)",5087,"0.03%"
-"870","Surface (saline)","Microgenomates",288,"0%"
-"871","Surface (saline)","Miscellaneous Crenarchaeotic Group",429,"0%"
-"872","Surface (saline)","Miscellaneous Euryarchaeotic Group(MEG)",3,"0%"
-"873","Surface (saline)","Nitrospirae",154614,"0.86%"
-"874","Surface (saline)","OC31",19,"0%"
-"875","Surface (saline)","Omnitrophica",32428,"0.18%"
-"876","Surface (saline)","Parcubacteria",7031,"0.04%"
-"877","Surface (saline)","Parvarchaeota",7,"0%"
-"878","Surface (saline)","PAUC34f",1307,"0.01%"
-"879","Surface (saline)","Planctomycetes",389389,"2.18%"
-"880","Surface (saline)","Proteobacteria",9387089,"52.47%"
-"881","Surface (saline)","RsaHF231",2,"0%"
-"882","Surface (saline)","Saccharibacteria",191,"0%"
-"883","Surface (saline)","SHA-109",1912,"0.01%"
-"884","Surface (saline)","SM1K20",7,"0%"
-"885","Surface (saline)","SM2F11",436,"0%"
-"886","Surface (saline)","Spirochaetae",11773,"0.07%"
-"887","Surface (saline)","Synergistetes",311,"0%"
-"888","Surface (saline)","TA06",890,"0%"
-"889","Surface (saline)","Tenericutes",3870,"0.02%"
-"890","Surface (saline)","Thaumarchaeota",34129,"0.19%"
-"891","Surface (saline)","Thermotogae",118,"0%"
-"892","Surface (saline)","TM6",2907,"0.02%"
-"893","Surface (saline)","uncultured archaeon",225,"0%"
-"894","Surface (saline)","Verrucomicrobia",464163,"2.59%"
-"895","Surface (saline)","WCHB1-60",1621,"0.01%"
-"896","Surface (saline)","WD272",22,"0%"
-"897","Surface (saline)","Woesearchaeota (DHVEG-6)",6211,"0.03%"
-"898","Water (non-saline)","Acetothermia",198,"0%"
-"899","Water (non-saline)","Acidobacteria",366560,"1.81%"
-"900","Water (non-saline)","Actinobacteria",3250148,"16.05%"
-"901","Water (non-saline)","Aenigmarchaeota",147,"0%"
-"902","Water (non-saline)","Aerophobetes",192,"0%"
-"903","Water (non-saline)","Aminicenantes",18375,"0.09%"
-"904","Water (non-saline)","aquifer1",89,"0%"
-"905","Water (non-saline)","Armatimonadetes",33499,"0.17%"
-"906","Water (non-saline)","Atribacteria",660,"0%"
-"907","Water (non-saline)","Bacteroidetes",3422394,"16.9%"
-"908","Water (non-saline)","Caldiserica",145,"0%"
-"909","Water (non-saline)","Candidate division OP3",22010,"0.11%"
-"910","Water (non-saline)","Candidate division SR1",2431,"0.01%"
-"911","Water (non-saline)","Chlamydiae",8676,"0.04%"
-"912","Water (non-saline)","Chlorobi",112650,"0.56%"
-"913","Water (non-saline)","Chloroflexi",350766,"1.73%"
-"914","Water (non-saline)","CKC4",221,"0%"
-"915","Water (non-saline)","Cloacimonetes",1465,"0.01%"
-"916","Water (non-saline)","Crenarchaeota",258,"0%"
-"917","Water (non-saline)","Cyanobacteria",2945876,"14.55%"
-"918","Water (non-saline)","Deferribacteres",1791,"0.01%"
-"919","Water (non-saline)","Deinococcus-Thermus",2509,"0.01%"
-"920","Water (non-saline)","Diapherotrites",68,"0%"
-"921","Water (non-saline)","Dictyoglomi",7,"0%"
-"922","Water (non-saline)","Elusimicrobia",13723,"0.07%"
-"923","Water (non-saline)","Euryarchaeota",28563,"0.14%"
-"924","Water (non-saline)","Fibrobacteres",4194,"0.02%"
-"925","Water (non-saline)","Firmicutes",467255,"2.31%"
-"926","Water (non-saline)","Fusobacteria",15785,"0.08%"
-"927","Water (non-saline)","GAL08",65,"0%"
-"928","Water (non-saline)","Gemmatimonadetes",56677,"0.28%"
-"929","Water (non-saline)","GOUTA4",586,"0%"
-"930","Water (non-saline)","Gracilibacteria",4122,"0.02%"
-"931","Water (non-saline)","Hyd24-12",258,"0%"
-"932","Water (non-saline)","Hydrogenedentes",1072,"0.01%"
-"933","Water (non-saline)","JL-ETNP-Z39",28,"0%"
-"934","Water (non-saline)","Kazan-3B-09",283,"0%"
-"935","Water (non-saline)","Latescibacteria",11411,"0.06%"
-"936","Water (non-saline)","LCP-89",218,"0%"
-"937","Water (non-saline)","Lentisphaerae",12794,"0.06%"
-"938","Water (non-saline)","Marine Hydrothermal Vent Group(MHVG)",6,"0%"
-"939","Water (non-saline)","Marinimicrobia (SAR406 clade)",3385,"0.02%"
-"940","Water (non-saline)","Microgenomates",2700,"0.01%"
-"941","Water (non-saline)","Miscellaneous Crenarchaeotic Group",16909,"0.08%"
-"942","Water (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",92,"0%"
-"943","Water (non-saline)","Nitrospirae",41006,"0.2%"
-"944","Water (non-saline)","OC31",78,"0%"
-"945","Water (non-saline)","Omnitrophica",12577,"0.06%"
-"946","Water (non-saline)","Parcubacteria",28041,"0.14%"
-"947","Water (non-saline)","Parvarchaeota",362,"0%"
-"948","Water (non-saline)","PAUC34f",438,"0%"
-"949","Water (non-saline)","Planctomycetes",360535,"1.78%"
-"950","Water (non-saline)","Proteobacteria",7777792,"38.41%"
-"951","Water (non-saline)","RsaHF231",30,"0%"
-"952","Water (non-saline)","Saccharibacteria",3273,"0.02%"
-"953","Water (non-saline)","SHA-109",631,"0%"
-"954","Water (non-saline)","SM1K20",716,"0%"
-"955","Water (non-saline)","SM2F11",5414,"0.03%"
-"956","Water (non-saline)","Spirochaetae",16512,"0.08%"
-"957","Water (non-saline)","Synergistetes",211,"0%"
-"958","Water (non-saline)","TA06",1999,"0.01%"
-"959","Water (non-saline)","Tenericutes",1191,"0.01%"
-"960","Water (non-saline)","Thaumarchaeota",16940,"0.08%"
-"961","Water (non-saline)","Thermotogae",84,"0%"
-"962","Water (non-saline)","TM6",6917,"0.03%"
-"963","Water (non-saline)","uncultured archaeon",12,"0%"
-"964","Water (non-saline)","Verrucomicrobia",779446,"3.85%"
-"965","Water (non-saline)","WCHB1-60",6159,"0.03%"
-"966","Water (non-saline)","WD272",188,"0%"
-"967","Water (non-saline)","Woesearchaeota (DHVEG-6)",4952,"0.02%"
-"968","Water (saline)","Acetothermia",263,"0%"
-"969","Water (saline)","Acidobacteria",468181,"2.9%"
-"970","Water (saline)","Actinobacteria",542563,"3.36%"
-"971","Water (saline)","Aenigmarchaeota",19,"0%"
-"972","Water (saline)","Aerophobetes",155,"0%"
-"973","Water (saline)","Aigarchaeota",4,"0%"
-"974","Water (saline)","Aminicenantes",1776,"0.01%"
-"975","Water (saline)","Ancient Archaeal Group(AAG)",2,"0%"
-"976","Water (saline)","aquifer1",1,"0%"
-"977","Water (saline)","Aquificae",4,"0%"
-"978","Water (saline)","Armatimonadetes",1265,"0.01%"
-"979","Water (saline)","Atribacteria",706,"0%"
-"980","Water (saline)","Bacteroidetes",3730714,"23.09%"
-"981","Water (saline)","Caldiserica",227,"0%"
-"982","Water (saline)","Candidate division OP3",6202,"0.04%"
-"983","Water (saline)","Candidate division SR1",118,"0%"
-"984","Water (saline)","Chlamydiae",1017,"0.01%"
-"985","Water (saline)","Chlorobi",20001,"0.12%"
-"986","Water (saline)","Chloroflexi",133382,"0.83%"
-"987","Water (saline)","CKC4",12,"0%"
-"988","Water (saline)","Cloacimonetes",8368,"0.05%"
-"989","Water (saline)","Crenarchaeota",57,"0%"
-"990","Water (saline)","Cyanobacteria",2059139,"12.74%"
-"991","Water (saline)","Deferribacteres",4514,"0.03%"
-"992","Water (saline)","Deinococcus-Thermus",774,"0%"
-"993","Water (saline)","Diapherotrites",15,"0%"
-"994","Water (saline)","Dictyoglomi",11,"0%"
-"995","Water (saline)","Elusimicrobia",836,"0.01%"
-"996","Water (saline)","Euryarchaeota",115673,"0.72%"
-"997","Water (saline)","Fibrobacteres",1228,"0.01%"
-"998","Water (saline)","Firmicutes",63649,"0.39%"
-"999","Water (saline)","Fusobacteria",33730,"0.21%"
-"1000","Water (saline)","GAL08",10,"0%"
-"1001","Water (saline)","Gemmatimonadetes",14309,"0.09%"
-"1002","Water (saline)","GOUTA4",106,"0%"
-"1003","Water (saline)","Gracilibacteria",2284,"0.01%"
-"1004","Water (saline)","Hyd24-12",1725,"0.01%"
-"1005","Water (saline)","Hydrogenedentes",588,"0%"
-"1006","Water (saline)","JL-ETNP-Z39",155,"0%"
-"1007","Water (saline)","Kazan-3B-09",384,"0%"
-"1008","Water (saline)","Latescibacteria",5747,"0.04%"
-"1009","Water (saline)","LCP-89",518,"0%"
-"1010","Water (saline)","LD1-PA38",2,"0%"
-"1011","Water (saline)","Lentisphaerae",6995,"0.04%"
-"1012","Water (saline)","Marine Hydrothermal Vent Group(MHVG)",23,"0%"
-"1013","Water (saline)","Marinimicrobia (SAR406 clade)",329714,"2.04%"
-"1014","Water (saline)","Microgenomates",180,"0%"
-"1015","Water (saline)","Miscellaneous Crenarchaeotic Group",1505,"0.01%"
-"1016","Water (saline)","Miscellaneous Euryarchaeotic Group(MEG)",3,"0%"
-"1017","Water (saline)","Nitrospirae",10304,"0.06%"
-"1018","Water (saline)","OC31",23,"0%"
-"1019","Water (saline)","Omnitrophica",921,"0.01%"
-"1020","Water (saline)","Parcubacteria",1125,"0.01%"
-"1021","Water (saline)","Parvarchaeota",26,"0%"
-"1022","Water (saline)","PAUC34f",4057,"0.03%"
-"1023","Water (saline)","Planctomycetes",105276,"0.65%"
-"1024","Water (saline)","Proteobacteria",7981764,"49.4%"
-"1025","Water (saline)","RsaHF231",3,"0%"
-"1026","Water (saline)","Saccharibacteria",766,"0%"
-"1027","Water (saline)","SBYG-2791",16,"0%"
-"1028","Water (saline)","SHA-109",331,"0%"
-"1029","Water (saline)","SM1K20",45,"0%"
-"1030","Water (saline)","SM2F11",79,"0%"
-"1031","Water (saline)","Spirochaetae",15085,"0.09%"
-"1032","Water (saline)","Synergistetes",76,"0%"
-"1033","Water (saline)","TA06",2482,"0.02%"
-"1034","Water (saline)","Tenericutes",2469,"0.02%"
-"1035","Water (saline)","Thaumarchaeota",93841,"0.58%"
-"1036","Water (saline)","Thermotogae",49,"0%"
-"1037","Water (saline)","TM6",1515,"0.01%"
-"1038","Water (saline)","uncultured archaeon",19,"0%"
-"1039","Water (saline)","Verrucomicrobia",376298,"2.33%"
-"1040","Water (saline)","WCHB1-60",41,"0%"
-"1041","Water (saline)","WD272",256,"0%"
-"1042","Water (saline)","Woesearchaeota (DHVEG-6)",1609,"0.01%"
+"","empo_3","Phylum","Abundance (mean)","n","SD","Freq","Freq SD"
+"1","Aerosol (non-saline)","Acidobacteria",811.296296296296,81,1436.99028741015,0.798636090220904,1.41456618261638
+"2","Aerosol (non-saline)","Actinobacteria",8864.62962962963,81,7178.68985686881,8.72629787783256,7.06666704429813
+"3","Aerosol (non-saline)","Aerophobetes",0.037037037037037,81,0.190029237516523,3.64590773896783e-05,0.000187063848276745
+"4","Aerosol (non-saline)","Aminicenantes",1.40740740740741,81,8.85688683705762,0.00138544494080778,0.00871867591084549
+"5","Aerosol (non-saline)","aquifer1",26.3086419753086,81,141.824243517752,0.0258980979724682,0.139611088893951
+"6","Aerosol (non-saline)","Armatimonadetes",86.8641975308642,81,170.733033790068,0.0855086895045922,0.16806876008202
+"7","Aerosol (non-saline)","Atribacteria",2.11111111111111,81,14.9105667229653,0.00207816741121166,0.014677888664067
+"8","Aerosol (non-saline)","Bacteroidetes",10185.987654321,81,9304.07712980421,10.0270362288383,9.15888783910683
+"9","Aerosol (non-saline)","Caldiserica",0.037037037037037,81,0.190029237516523,3.64590773896783e-05,0.000187063848276745
+"10","Aerosol (non-saline)","Candidate division OP3",1.83950617283951,81,5.54629784208227,0.00181080084368736,0.00545974836076845
+"11","Aerosol (non-saline)","Candidate division SR1",40.9506172839506,81,110.411944692883,0.0403115865671877,0.108688976180173
+"12","Aerosol (non-saline)","Chlamydiae",7.04938271604938,81,38.1617941253317,0.00693937772983544,0.0375662827442998
+"13","Aerosol (non-saline)","Chlorobi",7.96296296296296,81,35.864831117839,0.00783870163878084,0.0353051636389119
+"14","Aerosol (non-saline)","Chloroflexi",278.123456790123,81,343.537238982765,0.273783365144891,0.338176371122344
+"15","Aerosol (non-saline)","Cloacimonetes",4.30864197530864,81,19.4625550579238,0.00424140600299924,0.0191588436285584
+"16","Aerosol (non-saline)","Cyanobacteria",17601.0740740741,81,46093.0922408059,17.3264108888194,45.3738136627024
+"17","Aerosol (non-saline)","Deferribacteres",0.148148148148148,81,0.807946642902722,0.000145836309558713,0.00079533870786867
+"18","Aerosol (non-saline)","Deinococcus-Thermus",36.9506172839506,81,80.4367610664688,0.0363740062091024,0.0791815526108312
+"19","Aerosol (non-saline)","Elusimicrobia",9.37037037037037,81,41.6315518700794,0.00922414657958862,0.0409818952300581
+"20","Aerosol (non-saline)","Euryarchaeota",80.358024691358,81,139.396135943753,0.0791040449098054,0.137220871721277
+"21","Aerosol (non-saline)","Fibrobacteres",33.0987654320988,81,114.17296143771,0.0325822621605759,0.112391302595388
+"22","Aerosol (non-saline)","Firmicutes",29439.2469135802,81,27757.9459009177,28.9798501009339,27.3247856400617
+"23","Aerosol (non-saline)","Fusobacteria",877.172839506173,81,1247.79563420982,0.863484635871345,1.22832389504228
+"24","Aerosol (non-saline)","GAL08",0.0123456790123457,81,0.111111111111111,1.21530257965594e-05,0.000109377232169035
+"25","Aerosol (non-saline)","Gemmatimonadetes",214.925925925926,81,318.436013108512,0.211572026092303,0.313466847630764
+"26","Aerosol (non-saline)","Gracilibacteria",0.160493827160494,81,0.732406822118978,0.000157989335355273,0.000720977679225833
+"27","Aerosol (non-saline)","Hyd24-12",0.135802469135802,81,0.379245514797245,0.000133683283762154,0.000373327422489391
+"28","Aerosol (non-saline)","Hydrogenedentes",2.40740740740741,81,11.213583033288,0.00236984003032909,0.0110385960739082
+"29","Aerosol (non-saline)","JL-ETNP-Z39",0.345679012345679,81,3.11111111111111,0.000340284722303664,0.00306256250073298
+"30","Aerosol (non-saline)","Latescibacteria",2.33333333333333,81,8.60523096726636,0.00229692187554973,0.00847094710837376
+"31","Aerosol (non-saline)","Lentisphaerae",36.5185185185185,81,138.423996394331,0.0359486503062228,0.136263902322496
+"32","Aerosol (non-saline)","Marinimicrobia (SAR406 clade)",6.14814814814815,81,36.6954054041889,0.0060522068466866,0.0361227768878775
+"33","Aerosol (non-saline)","Microgenomates",0.037037037037037,81,0.333333333333333,3.64590773896783e-05,0.000328131696507105
+"34","Aerosol (non-saline)","Miscellaneous Crenarchaeotic Group",0.185185185185185,81,1.00138792571999,0.000182295386948392,0.00098576135678469
+"35","Aerosol (non-saline)","Nitrospirae",29.9259259259259,81,70.51591624906,0.0294589345308601,0.069415521688671
+"36","Aerosol (non-saline)","Omnitrophica",0.037037037037037,81,0.190029237516523,3.64590773896783e-05,0.000187063848276745
+"37","Aerosol (non-saline)","Parcubacteria",8.14814814814815,81,50.3428523007763,0.00802099702572923,0.049557256597381
+"38","Aerosol (non-saline)","PAUC34f",0.0246913580246914,81,0.156149659139502,2.43060515931189e-05,0.000153712957687353
+"39","Aerosol (non-saline)","Planctomycetes",220.925925925926,81,324.730572081602,0.217478396629431,0.319663180574576
+"40","Aerosol (non-saline)","Proteobacteria",31337.1358024691,81,32672.4602581261,30.8481226036132,32.1626094406796
+"41","Aerosol (non-saline)","Saccharibacteria",27.5925925925926,81,48.060320894106,0.0271620126553104,0.0473103438889766
+"42","Aerosol (non-saline)","SHA-109",4.1358024691358,81,18.3471749095193,0.00407126364184741,0.0180608688875195
+"43","Aerosol (non-saline)","SM2F11",0.0617283950617284,81,0.456773439802099,6.07651289827972e-05,0.000449645531164946
+"44","Aerosol (non-saline)","Spirochaetae",184.296296296296,81,434.670750236442,0.181420369091039,0.427887752091299
+"45","Aerosol (non-saline)","Synergistetes",22.7654320987654,81,96.743251910009,0.0224101795688556,0.0952335821245364
+"46","Aerosol (non-saline)","TA06",0.111111111111111,81,0.387298334620742,0.000109377232169035,0.000381254578780441
+"47","Aerosol (non-saline)","Tenericutes",178.530864197531,81,269.042472781704,0.175744906044046,0.264844089078981
+"48","Aerosol (non-saline)","Thaumarchaeota",76.4938271604938,81,192.451365509366,0.0753001478354823,0.189448179179092
+"49","Aerosol (non-saline)","Thermotogae",72.5555555555556,81,272.393235965947,0.0714233326063798,0.268142563903699
+"50","Aerosol (non-saline)","TM6",11.9753086419753,81,78.3650073866905,0.0117884350226627,0.0771421284617596
+"51","Aerosol (non-saline)","uncultured archaeon",0.00617283950617284,162,0.0785674201318386,6.07651289827972e-06,7.734138257414e-05
+"52","Aerosol (non-saline)","Verrucomicrobia",730.382716049383,81,1062.19375078068,0.718985159150253,1.04561831238873
+"53","Aerosol (non-saline)","WCHB1-60",0.111111111111111,81,0.894427190999916,0.000109377232169035,0.00088046973475466
+"54","Aerosol (non-saline)","WD272",20.4444444444444,81,85.6678177613974,0.0201254107191024,0.0843309791343265
+"55","Aerosol (non-saline)","Woesearchaeota (DHVEG-6)",0.0246913580246914,81,0.156149659139502,2.43060515931189e-05,0.000153712957687353
+"56","Animal corpus","Acetothermia",0.145962732919255,322,1.33971186695398,0.000502321580718375,0.00461053427307206
+"57","Animal corpus","Acidobacteria",122.167701863354,322,1136.2560521402,0.420432475368073,3.9103538608559
+"58","Animal corpus","Actinobacteria",3284.92546583851,322,9205.04479696071,11.3048647386923,31.6785837077377
+"59","Animal corpus","Aerophobetes",0.754658385093168,322,5.1275378983009,0.00259710944924607,0.0176460997321332
+"60","Animal corpus","Aminicenantes",0.757763975155279,322,4.46903698326898,0.00260779714245284,0.0153799101786235
+"61","Animal corpus","aquifer1",0.549689440993789,322,4.82068006504741,0.00189172169759899,0.0165900677658026
+"62","Animal corpus","Aquificae",0.0372670807453416,322,0.516255373520361,0.000128252318481287,0.00177666045362798
+"63","Animal corpus","Armatimonadetes",8.22981366459627,322,102.466756158874,0.028322386997951,0.352632907697635
+"64","Animal corpus","Atribacteria",3.14906832298137,322,14.1124593899398,0.0108373209116688,0.04856714290558
+"65","Animal corpus","Bacteroidetes",928.354037267081,322,6033.44469621662,3.19487213030094,20.7637210976106
+"66","Animal corpus","Caldiserica",0.0062111801242236,322,0.0786881862380347,2.13753864135479e-05,0.000270800452310093
+"67","Animal corpus","Candidate division OP3",0.366459627329193,322,4.68535125670173,0.00126114779839933,0.0161243421688275
+"68","Animal corpus","Candidate division SR1",0.180124223602484,322,2.14835501442604,0.000619886205992889,0.00739342889248122
+"69","Animal corpus","Chlamydiae",0.354037267080745,322,4.01463046780141,0.00121839702557223,0.0138160986866541
+"70","Animal corpus","Chlorobi",2.87577639751553,322,45.1221613239187,0.00989680390947267,0.155285085092227
+"71","Animal corpus","Chloroflexi",9.87267080745342,322,71.4086519602214,0.0339761767043344,0.245748392156166
+"72","Animal corpus","Cyanobacteria",961.739130434783,322,3177.76174883488,3.30976483227376,10.9360675351575
+"73","Animal corpus","Deferribacteres",0.180124223602484,322,1.60756854287288,0.000619886205992889,0.00553234620521769
+"74","Animal corpus","Deinococcus-Thermus",2.69254658385093,322,10.5400234253172,0.00926623001027301,0.0362728288373641
+"75","Animal corpus","Elusimicrobia",0.077639751552795,322,0.78747794551757,0.000267192330169349,0.00271005590579117
+"76","Animal corpus","Euryarchaeota",1.36335403726708,322,7.29667008455674,0.00469189731777376,0.0251110319569217
+"77","Animal corpus","Fibrobacteres",0.180124223602484,322,1.99184692939189,0.000619886205992889,0.00685481614457487
+"78","Animal corpus","Firmicutes",4863.33540372671,322,6150.6201348252,16.7368634356488,21.1669730124387
+"79","Animal corpus","Fusobacteria",45.7204968944099,322,276.960566289685,0.157344219390126,0.953142399246888
+"80","Animal corpus","Gemmatimonadetes",9.2111801242236,322,83.5227064422475,0.0316996980512915,0.287438150045847
+"81","Animal corpus","GOUTA4",0.031055900621118,322,0.557278212575353,0.000106876932067739,0.00191783797851756
+"82","Animal corpus","Gracilibacteria",0.0217391304347826,322,0.242313782353057,7.48138524474176e-05,0.000833907667711114
+"83","Animal corpus","Hyd24-12",0.167701863354037,322,1.58157626662821,0.000577135433165793,0.00544289541850958
+"84","Animal corpus","Hydrogenedentes",0.124223602484472,322,1.52347268485433,0.000427507728270958,0.0052429355900087
+"85","Animal corpus","JL-ETNP-Z39",0.062111801242236,322,1.11455642515071,0.000213753864135479,0.00383567595703512
+"86","Animal corpus","Latescibacteria",0.0372670807453416,322,0.282141317141216,0.000128252318481287,0.000970971628016459
+"87","Animal corpus","LCP-89",0.0248447204968944,322,0.324499337518463,8.55015456541916e-05,0.00111674409559399
+"88","Animal corpus","Lentisphaerae",0.0900621118012422,322,0.897188753653047,0.000309943102996444,0.00308761876353095
+"89","Animal corpus","Marinimicrobia (SAR406 clade)",2.85714285714286,322,49.8836474423631,0.00983267775023203,0.17167144060743
+"90","Animal corpus","Microgenomates",0.0093167701863354,322,0.0962222519688636,3.20630796203218e-05,0.000331142838604013
+"91","Animal corpus","Miscellaneous Crenarchaeotic Group",0.0124223602484472,322,0.222911285030141,4.27507728270958e-05,0.000767135191407025
+"92","Animal corpus","Nitrospirae",1.00310559006211,322,10.2256468379078,0.00345212490578798,0.0351909215506892
+"93","Animal corpus","Parcubacteria",0.108695652173913,322,1.32927222513557,0.000374069262237088,0.00457460690123217
+"94","Animal corpus","Planctomycetes",8.0527950310559,322,48.3832088508557,0.0277131884851648,0.166507775403423
+"95","Animal corpus","Proteobacteria",18727.7236024845,322,15935.1760039038,64.4502849125255,54.8399076888657
+"96","Animal corpus","Saccharibacteria",1.03105590062112,322,9.55581886972585,0.00354831414464895,0.0328857506549603
+"97","Animal corpus","SHA-109",0.0372670807453416,322,0.400750056236282,0.000128252318481287,0.00137915615647555
+"98","Animal corpus","SM2F11",0.0372670807453416,322,0.615360986250289,0.000128252318481287,0.00211772619725242
+"99","Animal corpus","Spirochaetae",1.72670807453416,322,22.2882525188589,0.00594235742296631,0.076703621621808
+"100","Animal corpus","Synergistetes",0.639751552795031,322,9.21163614329854,0.00220166480059543,0.0317012674123057
+"101","Animal corpus","TA06",0.0186335403726708,322,0.175511701891419,6.41261592406437e-05,0.00060401250213259
+"102","Animal corpus","Tenericutes",25.3105590062112,322,79.3149984853638,0.0871046996352077,0.272957587303353
+"103","Animal corpus","Thaumarchaeota",1.88198757763975,322,11.6799900151387,0.00647674208330501,0.0401959522806752
+"104","Animal corpus","Thermotogae",0.12111801242236,322,2.17338502904388,0.000416820035064184,0.00747956811621849
+"105","Animal corpus","TM6",0.425465838509317,322,3.97527842639546,0.00146421396932803,0.0136806711069686
+"106","Animal corpus","Verrucomicrobia",38.5683229813665,322,291.441700495713,0.132730461934926,1.0029783133839
+"107","Animal corpus","WCHB1-60",0.0590062111801242,322,0.655384793366181,0.000203066170928705,0.00225546561645022
+"108","Animal corpus","WD272",0.214285714285714,322,3.73508009552435,0.000737450831267402,0.0128540436327089
+"109","Animal corpus","Woesearchaeota (DHVEG-6)",0.0031055900621118,322,0.0557278212575353,1.06876932067739e-05,0.000191783797851756
+"110","Animal distal gut","Acidobacteria",36.0891920251836,953,404.571546137379,0.0548165188646412,0.614510953181249
+"111","Animal distal gut","Actinobacteria",2514.66631689402,953,9155.34347819156,3.81957161861945,13.9062148616225
+"112","Animal distal gut","Aerophobetes",0.00314795383001049,953,0.0560476625884445,4.78148334236396e-06,8.51317965626547e-05
+"113","Animal distal gut","Aminicenantes",0.0272822665267576,953,0.232113646349688,4.14395223004877e-05,0.000352561566493081
+"114","Animal distal gut","aquifer1",0.440713536201469,953,5.29159198245846,0.000669407667930954,0.00803749364984412
+"115","Animal distal gut","Armatimonadetes",4.35362014690451,953,34.4646303593893,0.00661279146248936,0.0523489431112788
+"116","Animal distal gut","Atribacteria",0.00104931794333683,953,0.0323931774195868,1.59382778078799e-06,4.9202576213603e-05
+"117","Animal distal gut","Bacteroidetes",13581.1605456453,953,19188.1852234266,20.6286675172607,29.1452775264187
+"118","Animal distal gut","Caldiserica",0.0346274921301154,953,0.731822644601103,5.25963167660036e-05,0.00111157849628095
+"119","Animal distal gut","Candidate division OP3",0.0451206715634837,953,0.57891869932062,6.85345945738834e-05,0.000879329960622493
+"120","Animal distal gut","Candidate division SR1",1.81636935991605,953,47.6797887240599,0.00275891588854401,0.0724216833735346
+"121","Animal distal gut","Chlamydiae",4.88667366211962,953,88.5013160465429,0.00742245597512966,0.134426230912168
+"122","Animal distal gut","Chlorobi",0.629590766002099,953,8.77294384085939,0.000956296668472792,0.0133253812170504
+"123","Animal distal gut","Chloroflexi",27.4197271773347,953,113.028646389078,0.0416483137397709,0.171681231397706
+"124","Animal distal gut","CKC4",49.912906610703,953,604.238076523699,0.0758136060487422,0.917788015242421
+"125","Animal distal gut","Cloacimonetes",0.00104931794333683,953,0.0323931774195868,1.59382778078799e-06,4.9202576213603e-05
+"126","Animal distal gut","Cyanobacteria",1014.74501573977,953,6319.87517519791,1.54131434306658,9.59937137195166
+"127","Animal distal gut","Deferribacteres",0.567681007345226,953,6.72117910066224,0.000862260829406301,0.0102089190776836
+"128","Animal distal gut","Deinococcus-Thermus",9.38929695697797,953,101.984976705198,0.0142615709824909,0.15490680410826
+"129","Animal distal gut","Elusimicrobia",11.1983210912907,953,54.4195064866812,0.0170093300765694,0.082658761156248
+"130","Animal distal gut","Euryarchaeota",217.849947534103,953,610.792367950289,0.330896179397175,0.927743445648823
+"131","Animal distal gut","Fibrobacteres",8.46799580272823,953,138.111578300988,0.0128621901909591,0.209780145038394
+"132","Animal distal gut","Firmicutes",27538.7712486884,953,31836.676427539,41.8291319076735,48.3572969092758
+"133","Animal distal gut","Fusobacteria",1272.78174186779,953,5624.1820040712,1.93325093881238,8.5426705787486
+"134","Animal distal gut","Gemmatimonadetes",4.52675760755509,953,41.8970522980026,0.00687577304631938,0.0636381816490565
+"135","Animal distal gut","GOUTA4",0.00419727177334732,953,0.102403935886205,6.37531112315195e-06,0.000155543168697224
+"136","Animal distal gut","Gracilibacteria",0.313746065057712,953,8.19709865705132,0.000476554506455608,0.0124507196740793
+"137","Animal distal gut","Hydrogenedentes",0.0608604407135362,953,0.971478825092749,9.24420112857033e-05,0.00147559655270573
+"138","Animal distal gut","JL-ETNP-Z39",0.0849947534102833,953,2.36619118849654,0.000129100050243827,0.0035940500920901
+"139","Animal distal gut","Kazan-3B-09",0.00209863588667366,953,0.0457868041821317,3.18765556157597e-06,6.95463953155289e-05
+"140","Animal distal gut","Latescibacteria",0.40713536201469,953,7.84152592707958,0.000618405178945739,0.0119106338986303
+"141","Animal distal gut","LCP-89",0.00209863588667366,953,0.0647863548391737,3.18765556157597e-06,9.84051524272061e-05
+"142","Animal distal gut","Lentisphaerae",121.656873032529,953,367.713221740438,0.184786799076778,0.558526185408835
+"143","Animal distal gut","Marinimicrobia (SAR406 clade)",0.607555089192025,953,6.63651295525051,0.000922826285076244,0.0100803181560027
+"144","Animal distal gut","Microgenomates",0.0587618048268625,953,1.06348352350099,8.92543557241273e-05,0.00161534413371036
+"145","Animal distal gut","Miscellaneous Crenarchaeotic Group",0.0199370409233998,953,0.291008815134134,3.02827278349718e-05,0.000442018491116274
+"146","Animal distal gut","Nitrospirae",3.49527806925498,953,55.8071242247311,0.00530904033780479,0.0847664385423654
+"147","Animal distal gut","Omnitrophica",0.00734522560335782,953,0.0854337881910968,1.11567944655159e-05,0.000129766908020191
+"148","Animal distal gut","Parcubacteria",0.0524658971668416,953,0.365785538290881,7.96913890393993e-05,0.000555598192559786
+"149","Animal distal gut","Parvarchaeota",0.00104931794333683,953,0.0323931774195868,1.59382778078799e-06,4.9202576213603e-05
+"150","Animal distal gut","PAUC34f",0.00104931794333683,953,0.0323931774195868,1.59382778078799e-06,4.9202576213603e-05
+"151","Animal distal gut","Planctomycetes",102.572927597062,953,546.339379532228,0.155799853227587,0.8298446494376
+"152","Animal distal gut","Proteobacteria",17546.6065057712,953,39479.7540491975,26.6518542688031,59.9665041295205
+"153","Animal distal gut","RsaHF231",1.30535152151102,953,16.2710155866772,0.00198272175930026,0.0247143364204874
+"154","Animal distal gut","Saccharibacteria",3.23609653725079,953,9.82407640360905,0.00491536487595015,0.014921965255701
+"155","Animal distal gut","SHA-109",1.10598111227702,953,11.5481407388745,0.00167989448095054,0.0175406773923425
+"156","Animal distal gut","SM2F11",0.00419727177334732,953,0.0646841949519554,6.37531112315195e-06,9.8249979948393e-05
+"157","Animal distal gut","Spirochaetae",322.998950682057,953,994.289049137217,0.490608879826597,1.51024340974171
+"158","Animal distal gut","Synergistetes",8.46484784889822,953,83.1769721106683,0.0128574087076167,0.126338989734836
+"159","Animal distal gut","TA06",0.102833158447009,953,2.48734662346966,0.000156195122517223,0.00377807524793519
+"160","Animal distal gut","Tenericutes",717.99685204617,953,2304.5413238268,1.09057825283196,3.50040901064629
+"161","Animal distal gut","Thaumarchaeota",10.797481636936,953,161.093427384833,0.0164004878643084,0.244687686414489
+"162","Animal distal gut","Thermotogae",0.00839454354669465,953,0.144699208631558,1.27506222463039e-05,0.000219786214501989
+"163","Animal distal gut","TM6",0.481636935991605,953,3.64869158175946,0.000731566951381686,0.00554206286422833
+"164","Animal distal gut","uncultured archaeon",0.00944386149003148,1906,0.345826265678541,1.43444500270919e-05,0.000525281696615089
+"165","Animal distal gut","Verrucomicrobia",693.550891920252,953,2030.76029087986,1.05344684702294,3.08455810584231
+"166","Animal distal gut","WCHB1-60",0.266526757607555,953,3.23717608995263,0.000404832256320149,0.00491700462784609
+"167","Animal distal gut","WD272",0.262329485834208,953,4.48110149608507,0.000398456945196997,0.00680642516250041
+"168","Animal distal gut","Woesearchaeota (DHVEG-6)",0.0115424973767051,953,0.185823831501346,1.75321055886679e-05,0.000282251139285283
+"169","Animal proximal gut","Acidobacteria",7.75141242937853,354,57.0356512009323,0.011363888139418,0.0836166009887081
+"170","Animal proximal gut","Actinobacteria",2280.06779661017,354,7379.39385650621,3.34267278731866,10.818493672742
+"171","Animal proximal gut","aquifer1",0.378531073446328,354,2.34869431279432,0.000554942059286448,0.00344328207116465
+"172","Animal proximal gut","Aquificae",0.0141242937853107,354,0.218994473464834,2.0706793256957e-05,0.000321054868680836
+"173","Animal proximal gut","Armatimonadetes",0.296610169491525,354,2.11687937261351,0.000434842658396097,0.00310343187311864
+"174","Animal proximal gut","Bacteroidetes",19427.8672316384,354,23898.9403310759,28.4820491773916,35.0368254879127
+"175","Animal proximal gut","Caldiserica",0.0225988700564972,354,0.166782661576933,3.31308692111312e-05,0.000244510213721995
+"176","Animal proximal gut","Candidate division OP3",0.00564971751412429,354,0.0750580618497786,8.28271730278281e-06,0.000110038193244581
+"177","Animal proximal gut","Candidate division SR1",1.30508474576271,354,13.9162866297803,0.00191330769694283,0.0204018462464371
+"178","Animal proximal gut","Chlamydiae",0.242937853107345,354,2.68090897476416,0.000356156844019661,0.00393032237398627
+"179","Animal proximal gut","Chlorobi",0.149717514124294,354,1.51392495141027,0.000219492008523744,0.0022194759930584
+"180","Animal proximal gut","Chloroflexi",7.09322033898305,354,36.8432835938109,0.0103989515736438,0.0540137629449411
+"181","Animal proximal gut","Cyanobacteria",950.935028248588,354,2916.02195920885,1.39410970417654,4.27500764001958
+"182","Animal proximal gut","Deferribacteres",2.37005649717514,354,17.0837399789445,0.00347459990851739,0.0250454626034128
+"183","Animal proximal gut","Deinococcus-Thermus",2.91242937853107,354,18.1977090759014,0.00426974076958454,0.0266785869306139
+"184","Animal proximal gut","Elusimicrobia",0.347457627118644,354,2.45079781879787,0.000509387114121143,0.00359296999339016
+"185","Animal proximal gut","Euryarchaeota",265.977401129944,354,551.881586580694,0.389933765180409,0.809081012427869
+"186","Animal proximal gut","Fibrobacteres",134.655367231638,354,428.509181759424,0.197410284194525,0.628212013306335
+"187","Animal proximal gut","Firmicutes",32368.5254237288,354,30522.3061191914,47.453584169905,44.7469510435241
+"188","Animal proximal gut","Fusobacteria",271.25988700565,354,1865.51899992101,0.397678105858511,2.7349272703789
+"189","Animal proximal gut","Gemmatimonadetes",2.07909604519774,354,17.593762198642,0.00304803996742407,0.0257931760693217
+"190","Animal proximal gut","Gracilibacteria",0.768361581920904,354,10.6389372045986,0.00112644955317846,0.0155971177403915
+"191","Animal proximal gut","Hydrogenedentes",0.00847457627118644,354,0.0917963053436745,1.24240759541742e-05,0.000134577143848481
+"192","Animal proximal gut","Latescibacteria",0.0593220338983051,354,0.767162900452317,8.69685316792195e-05,0.00112469223704441
+"193","Animal proximal gut","Lentisphaerae",187.042372881356,354,559.112581882471,0.274211780384579,0.819681947740587
+"194","Animal proximal gut","Marinimicrobia (SAR406 clade)",0.00564971751412429,354,0.0750580618497786,8.28271730278281e-06,0.000110038193244581
+"195","Animal proximal gut","Nitrospirae",0.293785310734463,354,3.23816053459814,0.000430701299744706,0.00474727598717149
+"196","Animal proximal gut","Omnitrophica",0.0282485875706215,354,0.165916752089901,4.1413586513914e-05,0.000243240754944109
+"197","Animal proximal gut","Parcubacteria",0.0169491525423729,354,0.129263604932658,2.48481519083484e-05,0.000189505739803658
+"198","Animal proximal gut","PAUC34f",0.00282485875706215,354,0.0531494003452734,4.1413586513914e-06,7.79191980434018e-05
+"199","Animal proximal gut","Planctomycetes",366.601694915254,354,1366.68729867091,0.537453101701622,2.00361956290652
+"200","Animal proximal gut","Proteobacteria",7613.90960451977,354,12997.7942169964,11.1623033657029,19.0552987454654
+"201","Animal proximal gut","Saccharibacteria",0.889830508474576,354,4.0968112348676,0.00130452797518829,0.0060060930863253
+"202","Animal proximal gut","SHA-109",3.35593220338983,354,28.1784656765069,0.00491993407785299,0.0413107849447675
+"203","Animal proximal gut","SM2F11",0.00847457627118644,354,0.118710926432037,1.24240759541742e-05,0.000174035080856678
+"204","Animal proximal gut","Spirochaetae",1672.54519774011,354,3374.91889222732,2.45201977167447,4.94776934143274
+"205","Animal proximal gut","Synergistetes",41.183615819209,354,105.728701201284,0.0603768677786353,0.155002606882791
+"206","Animal proximal gut","TA06",0.00282485875706215,354,0.0531494003452734,4.1413586513914e-06,7.79191980434018e-05
+"207","Animal proximal gut","Tenericutes",274.974576271186,354,667.650140717398,0.403123992485091,0.97880245497239
+"208","Animal proximal gut","Thaumarchaeota",2.53107344632768,354,16.3426619958542,0.0037106573516467,0.0239590119237269
+"209","Animal proximal gut","Thermotogae",0.0112994350282486,354,0.212597601381094,1.65654346055656e-05,0.000311676792173607
+"210","Animal proximal gut","TM6",0.15819209039548,354,2.17970372687079,0.000231916084477919,0.00319553494990824
+"211","Animal proximal gut","Verrucomicrobia",2321.91807909605,354,5153.41658847278,3.40402701573903,7.55511981600509
+"212","Animal proximal gut","WCHB1-60",0.0169491525423729,354,0.183592610687349,2.48481519083484e-05,0.000269154287696962
+"213","Animal proximal gut","WD272",0.228813559322034,354,4.19917235258661,0.000335450050762704,0.00615615867787813
+"214","Animal proximal gut","Woesearchaeota (DHVEG-6)",0.0988700564971751,354,1.7552346219146,0.000144947552798699,0.00257324585468747
+"215","Animal secretion","Acetothermia",0.00109051254089422,917,0.0330229093341913,2.22981200677952e-06,6.75231847144011e-05
+"216","Animal secretion","Acidobacteria",123.940021810251,917,522.153102182888,0.253424824006513,1.06766608632474
+"217","Animal secretion","Actinobacteria",5145.9280261723,917,7377.62752048778,10.5220725745833,15.085312465312
+"218","Animal secretion","Aerophobetes",0.0872410032715376,917,1.5166545290253,0.000178384960542362,0.00310116055720372
+"219","Animal secretion","Aminicenantes",0.0610687022900763,917,0.527186808317851,0.000124869472379653,0.00107795869457767
+"220","Animal secretion","aquifer1",46.2704471101418,917,133.635923187909,0.0946109234476551,0.273250398218363
+"221","Animal secretion","Armatimonadetes",6.38822246455834,917,24.891901508353,0.0130622387357144,0.0508974072039422
+"222","Animal secretion","Atribacteria",0.193020719738277,917,2.36671684330476,0.000394676725199975,0.00483931494223887
+"223","Animal secretion","Bacteroidetes",5469.10687022901,917,7229.2245911605,11.1828885118525,14.7818674142502
+"224","Animal secretion","Caldiserica",0.0174482006543075,917,0.30945936232695,3.56769921084723e-05,0.000632763196983629
+"225","Animal secretion","Candidate division OP3",0.0796074154852781,917,0.757198827290266,0.000162776276494905,0.00154827292057248
+"226","Animal secretion","Candidate division SR1",39.3129770992366,917,242.689198636661,0.0803847228444017,0.496235732045761
+"227","Animal secretion","Chlamydiae",1.72628135223555,917,24.038413050496,0.00352979240673198,0.049152247254276
+"228","Animal secretion","Chlorobi",6.16139585605234,917,35.5802204726046,0.0125984378383043,0.0727522149801412
+"229","Animal secretion","Chloroflexi",30.0294438386041,917,132.248064039356,0.0614023332306877,0.270412590419634
+"230","Animal secretion","CKC4",0.0054525627044711,917,0.165114546670957,1.11490600338976e-05,0.000337615923572005
+"231","Animal secretion","Cloacimonetes",0.0054525627044711,917,0.0736800677726638,1.11490600338976e-05,0.00015065640569809
+"232","Animal secretion","Crenarchaeota",0.00109051254089422,917,0.0330229093341913,2.22981200677952e-06,6.75231847144011e-05
+"233","Animal secretion","Cyanobacteria",639.966194111232,917,2631.88491820122,1.30856294636655,5.38151407800845
+"234","Animal secretion","Deferribacteres",0.16030534351145,917,1.58989546582569,0.000327782364996589,0.00325091905528697
+"235","Animal secretion","Deinococcus-Thermus",18.8255179934569,917,131.179358543738,0.0384932446730349,0.268227368098497
+"236","Animal secretion","Dictyoglomi",0.00218102508178844,917,0.0660458186683826,4.45962401355904e-06,0.000135046369428802
+"237","Animal secretion","Elusimicrobia",0.728462377317339,917,4.08845791654002,0.00148951442052872,0.00835982366973809
+"238","Animal secretion","Euryarchaeota",3.59432933478735,917,22.4332851410339,0.0073494603743453,0.0458701818485901
+"239","Animal secretion","Fibrobacteres",0.752453653217012,917,4.00202009297077,0.00153857028467787,0.00818308100094075
+"240","Animal secretion","Firmicutes",15784.092693566,917,16637.4711254747,32.2743279736829,34.0192629491546
+"241","Animal secretion","Fusobacteria",1970.48854961832,917,3010.23778586248,4.02913204790617,6.15514641644882
+"242","Animal secretion","GAL08",0.00109051254089422,917,0.0330229093341913,2.22981200677952e-06,6.75231847144011e-05
+"243","Animal secretion","Gemmatimonadetes",49.7568157033806,917,225.238007958583,0.101739632433329,0.460552626123229
+"244","Animal secretion","GOUTA4",0.00218102508178844,917,0.0466759472323783,4.45962401355904e-06,9.54400647985396e-05
+"245","Animal secretion","Gracilibacteria",5.97709923664122,917,34.7202877764491,0.0122215996091586,0.0709938782540569
+"246","Animal secretion","Hyd24-12",0.0054525627044711,917,0.165114546670957,1.11490600338976e-05,0.000337615923572005
+"247","Animal secretion","Hydrogenedentes",0.906215921483097,917,5.15437815440109,0.00185297377763378,0.0105393508695839
+"248","Animal secretion","JL-ETNP-Z39",0.074154852780807,917,0.59193770880356,0.000151627216461007,0.00121035729609621
+"249","Animal secretion","Kazan-3B-09",0.00327153762268266,917,0.099068728002574,6.68943602033856e-06,0.000202569554143203
+"250","Animal secretion","Latescibacteria",0.621592148309706,917,2.86670627827079,0.00127099284386433,0.00586166214462496
+"251","Animal secretion","LCP-89",0.00109051254089422,917,0.0330229093341913,2.22981200677952e-06,6.75231847144011e-05
+"252","Animal secretion","Lentisphaerae",2.00327153762268,917,6.9863396174551,0.00409616465645398,0.0142852313735582
+"253","Animal secretion","Marinimicrobia (SAR406 clade)",0.947655398037077,917,11.3597142824901,0.0019377066338914,0.0232276350347247
+"254","Animal secretion","Microgenomates",0.0861504907306434,917,1.14084265150535,0.000176155148535582,0.00233272387687247
+"255","Animal secretion","Miscellaneous Crenarchaeotic Group",0.0229007633587786,917,0.234844285420389,4.68260521423699e-05,0.000480194942943563
+"256","Animal secretion","Nitrospirae",8.25845147219193,917,32.6265381273567,0.0168863663273413,0.0667127096001794
+"257","Animal secretion","OC31",0.00654307524536532,917,0.123454381142524,1.33788720406771e-05,0.000252431816268161
+"258","Animal secretion","Omnitrophica",0.0239912758996728,917,0.381722412131914,4.90558641491495e-05,0.00078052217274881
+"259","Animal secretion","Parcubacteria",0.370774263904035,917,4.52744382007836,0.000758136082305037,0.00925743465705794
+"260","Animal secretion","PAUC34f",0.0109051254089422,917,0.213851529797768,2.22981200677952e-05,0.000437270265979899
+"261","Animal secretion","Planctomycetes",31.7611777535442,917,113.192066830548,0.0649432746974535,0.231448076226597
+"262","Animal secretion","Proteobacteria",16921.3784078517,917,21566.9075262632,34.5997788472452,44.0986669550186
+"263","Animal secretion","RsaHF231",0.0665212649945474,917,0.940908115438464,0.000136018532413551,0.00192391021139526
+"264","Animal secretion","Saccharibacteria",27.3544165757906,917,52.5536720306061,0.0559326043780575,0.10745846975598
+"265","Animal secretion","SHA-109",0.667393675027263,917,4.40121498098248,0.00136464494814907,0.00899932980226458
+"266","Animal secretion","SM1K20",0.00327153762268266,917,0.099068728002574,6.68943602033856e-06,0.000202569554143203
+"267","Animal secretion","SM2F11",0.0632497273718648,917,0.666028045861309,0.000129329096393212,0.00136185259483183
+"268","Animal secretion","Spirochaetae",66.2529989094875,917,453.125867328491,0.135469998659883,0.926523503088683
+"269","Animal secretion","Synergistetes",4.97709923664122,917,20.7039466071931,0.0101768619989417,0.0423341383076487
+"270","Animal secretion","TA06",0.0338058887677208,917,0.409963276457645,6.91241722101651e-05,0.000838267330180662
+"271","Animal secretion","Tenericutes",2426.24863685932,917,5875.1419861418,4.96104183952355,12.0131237844281
+"272","Animal secretion","Thaumarchaeota",10.8800436205016,917,51.1800998956196,0.0222468343916393,0.104649875151227
+"273","Animal secretion","Thermotogae",0.0381679389312977,917,0.791372779223456,7.80434202372832e-05,0.00161814968538001
+"274","Animal secretion","TM6",0.689203925845147,917,4.17682615957629,0.00140924118828466,0.00854051353982312
+"275","Animal secretion","Verrucomicrobia",57.6488549618321,917,219.808046795186,0.117876781926393,0.449449780310415
+"276","Animal secretion","WCHB1-60",0.490730643402399,917,2.89615978429111,0.00100341540305078,0.00592188683613746
+"277","Animal secretion","WD272",0.430752453653217,917,2.55439786459796,0.000880775742677911,0.00522307338520099
+"278","Animal secretion","Woesearchaeota (DHVEG-6)",0.0403489640130862,917,0.301935330150941,8.25030442508423e-05,0.000617378525412862
+"279","Animal surface","Acetothermia",0.00405268490374873,987,0.100625776604338,5.76456706818702e-06,0.00014313080138245
+"280","Animal surface","Acidobacteria",135.822695035461,987,324.431332682897,0.193195141864987,0.461473373995081
+"281","Animal surface","Actinobacteria",9877.33232016211,987,15252.7957835275,14.0495858835898,21.6956823339937
+"282","Animal surface","Aenigmarchaeota",0.00202634245187437,987,0.0449920808345848,2.88228353409351e-06,6.39970473076621e-05
+"283","Animal surface","Aerophobetes",0.0729483282674772,987,1.5532298744765,0.000103762207227366,0.00220932492813574
+"284","Animal surface","Aminicenantes",0.484295845997974,987,7.6055458164379,0.000688865764648349,0.010818181030672
+"285","Animal surface","Ancient Archaeal Group(AAG)",0.00101317122593718,987,0.0318303507039615,1.44114176704675e-06,4.52757112370551e-05
+"286","Animal surface","aquifer1",5.63627152988855,987,29.1280383502407,0.0080170716500811,0.0414319234341088
+"287","Animal surface","Aquificae",0.375886524822695,987,7.71326575845396,0.000534663595574346,0.0109714026220566
+"288","Animal surface","Armatimonadetes",26.6950354609929,987,85.6433308988982,0.0379712032781479,0.121819666871452
+"289","Animal surface","Atribacteria",0.273556231003039,987,3.6801837386925,0.000389108277102624,0.00523471883178497
+"290","Animal surface","Bacteroidetes",5946.95238095238,987,10203.8746119358,8.45898624381184,14.514061900412
+"291","Animal surface","Caldiserica",0.0435663627152989,987,0.467098686537169,6.19690959830104e-05,0.000664404405956876
+"292","Animal surface","Candidate division OP3",0.205673758865248,987,1.95051567190817,0.000292551778710491,0.00277442699723927
+"293","Animal surface","Candidate division SR1",6.28571428571429,987,33.3493620304978,0.00894084352275806,0.0474363634656688
+"294","Animal surface","Chlamydiae",1.43768996960486,987,8.40499452677166,0.00204498016743934,0.0119553224116937
+"295","Animal surface","Chlorobi",5.23201621073961,987,20.3553091062527,0.00744205608502944,0.0289535326144238
+"296","Animal surface","Chloroflexi",70.8257345491388,987,215.593346137879,0.100743015225403,0.306661468331049
+"297","Animal surface","CKC4",1.26747720364742,987,14.602626469771,0.00180286835057549,0.0207708770002853
+"298","Animal surface","Cloacimonetes",0.191489361702128,987,3.47123919257771,0.000272375793971837,0.00493751466264355
+"299","Animal surface","Crenarchaeota",0.00506585612968592,987,0.0954049271319161,7.20570883523377e-06,0.000135704628943322
+"300","Animal surface","Cyanobacteria",1478.91691995947,987,5813.42113939834,2.10362166708224,8.26905048124502
+"301","Animal surface","Deferribacteres",1.46504559270517,987,16.5298778009564,0.00208389099514961,0.0235122126381965
+"302","Animal surface","Deinococcus-Thermus",108.833839918946,987,566.105540971834,0.154806007474395,0.805232441235643
+"303","Animal surface","Elusimicrobia",1.34954407294833,987,15.4268675593112,0.00191960083370628,0.0219432832331545
+"304","Animal surface","Euryarchaeota",11.3515704154002,987,46.3910641910787,0.0161465523579918,0.065986970920605
+"305","Animal surface","Fibrobacteres",2.58459979736575,987,41.4086850146428,0.00367635264773627,0.0589000002816747
+"306","Animal surface","Firmicutes",15694.8500506586,987,21418.765983345,22.3244633843779,30.4662010398552
+"307","Animal surface","Fusobacteria",527.041540020263,987,1585.33668249139,0.749667535800051,2.25499387416607
+"308","Animal surface","GAL08",0.00101317122593718,987,0.0318303507039615,1.44114176704675e-06,4.52757112370551e-05
+"309","Animal surface","Gemmatimonadetes",66.0435663627153,987,193.541812514312,0.0939408260849427,0.275295214218411
+"310","Animal surface","GOUTA4",0.00911854103343465,987,0.25659245657955,1.29702759034208e-05,0.000364978886904204
+"311","Animal surface","Gracilibacteria",4.4113475177305,987,43.6615346433398,0.00627473125372157,0.0621044691924334
+"312","Animal surface","Hyd24-12",0.0253292806484296,987,0.640396973727405,3.60285441761689e-05,0.00091090508958663
+"313","Animal surface","Hydrogenedentes",3.29078014184397,987,16.849095957453,0.00468082845936786,0.0239662707542877
+"314","Animal surface","JL-ETNP-Z39",0.2016210739615,987,3.7298311451703,0.000286787211642304,0.00530533764652137
+"315","Animal surface","Kazan-3B-09",0.0141843971631206,987,0.21076846365988,2.01759847386546e-05,0.000299798522086494
+"316","Animal surface","Latescibacteria",1.39817629179331,987,10.7566912388068,0.00198877563852452,0.0153003920982173
+"317","Animal surface","LCP-89",0.00202634245187437,987,0.0449920808345848,2.88228353409351e-06,6.39970473076621e-05
+"318","Animal surface","Lentisphaerae",3.81357649442756,987,15.3102366050831,0.00542445761116398,0.0217773865562989
+"319","Animal surface","Marine Hydrothermal Vent Group(MHVG)",0.00911854103343465,987,0.152457665891706,1.29702759034208e-05,0.000216856839592698
+"320","Animal surface","Marinimicrobia (SAR406 clade)",0.422492401215805,987,3.78354779854936,0.000600956116858496,0.00538174458622589
+"321","Animal surface","Microgenomates",0.302938196555218,987,4.69046132738797,0.000430901388346979,0.00667174466918335
+"322","Animal surface","Miscellaneous Crenarchaeotic Group",0.102330293819656,987,1.3971372644897,0.000145555318471722,0.00198729771889357
+"323","Animal surface","Nitrospirae",6.89057750759878,987,27.1992158931774,0.00980120515768497,0.0386883530158703
+"324","Animal surface","OC31",0.0101317122593718,987,0.258523430220606,1.44114176704675e-05,0.000367725517181448
+"325","Animal surface","Omnitrophica",0.506585612968592,987,5.08674321995083,0.000720570883523377,0.00723541877705036
+"326","Animal surface","Parcubacteria",0.556231003039514,987,3.8440213555439,0.000791186830108668,0.00546776259241838
+"327","Animal surface","PAUC34f",0.193515704154002,987,4.8320723740964,0.00027525807750593,0.00687317320254696
+"328","Animal surface","Planctomycetes",65.8622087132725,987,166.830467629257,0.0936828617086413,0.23730081230255
+"329","Animal surface","Proteobacteria",34830.5977710233,987,42565.2272002373,49.5432834391799,60.5450738944494
+"330","Animal surface","RsaHF231",0.200607902735562,987,3.42705493280053,0.000285346069875257,0.00487466666560135
+"331","Animal surface","Saccharibacteria",4.24620060790274,987,19.4815972156624,0.00603982514569295,0.0277107587716013
+"332","Animal surface","SHA-109",1.51975683890578,987,16.3230683570798,0.00216171265057013,0.0232180454532622
+"333","Animal surface","SM1K20",0.0060790273556231,987,0.119003323098922,8.64685060228053e-06,0.000169271150763859
+"334","Animal surface","SM2F11",0.167173252279635,987,2.06472753910147,0.000237788391562714,0.00293688274794656
+"335","Animal surface","Spirochaetae",12.6109422492401,987,41.8789015538699,0.017937891574431,0.059568839542886
+"336","Animal surface","Synergistetes",1.98986828774063,987,11.7759638771603,0.00283040243047983,0.0167502125565316
+"337","Animal surface","TA06",0.46403242147923,987,4.80232714367638,0.000660042929307414,0.00683086338083931
+"338","Animal surface","Tenericutes",1176.09422492401,987,4373.76928273282,1.67288456889671,6.22127971206635
+"339","Animal surface","Thaumarchaeota",10.081053698075,987,34.1354169354224,0.0143393605821152,0.0485544534051369
+"340","Animal surface","Thermodesulfobacteria",0.00202634245187437,987,0.063660701407923,2.88228353409351e-06,9.05514224741101e-05
+"341","Animal surface","Thermotogae",0.027355623100304,987,0.247218601019323,3.89108277102624e-05,0.000351645449850056
+"342","Animal surface","TM6",1.78419452887538,987,12.0193823115317,0.00253785065176933,0.017096452623029
+"343","Animal surface","uncultured archaeon",0.00101317122593718,1974,0.0318222831963667,1.44114176704675e-06,4.52642359583922e-05
+"344","Animal surface","Verrucomicrobia",202.626139817629,987,572.830818920442,0.288216824275214,0.814798523156072
+"345","Animal surface","WCHB1-60",0.271529888551165,987,2.98665557967278,0.00038622599356853,0.00424823957635423
+"346","Animal surface","WD272",0.691995947315096,987,10.2003443627977,0.000984299826892933,0.0145090404495944
+"347","Animal surface","Woesearchaeota (DHVEG-6)",0.380952380952381,987,5.74568908907172,0.00054186930440958,0.00817270794387863
+"348","Hypersaline (saline)","Acetothermia",238.923076923077,13,409.832173281223,0.336082079337444,0.576492027264837
+"349","Hypersaline (saline)","Acidobacteria",1489.23076923077,13,3557.85431952664,2.09483227816256,5.00466967479745
+"350","Hypersaline (saline)","Actinobacteria",3659.53846153846,13,4585.6788776833,5.14770407031538,6.4504631039964
+"351","Hypersaline (saline)","Aenigmarchaeota",16.1538461538462,13,28.5419169931003,0.0227228707858543,0.0401485990171064
+"352","Hypersaline (saline)","Aerophobetes",5.92307692307692,13,13.8712024140035,0.00833171928814656,0.0195119810536753
+"353","Hypersaline (saline)","Aminicenantes",98,13,319.327157212369,0.137852082767516,0.449182792917909
+"354","Hypersaline (saline)","Armatimonadetes",82.9230769230769,13,178.227131089546,0.116644070034052,0.250703890065031
+"355","Hypersaline (saline)","Atribacteria",6.30769230769231,13,18.1814219071035,0.00887274002114309,0.0255749681384608
+"356","Hypersaline (saline)","Bacteroidetes",8816.46153846154,13,5917.76950682412,12.4017100583329,8.3242535903449
+"357","Hypersaline (saline)","Caldiserica",0.0769230769230769,13,0.277350098112615,0.000108204146599306,0.00039013559878162
+"358","Hypersaline (saline)","Candidate division OP3",28,13,45.8566607302945,0.0393863093621474,0.0645044509228005
+"359","Hypersaline (saline)","Candidate division SR1",2.61538461538462,13,3.81965228649724,0.0036789409843764,0.00537292880756478
+"360","Hypersaline (saline)","Chlamydiae",1.15384615384615,13,2.44425018653144,0.00162306219898959,0.00343821407161477
+"361","Hypersaline (saline)","Chlorobi",35.5384615384615,13,67.6062316957732,0.0499903157288794,0.0950985698706691
+"362","Hypersaline (saline)","Chloroflexi",1449.84615384615,13,2569.74605898955,2.03943175510372,3.61474333076862
+"363","Hypersaline (saline)","Cloacimonetes",2,13,6.6206746886804,0.00281330781158196,0.00931299790980375
+"364","Hypersaline (saline)","Crenarchaeota",0.0769230769230769,13,0.277350098112615,0.000108204146599306,0.00039013559878162
+"365","Hypersaline (saline)","Cyanobacteria",626.846153846154,13,1253.28720080128,0.881755590637744,1.76294133608496
+"366","Hypersaline (saline)","Deferribacteres",30.3076923076923,13,46.2968404526425,0.0426324337601265,0.0651236314484913
+"367","Hypersaline (saline)","Deinococcus-Thermus",338.461538461538,13,413.306910859355,0.476098245036946,0.581379780450715
+"368","Hypersaline (saline)","Elusimicrobia",8.23076923076923,13,27.5987736628334,0.0115778436861257,0.0388219227678658
+"369","Hypersaline (saline)","Euryarchaeota",23421,13,23499.5634321151,32.9452411275305,33.0557526861675
+"370","Hypersaline (saline)","Fibrobacteres",25.3846153846154,13,61.8243997969767,0.035707368377771,0.0869655334476002
+"371","Hypersaline (saline)","Firmicutes",510.076923076923,13,785.928692857317,0.717501696099998,1.10552966548094
+"372","Hypersaline (saline)","Fusobacteria",5.92307692307692,13,8.67430629754275,0.00833171928814656,0.0122017468334658
+"373","Hypersaline (saline)","GAL08",0.0769230769230769,13,0.277350098112615,0.000108204146599306,0.00039013559878162
+"374","Hypersaline (saline)","Gemmatimonadetes",373.846153846154,13,725.389303081898,0.525872152472627,1.02037169639915
+"375","Hypersaline (saline)","Gracilibacteria",9.15384615384615,13,19.3900582509274,0.0128762934453174,0.0272751011721816
+"376","Hypersaline (saline)","Hyd24-12",39.0769230769231,13,100.181885869703,0.0549677064724474,0.140921241048124
+"377","Hypersaline (saline)","Hydrogenedentes",12.6923076923077,13,23.0122598317528,0.0178536841888855,0.0323702851734119
+"378","Hypersaline (saline)","JL-ETNP-Z39",2.07692307692308,13,6.03409118345558,0.00292151195818126,0.0084878779311067
+"379","Hypersaline (saline)","Kazan-3B-09",0.384615384615385,13,1.38675049056307,0.00054102073299653,0.0019506779939081
+"380","Hypersaline (saline)","Latescibacteria",104.461538461538,13,192.172498632789,0.146941231081858,0.270320195787424
+"381","Hypersaline (saline)","LCP-89",6.15384615384615,13,12.0128136715631,0.00865633172794448,0.0168978712706434
+"382","Hypersaline (saline)","LD1-PA38",0.461538461538462,13,1.66410058867569,0.000649224879595836,0.00234081359268972
+"383","Hypersaline (saline)","Lentisphaerae",243.076923076923,13,403.559673724234,0.341925103253807,0.567668791263926
+"384","Hypersaline (saline)","Marinimicrobia (SAR406 clade)",123.923076923077,13,244.069819771058,0.174316880171482,0.343321765266659
+"385","Hypersaline (saline)","Microgenomates",2.23076923076923,13,4.24566143558822,0.00313792025137987,0.0059721762410363
+"386","Hypersaline (saline)","Miscellaneous Crenarchaeotic Group",21.4615384615385,13,40.9544775423791,0.0301889569012064,0.0576087757946164
+"387","Hypersaline (saline)","Nanohaloarchaeota",135.461538461538,13,233.252944027371,0.190547502161378,0.328106164753346
+"388","Hypersaline (saline)","Nitrospirae",127,13,316.249901185755,0.178645046035454,0.444854158708953
+"389","Hypersaline (saline)","Omnitrophica",23.5384615384615,13,35.0823207722812,0.0331104688593876,0.0493486835385412
+"390","Hypersaline (saline)","Parcubacteria",30.7692307692308,13,39.4105608649802,0.0432816586397224,0.0554370193701374
+"391","Hypersaline (saline)","PAUC34f",11.3076923076923,13,25.3324055160731,0.015906009550098,0.0356339271622651
+"392","Hypersaline (saline)","Planctomycetes",974.923076923077,13,1604.48623456952,1.3713793539996,2.25695682864507
+"393","Hypersaline (saline)","Proteobacteria",25654.6923076923,13,27095.6513989011,36.0872731364811,38.114203870215
+"394","Hypersaline (saline)","Saccharibacteria",0.0769230769230769,13,0.277350098112615,0.000108204146599306,0.00039013559878162
+"395","Hypersaline (saline)","SHA-109",1.07692307692308,13,1.55250005161237,0.00151485805239028,0.00218383026134123
+"396","Hypersaline (saline)","Spirochaetae",455.384615384615,13,738.515801959301,0.640568547867891,1.03883613731441
+"397","Hypersaline (saline)","TA06",81,13,188.867237321176,0.113938966369069,0.265670837053783
+"398","Hypersaline (saline)","Tenericutes",1038,13,1989.4765643254,1.46010675421103,2.79850497968794
+"399","Hypersaline (saline)","Thaumarchaeota",435.230769230769,13,628.327562375729,0.612219061458873,0.883839419731943
+"400","Hypersaline (saline)","Thermotogae",0.923076923076923,13,1.97743682838578,0.00129844975919167,0.00278156923810378
+"401","Hypersaline (saline)","TM6",4.53846153846154,13,8.55974478411773,0.00638404464935905,0.0120405984331532
+"402","Hypersaline (saline)","Verrucomicrobia",207.769230769231,13,365.671563438685,0.292259399964725,0.51437333294772
+"403","Hypersaline (saline)","WD272",0.153846153846154,13,0.554700196225229,0.000216408293198612,0.00078027119756324
+"404","Hypersaline (saline)","Woesearchaeota (DHVEG-6)",70.7692307692308,13,127.712015779092,0.0995478148713615,0.179646605812098
+"405","Plant corpus","Acetothermia",0.0894308943089431,123,0.991836598134176,6.89510699388254e-05,0.000764704358312532
+"406","Plant corpus","Acidobacteria",94.6991869918699,123,601.457981784092,0.0730129147861307,0.463723098015721
+"407","Plant corpus","Actinobacteria",3283.92682926829,123,9842.84101261014,2.53190209299092,7.58881395854892
+"408","Plant corpus","Aerophobetes",1.13821138211382,123,11.3305948820519,0.000877559071948686,0.00873586970361686
+"409","Plant corpus","Aminicenantes",1.77235772357724,123,9.66386967950522,0.00136648484060581,0.00745082736005498
+"410","Plant corpus","aquifer1",0.0731707317073171,123,0.811502671200689,5.64145117681298e-05,0.000625667202255708
+"411","Plant corpus","Aquificae",0.00813008130081301,123,0.0901669634667432,6.26827908534776e-06,6.9518578028412e-05
+"412","Plant corpus","Armatimonadetes",12.1463414634146,123,43.3121879123105,0.00936480895350955,0.0333936244406607
+"413","Plant corpus","Atribacteria",2.36585365853659,123,16.5832565631936,0.0018240692138362,0.0127856630746888
+"414","Plant corpus","Bacteroidetes",1305.71544715447,123,3687.05141315985,1.00670442594411,2.84271047294455
+"415","Plant corpus","Candidate division OP3",0.170731707317073,123,1.16441300960494,0.000131633860792303,0.000897760482922056
+"416","Plant corpus","Candidate division SR1",0.121951219512195,123,0.928469266011982,9.40241862802164e-05,0.000715848251228324
+"417","Plant corpus","Chlamydiae",0.390243902439024,123,2.13339622391639,0.000300877396096692,0.0016448449205296
+"418","Plant corpus","Chlorobi",1.13008130081301,123,4.30394281604993,0.000871290792863339,0.00331833271282056
+"419","Plant corpus","Chloroflexi",32.0650406504065,123,168.009549876766,0.0247220927126116,0.12953508195864
+"420","Plant corpus","Cyanobacteria",100493.699186992,123,61857.6889343113,77.4804739972352,47.6921747112316
+"421","Plant corpus","Deferribacteres",0.276422764227642,123,2.64977825551724,0.000213121488901824,0.00204297460324376
+"422","Plant corpus","Deinococcus-Thermus",15.1951219512195,123,76.6185632748662,0.011715413610515,0.0590727841402043
+"423","Plant corpus","Elusimicrobia",0.0650406504065041,123,0.636844647375933,5.01462326827821e-05,0.000491006158002755
+"424","Plant corpus","Euryarchaeota",2.38211382113821,123,10.9675529835034,0.00183660577200689,0.00845596500702437
+"425","Plant corpus","Fibrobacteres",0.577235772357724,123,3.63500316837822,0.000445047815059691,0.00280258136326872
+"426","Plant corpus","Firmicutes",1441.66666666667,123,4929.5043771531,1.11152258880929,3.800639630178
+"427","Plant corpus","Fusobacteria",104.268292682927,123,393.280675503018,0.080390679269585,0.303218743050022
+"428","Plant corpus","Gemmatimonadetes",14.5284552845528,123,89.2178513714156,0.0112014147255164,0.0687868141903064
+"429","Plant corpus","Gracilibacteria",0.121951219512195,123,0.971608146859413,9.40241862802164e-05,0.000749108256211819
+"430","Plant corpus","Hydrogenedentes",0.991869918699187,123,6.30702956109923,0.000764730048412427,0.00486270924308653
+"431","Plant corpus","JL-ETNP-Z39",0.170731707317073,123,1.80485373401822,0.000131633860792303,0.00139153921030616
+"432","Plant corpus","Latescibacteria",0.113821138211382,123,1.00981455879586,8.77559071948686e-05,0.000778565335914509
+"433","Plant corpus","Lentisphaerae",0.203252032520325,123,1.43126305330719,0.000156706977133694,0.0011035014203092
+"434","Plant corpus","Marinimicrobia (SAR406 clade)",0.0894308943089431,123,0.724377970368889,6.89510699388254e-05,0.000558494203630646
+"435","Plant corpus","Microgenomates",0.0894308943089431,123,0.991836598134176,6.89510699388254e-05,0.000764704358312532
+"436","Plant corpus","Miscellaneous Crenarchaeotic Group",0.0650406504065041,123,0.523854525519987,5.01462326827821e-05,0.00040389096302805
+"437","Plant corpus","Nitrospirae",3.47154471544715,123,22.8424128104745,0.00267655516944349,0.0176114620728896
+"438","Plant corpus","Omnitrophica",0.32520325203252,123,3.60667853866973,0.00025073116341391,0.00278074312113648
+"439","Plant corpus","Parcubacteria",0.016260162601626,123,0.180333926933486,1.25365581706955e-05,0.000139037156056824
+"440","Plant corpus","Planctomycetes",29.650406504065,123,108.396810773652,0.0228604138242633,0.0835737598125786
+"441","Plant corpus","Proteobacteria",22764.0650406504,123,20512.7769022538,17.551056073392,15.8153166839727
+"442","Plant corpus","Saccharibacteria",2,123,8.48817885814554,0.00154199665499555,0.00654437170313218
+"443","Plant corpus","SHA-109",0.227642276422764,123,1.40148052939155,0.000175511814389737,0.00108053914418158
+"444","Plant corpus","SM2F11",0.00813008130081301,123,0.0901669634667432,6.26827908534776e-06,6.9518578028412e-05
+"445","Plant corpus","Spirochaetae",1.68292682926829,123,6.51771491835116,0.00129753377066699,0.00502514730115604
+"446","Plant corpus","Synergistetes",0.333333333333333,123,2.81875064368185,0.000256999442499258,0.00217325203191198
+"447","Plant corpus","TA06",0.0487804878048781,123,0.401914649951531,3.76096745120866e-05,0.000309875522909484
+"448","Plant corpus","Tenericutes",26.3170731707317,123,121.501826004842,0.0202904193992707,0.0936777046376591
+"449","Plant corpus","Thaumarchaeota",30.5934959349593,123,202.379364487749,0.0235875341981636,0.156034151540117
+"450","Plant corpus","Thermotogae",0.00813008130081301,123,0.0901669634667432,6.26827908534776e-06,6.9518578028412e-05
+"451","Plant corpus","TM6",0.300813008130081,123,1.47066929867286,0.000231926326157867,0.0011338835695791
+"452","Plant corpus","Verrucomicrobia",32.3008130081301,123,104.238215118722,0.0249038728060867,0.0803674895178876
+"453","Plant corpus","WCHB1-60",0.276422764227642,123,1.73819584725426,0.000213121488901824,0.00134014609109661
+"454","Plant corpus","WD272",0.00813008130081301,123,0.0901669634667432,6.26827908534776e-06,6.9518578028412e-05
+"455","Plant corpus","Woesearchaeota (DHVEG-6)",0.016260162601626,123,0.180333926933486,1.25365581706955e-05,0.000139037156056824
+"456","Plant rhizosphere","Acidobacteria",15054.4601449275,552,13168.8522655222,14.0761396256584,12.3130687792625
+"457","Plant rhizosphere","Actinobacteria",4531.70471014493,552,5550.87290610438,4.23720994497084,5.19014706063283
+"458","Plant rhizosphere","Aenigmarchaeota",3.63949275362319,552,5.39194449535265,0.00340297876332906,0.00504154668050036
+"459","Plant rhizosphere","Aerophobetes",3.50905797101449,552,4.591864246664,0.00328102034075082,0.0042934599883271
+"460","Plant rhizosphere","Aminicenantes",26.5344202898551,552,31.6620467038726,0.0248100696597714,0.0296044750822896
+"461","Plant rhizosphere","aquifer1",0.00543478260869565,552,0.0735870615670968,5.08160094076017e-06,6.8804974956833e-05
+"462","Plant rhizosphere","Armatimonadetes",455.619565217391,552,248.622565087305,0.426010933267688,0.232465721558101
+"463","Plant rhizosphere","Atribacteria",0.00181159420289855,552,0.0425628265379374,1.69386698025339e-06,3.97968630852934e-05
+"464","Plant rhizosphere","Bacteroidetes",10383.1123188406,552,7540.03511464047,9.70836133224874,7.0500427138736
+"465","Plant rhizosphere","Caldiserica",2.67028985507246,552,5.35728768252095,0.0024967599288935,0.00500914205544553
+"466","Plant rhizosphere","Candidate division OP3",68.5090579710145,552,68.4134430638558,0.0640569675922425,0.0639675662606435
+"467","Plant rhizosphere","Candidate division SR1",4.08876811594203,552,6.19505252549824,0.0038230577744319,0.00579246439246002
+"468","Plant rhizosphere","Candidate division WS6",0.00181159420289855,552,0.0425628265379374,1.69386698025339e-06,3.97968630852934e-05
+"469","Plant rhizosphere","Chlamydiae",48.4130434782609,552,63.5715271745807,0.0452669011802916,0.0594403043424474
+"470","Plant rhizosphere","Chlorobi",1307.37862318841,552,1249.56334287397,1.2224180652404,1.16835993559855
+"471","Plant rhizosphere","Chloroflexi",4735.88405797101,552,3490.56691441265,4.42812061071425,3.26373093335607
+"472","Plant rhizosphere","CKC4",0.0036231884057971,552,0.0851256530758749,3.38773396050678e-06,7.95937261705869e-05
+"473","Plant rhizosphere","Cloacimonetes",1.05434782608696,552,2.85790830228655,0.000985830582507473,0.00267218591122104
+"474","Plant rhizosphere","Cyanobacteria",4226.21920289855,552,4549.15044590186,3.95157654382467,4.25352196214202
+"475","Plant rhizosphere","Deferribacteres",2.93478260869565,552,9.00893407887924,0.00274406450801049,0.00842348465184815
+"476","Plant rhizosphere","Deinococcus-Thermus",42.9782608695652,552,47.6643919859954,0.0401853002395314,0.0445669011248504
+"477","Plant rhizosphere","Diapherotrites",0.0398550724637681,552,0.237665553745212,3.72650735655746e-05,0.000222220756275624
+"478","Plant rhizosphere","Dictyoglomi",0.0307971014492754,552,0.192775361191959,2.87957386643076e-05,0.000180247772049073
+"479","Plant rhizosphere","Elusimicrobia",250.75,552,200.836370539296,0.234454904204793,0.187784933262728
+"480","Plant rhizosphere","Euryarchaeota",905.755434782609,552,994.195827281081,0.846894531186149,0.929587587022894
+"481","Plant rhizosphere","Fibrobacteres",176.032608695652,552,147.151744666302,0.164593054471222,0.137589025720064
+"482","Plant rhizosphere","Firmicutes",2173.21920289855,552,3244.09896564028,2.03199162525063,3.03327980945188
+"483","Plant rhizosphere","Fusobacteria",5.10688405797101,552,18.0793117491316,0.00477501101733431,0.0169044199570537
+"484","Plant rhizosphere","GAL08",1.35507246376812,552,2.13194772066969,0.00126701250122954,0.00199340218791321
+"485","Plant rhizosphere","Gemmatimonadetes",1556.21557971014,552,2366.93604518738,1.45508424591405,2.21311969584558
+"486","Plant rhizosphere","GOUTA4",47.4673913043478,552,55.3815574182893,0.0443827026165993,0.0517825632670678
+"487","Plant rhizosphere","Gracilibacteria",15.0054347826087,552,40.0145387302224,0.0140303001974388,0.0374141768486272
+"488","Plant rhizosphere","Hydrogenedentes",36.4275362318841,552,24.2720179553497,0.0340602772389352,0.0226946905067937
+"489","Plant rhizosphere","JL-ETNP-Z39",1.95108695652174,552,12.6756035125046,0.0018242947377329,0.0118518740070277
+"490","Plant rhizosphere","Kazan-3B-09",0.454710144927536,552,0.894495927790268,0.000425160612043601,0.000836366728062391
+"491","Plant rhizosphere","Latescibacteria",377.280797101449,552,290.451983581961,0.352763043440591,0.271576837434898
+"492","Plant rhizosphere","Lentisphaerae",42.3840579710145,552,42.5110763768568,0.0396297118700083,0.0397484759305228
+"493","Plant rhizosphere","Marine Hydrothermal Vent Group(MHVG)",0.130434782608696,552,0.515826993838054,0.000121958422578244,0.000482305756436878
+"494","Plant rhizosphere","Marinimicrobia (SAR406 clade)",0.822463768115942,552,2.16665098619103,0.000769015609035039,0.00202585024690982
+"495","Plant rhizosphere","Microgenomates",21.1684782608696,552,20.8885788191736,0.0197928356642609,0.0195311256072726
+"496","Plant rhizosphere","Miscellaneous Crenarchaeotic Group",166.201086956522,552,204.881607525577,0.155400438369387,0.191567288796543
+"497","Plant rhizosphere","Miscellaneous Euryarchaeotic Group(MEG)",0.23731884057971,552,0.705064942606212,0.000221896574413194,0.000659245996318633
+"498","Plant rhizosphere","Nitrospirae",1628.23550724638,552,1534.35230894229,1.52242392771402,1.43464176913048
+"499","Plant rhizosphere","OC31",0.0471014492753623,552,0.46818055818393,4.40405414865881e-05,0.000437755644744007
+"500","Plant rhizosphere","Omnitrophica",55.7445652173913,552,56.9664941751974,0.0521219808493771,0.0532645022322185
+"501","Plant rhizosphere","Parcubacteria",54.1684782608696,552,58.1784808060169,0.0506483165765566,0.054397727394437
+"502","Plant rhizosphere","Parvarchaeota",6.71739130434783,552,11.7841994125942,0.00628085876277957,0.0110183981830906
+"503","Plant rhizosphere","PAUC34f",1.9981884057971,552,2.22793605642462,0.00186833527921949,0.00208315268069167
+"504","Plant rhizosphere","Planctomycetes",2598.51811594203,552,1945.30540285556,2.42965230686982,1.81888890079986
+"505","Plant rhizosphere","Proteobacteria",48525.3315217391,552,40482.1578450767,45.3718921373286,37.851407535676
+"506","Plant rhizosphere","Saccharibacteria",7.38405797101449,552,13.2110180402218,0.00690420181151282,0.0123524943930927
+"507","Plant rhizosphere","SHA-109",4.30253623188406,552,5.80919798377158,0.0040229340781018,0.00543168477284882
+"508","Plant rhizosphere","SM1K20",7.10507246376812,552,10.2475623055964,0.0066433462965538,0.00958162009448157
+"509","Plant rhizosphere","SM2F11",25.713768115942,552,24.5714180143251,0.0240427479177166,0.0229746339251226
+"510","Plant rhizosphere","Spirochaetae",565.751811594203,552,649.435570934685,0.528986188598232,0.607231723113366
+"511","Plant rhizosphere","Synergistetes",0.22463768115942,552,0.535737237405681,0.00021003950555142,0.000500922124326577
+"512","Plant rhizosphere","TA06",44.8025362318841,552,48.5860599392059,0.0418910242886466,0.0454286740926614
+"513","Plant rhizosphere","Tenericutes",2.60144927536232,552,5.11542254413502,0.00243239298364387,0.00478299462632987
+"514","Plant rhizosphere","Thaumarchaeota",542.538043478261,552,1205.83716820598,0.507280977113265,1.12747532505807
+"515","Plant rhizosphere","Thermotogae",2.73369565217391,552,5.29901769153737,0.00255604527320237,0.00495465876470148
+"516","Plant rhizosphere","TM6",28.3442028985507,552,63.8342141737641,0.0265022427730445,0.0596859205148478
+"517","Plant rhizosphere","Verrucomicrobia",6071.34239130435,552,3838.62505544788,5.67679361414859,3.58917036751007
+"518","Plant rhizosphere","WCHB1-60",24.8079710144928,552,32.1575535217983,0.0231958144275899,0.0300677811781205
+"519","Plant rhizosphere","WD272",0.91304347826087,552,4.26223574140938,0.000853708958047709,0.00398525253220491
+"520","Plant rhizosphere","Woesearchaeota (DHVEG-6)",74.1195652173913,552,84.9034479781387,0.0693028736300872,0.0793859611659865
+"521","Plant surface","Acidobacteria",300.065057712487,953,1581.65748875331,0.359779230510253,1.89641379297049
+"522","Plant surface","Actinobacteria",3280.55613850997,953,6331.9236237118,3.93340021712794,7.5920023022858
+"523","Plant surface","Aerophobetes",0.185729275970619,953,1.01776547037219,0.000222690160931574,0.00122030495840428
+"524","Plant surface","Aminicenantes",0.00524658971668416,953,0.0722810156408738,6.29068251219136e-06,8.66652331531735e-05
+"525","Plant surface","aquifer1",0.00419727177334732,953,0.102403935886205,5.03254600975309e-06,0.000122782737634389
+"526","Plant surface","Armatimonadetes",4.24134312696747,953,36.6485765467091,0.00508538774285549,0.0439417930557744
+"527","Plant surface","Atribacteria",0.0314795383001049,953,0.939926475451803,3.77440950731481e-05,0.00112697568538048
+"528","Plant surface","Bacteroidetes",13693.6054564533,953,15776.3412420285,16.4186889056385,18.915897624317
+"529","Plant surface","Candidate division OP3",0.245540398740818,953,3.65740637235985,0.000294403941570556,0.0043852451876344
+"530","Plant surface","Candidate division SR1",0.282266526757608,953,2.03309547498426,0.000338438719155895,0.00243768978340884
+"531","Plant surface","Chlamydiae",1.2507869884575,953,6.39746715815427,0.00149969871090642,0.0076705892679472
+"532","Plant surface","Chlorobi",4.92130115424974,953,60.080103195533,0.00590066019643549,0.0720362892682321
+"533","Plant surface","Chloroflexi",95.6621196222455,953,538.439541563035,0.114699272381287,0.645591210841544
+"534","Plant surface","CKC4",0.00419727177334732,953,0.0792772692057252,5.03254600975309e-06,9.5053769769885e-05
+"535","Plant surface","Cloacimonetes",0.012591815320042,953,0.144394193097117,1.50976380292593e-05,0.00017312922763705
+"536","Plant surface","Cyanobacteria",6553.53095487933,953,11643.7109570894,7.85771039802576,13.9608570233438
+"537","Plant surface","Deferribacteres",0.10598111227702,953,0.656493028357145,0.000127071786746265,0.000787137823971466
+"538","Plant surface","Deinococcus-Thermus",66.6862539349423,953,233.339334333931,0.079957091002957,0.279774815483098
+"539","Plant surface","Elusimicrobia",2.398740818468,953,15.6843361916959,0.00287610004457389,0.0188055831929598
+"540","Plant surface","Euryarchaeota",2.20776495278069,953,5.97516415682425,0.00264711920113012,0.00716424624347461
+"541","Plant surface","Fibrobacteres",0.860440713536201,953,16.3746331864394,0.00103167193199938,0.0196332521107793
+"542","Plant surface","Firmicutes",222.504721930745,953,1027.65458989032,0.266784070932528,1.2321620531216
+"543","Plant surface","Fusobacteria",37.7670514165792,953,129.101143843972,0.0452828489957583,0.154792799082533
+"544","Plant surface","Gemmatimonadetes",57.0262329485834,953,336.432336061925,0.0683746863615103,0.403383745877884
+"545","Plant surface","Gracilibacteria",23.9632738719832,953,51.7515448008125,0.0287320633061828,0.0620503137156126
+"546","Plant surface","Hyd24-12",0.00104931794333683,953,0.0323931774195868,1.25813650243827e-06,3.88395521112889e-05
+"547","Plant surface","Hydrogenedentes",0.240293809024134,953,5.10128224918544,0.000288113259058364,0.0061164582648144
+"548","Plant surface","JL-ETNP-Z39",0.0104931794333683,953,0.101950866635025,1.25813650243827e-05,0.00012223950575061
+"549","Plant surface","Latescibacteria",8.56873032528856,953,59.7483144532453,0.0102739426789109,0.071638473210267
+"550","Plant surface","Lentisphaerae",3.40188877229801,953,10.7684313656099,0.00407887854090488,0.0129113932160465
+"551","Plant surface","Marinimicrobia (SAR406 clade)",0.911857292759706,953,3.48384567475306,0.00109332062061886,0.0041771452018919
+"552","Plant surface","Microgenomates",0.0304302203567681,953,0.336999743799702,3.64859585707099e-05,0.000404064070074373
+"553","Plant surface","Miscellaneous Crenarchaeotic Group",0.00734522560335782,953,0.107240910276583,8.8069555170679e-06,0.000128582289696314
+"554","Plant surface","Nitrospirae",11.7628541448059,953,67.7737090289648,0.014103710192333,0.0812609541049272
+"555","Plant surface","Omnitrophica",0.338929695697796,953,2.44208671195508,0.000406378090287562,0.00292807194801193
+"556","Plant surface","Parcubacteria",1.81427072402938,953,9.19353798438495,0.00217531801271577,0.0110230896156462
+"557","Plant surface","PAUC34f",0.227701993704092,953,1.12812994446702,0.000273015621029105,0.00135263241388412
+"558","Plant surface","Planctomycetes",6198.23714585519,953,6476.0716890283,7.43171166898268,7.76483642170802
+"559","Plant surface","Proteobacteria",48526.8205666317,953,35237.778582256,58.1838561799505,42.2502405307126
+"560","Plant surface","RsaHF231",0.00104931794333683,953,0.0323931774195868,1.25813650243827e-06,3.88395521112889e-05
+"561","Plant surface","Saccharibacteria",0.102833158447009,953,0.619977593855258,0.000123297377238951,0.000743355668771562
+"562","Plant surface","SHA-109",5.77964323189927,953,27.3167639659251,0.00692981585543,0.0327529116339418
+"563","Plant surface","SM2F11",0.182581322140609,953,1.28101475087592,0.000218915751424259,0.00153594192158164
+"564","Plant surface","Spirochaetae",0.762854144805876,953,4.45547593359906,0.000914665237272623,0.00534213385312979
+"565","Plant surface","Synergistetes",0.00839454354669465,953,0.111957579618628,1.00650920195062e-05,0.000134237595513622
+"566","Plant surface","TA06",0.00524658971668416,953,0.0722810156408738,6.29068251219136e-06,8.66652331531735e-05
+"567","Plant surface","Tenericutes",0.876180482686254,953,13.7084509486947,0.00105054397953596,0.0164364887115069
+"568","Plant surface","Thaumarchaeota",13.2707240293809,953,94.7987483141693,0.0159116523463368,0.113664086654458
+"569","Plant surface","Thermotogae",0.0524658971668416,953,0.468970696103992,6.29068251219136e-05,0.000562297781229229
+"570","Plant surface","TM6",0.814270724029381,953,5.12348829089788,0.000976313925892099,0.00614308339957979
+"571","Plant surface","uncultured archaeon",0.000524658971668416,1906,0.0229054354175688,6.29068251219136e-07,2.74637106761407e-05
+"572","Plant surface","Verrucomicrobia",4279.76600209864,953,7051.89121981258,5.13145692716528,8.45524639239127
+"573","Plant surface","WCHB1-60",0.292759706190976,953,2.09574399706449,0.000351020084180278,0.0025128056174165
+"574","Plant surface","WD272",0.0766002098635887,953,0.626287065257777,9.18439646779938e-05,0.000750920750768879
+"575","Plant surface","Woesearchaeota (DHVEG-6)",0.0608604407135362,953,0.392243726803925,7.29719171414198e-05,0.000470301831468855
+"576","Sediment (non-saline)","Acetothermia",1.90625,544,6.5184564078521,0.00307668325949343,0.0105207741417843
+"577","Sediment (non-saline)","Acidobacteria",5513.42830882353,544,4427.02810057971,8.89866102566532,7.14521350628752
+"578","Sediment (non-saline)","Actinobacteria",2576.78308823529,544,4477.04308421403,4.15892217228554,7.22593757861358
+"579","Sediment (non-saline)","Aenigmarchaeota",283.740808823529,544,353.312346367694,0.457957034251792,0.570245341084238
+"580","Sediment (non-saline)","Aerophobetes",1.90257352941176,544,3.39695356884831,0.00307074944414243,0.00548267550350272
+"581","Sediment (non-saline)","Aminicenantes",1133.87132352941,544,1224.30860331694,1.83006579384792,1.97603136224473
+"582","Sediment (non-saline)","Ancient Archaeal Group(AAG)",0.0625,544,1.45773797371133,0.000100874860966998,0.00235278584679109
+"583","Sediment (non-saline)","aquifer1",0.0330882352941176,544,0.491931982161277,5.34043381589988e-05,0.000793977124891815
+"584","Sediment (non-saline)","Aquificae",0.0220588235294118,544,0.432848490877118,3.56028921059992e-05,0.000698616501392065
+"585","Sediment (non-saline)","Armatimonadetes",145.726102941176,544,125.11210582003,0.235201605975257,0.201930660478141
+"586","Sediment (non-saline)","Atribacteria",209.034926470588,544,620.778012915512,0.337381906319475,1.00193433190754
+"587","Sediment (non-saline)","Bacteroidetes",3768.02389705882,544,3870.92641099701,6.08158218777814,6.24766661636485
+"588","Sediment (non-saline)","Caldiserica",10.1709558823529,544,17.6579481476831,0.0164159001685411,0.0284998890297597
+"589","Sediment (non-saline)","Candidate division OP3",574.766544117647,544,528.48645093644,0.92767192362159,0.852975956178487
+"590","Sediment (non-saline)","Candidate division SR1",4.39338235294118,544,15.1355943932251,0.00709090934444484,0.0244288156811112
+"591","Sediment (non-saline)","Chlamydiae",7.99816176470588,544,20.7965235691714,0.0129090152961002,0.0335655427781929
+"592","Sediment (non-saline)","Chlorobi",942.931985294118,544,766.176393582909,1.52189012668607,1.23660699486195
+"593","Sediment (non-saline)","Chloroflexi",4978.57720588235,544,3586.64442169227,8.03541253530954,5.78883611802025
+"594","Sediment (non-saline)","CKC4",0.154411764705882,544,3.55877495935793,0.000249220244741994,0.00574385486780903
+"595","Sediment (non-saline)","Cloacimonetes",1.28860294117647,544,5.93235181396318,0.00207980228052545,0.00957480263105364
+"596","Sediment (non-saline)","Crenarchaeota",119.959558823529,544,173.833163969276,0.193614461087775,0.280566339949665
+"597","Sediment (non-saline)","Cyanobacteria",1055.55147058824,544,2383.9398092067,1.70365772542557,3.84767354891867
+"598","Sediment (non-saline)","Deferribacteres",66.5036764705882,544,362.52843412366,0.107336785884237,0.585120086220921
+"599","Sediment (non-saline)","Deinococcus-Thermus",93.4650735294118,544,99.4355278170724,0.150852420760794,0.160488720699635
+"600","Sediment (non-saline)","Diapherotrites",0.237132352941176,544,0.648571069202036,0.000382731090139491,0.00104679226292756
+"601","Sediment (non-saline)","Dictyoglomi",0.03125,544,0.339180981910648,5.04374304834988e-05,0.000547437350286181
+"602","Sediment (non-saline)","Elusimicrobia",121.409926470588,544,92.1880493287332,0.195955351243744,0.148791306541675
+"603","Sediment (non-saline)","Euryarchaeota",2604.44301470588,544,2593.55572821312,4.20356523207879,4.18599317589854
+"604","Sediment (non-saline)","Fibrobacteres",84.4503676470588,544,85.2357218961475,0.136302705520142,0.137570265531129
+"605","Sediment (non-saline)","Firmicutes",590.0625,544,2563.49693534496,0.952359562389425,4.13747835107597
+"606","Sediment (non-saline)","Fusobacteria",2.38786764705882,544,8.88178552122632,0.00385401307047441,0.0143351820734784
+"607","Sediment (non-saline)","GAL08",1.21507352941176,544,2.91115730028386,0.00196112597350546,0.00469860140670711
+"608","Sediment (non-saline)","Gemmatimonadetes",933.369485294118,544,1378.20733961331,1.50645627295812,2.22442358027502
+"609","Sediment (non-saline)","GOUTA4",33.9834558823529,544,33.4150430692575,0.0548492221969672,0.0539318051810814
+"610","Sediment (non-saline)","Gracilibacteria",9.43382352941176,544,15.7858375139453,0.0152261701906657,0.0254783066314696
+"611","Sediment (non-saline)","Hyd24-12",0.538602941176471,544,5.08694015172651,0.00086930394892148,0.0082103100888456
+"612","Sediment (non-saline)","Hydrogenedentes",35.1801470588235,544,33.0613121366852,0.0567806790937177,0.0533608842427941
+"613","Sediment (non-saline)","JL-ETNP-Z39",1.31433823529412,544,7.32352200209847,0.00212133898798245,0.0118201482200069
+"614","Sediment (non-saline)","Kazan-3B-09",9.98897058823529,544,13.6762038651519,0.0161221763086666,0.0220733626152562
+"615","Sediment (non-saline)","Latescibacteria",370.810661764706,544,252.994717107444,0.598487583209522,0.408332910617574
+"616","Sediment (non-saline)","LCP-89",2.18382352941176,544,4.49997291726224,0.00352468631849392,0.00726294627814533
+"617","Sediment (non-saline)","LD1-PA38",0.128676470588235,544,0.783100330213284,0.000207683537284995,0.0012639221909356
+"618","Sediment (non-saline)","Lentisphaerae",129.689338235294,544,122.578891784693,0.209318303414196,0.197842058660313
+"619","Sediment (non-saline)","Marine Hydrothermal Vent Group(MHVG)",0.529411764705882,544,1.48257491636132,0.00085446941054398,0.0023928726169777
+"620","Sediment (non-saline)","Marinimicrobia (SAR406 clade)",2.63970588235294,544,16.4412779696754,0.0042604794220179,0.0265361860689723
+"621","Sediment (non-saline)","Microgenomates",7.375,544,8.61938156075429,0.0119032335941057,0.0139116626650015
+"622","Sediment (non-saline)","Miscellaneous Crenarchaeotic Group",3493.1875,544,5555.45595028957,5.63799685430647,8.96649354549984
+"623","Sediment (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",5.90257352941176,544,8.29429194180831,0.00952674054603028,0.0133869687431936
+"624","Sediment (non-saline)","Nitrospirae",1895.57720588235,544,1699.54378276487,3.05945739352948,2.7430598846997
+"625","Sediment (non-saline)","OC31",6.20588235294118,544,21.6919221488746,0.0100162803124878,0.0350107140939946
+"626","Sediment (non-saline)","Omnitrophica",55.4044117647059,544,68.5595146739218,0.0894225973395679,0.110654904171147
+"627","Sediment (non-saline)","Parcubacteria",37.6764705882353,544,35.4326861309183,0.0608097397170466,0.0571882765942985
+"628","Sediment (non-saline)","Parvarchaeota",1.10110294117647,544,2.9186134533892,0.00177717769762446,0.00471063562123271
+"629","Sediment (non-saline)","PAUC34f",16.3180147058824,544,17.779288520272,0.0263372394354129,0.0286957321211932
+"630","Sediment (non-saline)","Planctomycetes",1524.06617647059,544,917.916196034398,2.45983941849559,1.48151469846921
+"631","Sediment (non-saline)","Proteobacteria",24543.2371323529,544,15795.0900737875,39.6127301344985,25.4932402424723
+"632","Sediment (non-saline)","Saccharibacteria",1.02389705882353,544,3.41502727724109,0.00165256757525346,0.0055118464286432
+"633","Sediment (non-saline)","SHA-109",4.34558823529412,544,11.2494754869963,0.00701376974488184,0.0181566284112385
+"634","Sediment (non-saline)","SM1K20",20.8897058823529,544,24.9513479580271,0.0337159388243812,0.0402714200992827
+"635","Sediment (non-saline)","SM2F11",4.98713235294118,544,9.49080294624235,0.00804922052363132,0.0153181348426779
+"636","Sediment (non-saline)","Spirochaetae",315.772058823529,544,282.360269507099,0.509655400497378,0.455728846866122
+"637","Sediment (non-saline)","Synergistetes",1.40992647058824,544,7.05719678866336,0.00227561818710845,0.0113902999179705
+"638","Sediment (non-saline)","TA06",530.465073529412,544,551.787017083336,0.856169448642042,0.890583018106814
+"639","Sediment (non-saline)","Tenericutes",2.65257352941176,544,15.2848542854897,0.0042812477757464,0.0246697208151935
+"640","Sediment (non-saline)","Thaumarchaeota",591.378676470588,544,819.171860930099,0.954483868285083,1.32214156127041
+"641","Sediment (non-saline)","Thermotogae",0.231617647058824,544,0.761427582921864,0.000373830367112991,0.00122894242501888
+"642","Sediment (non-saline)","TM6",18.7702205882353,544,37.8316099811177,0.0302950942745298,0.0610601343520469
+"643","Sediment (non-saline)","uncultured archaeon",0.0294117647058824,1088,0.319640471226384,4.74705228079989e-05,0.000515899009510194
+"644","Sediment (non-saline)","Verrucomicrobia",2295.13602941176,544,2822.6328363412,3.70434444587614,4.55572311882882
+"645","Sediment (non-saline)","WCHB1-60",4.65992647058824,544,12.348685363113,0.00752111095739233,0.0199307507060676
+"646","Sediment (non-saline)","WD272",10.4650735294118,544,58.0229416810329,0.0168906053966211,0.0936488987995266
+"647","Sediment (non-saline)","Woesearchaeota (DHVEG-6)",145.362132352941,544,152.648150782279,0.234614158255508,0.246373775792508
+"648","Sediment (saline)","Acetothermia",5.14417744916821,541,31.9205249817291,0.00516543406967929,0.0320524260471096
+"649","Sediment (saline)","Acidobacteria",2848.85212569316,541,6898.03764717158,2.86062406962909,6.92654151780707
+"650","Sediment (saline)","Actinobacteria",2110.37153419593,541,2922.6544113191,2.11909195009975,2.93473131891421
+"651","Sediment (saline)","Aenigmarchaeota",3.18853974121996,541,7.64111308383744,0.00320171533244584,0.00767268746919067
+"652","Sediment (saline)","Aerophobetes",85.5452865064695,541,1039.45411433873,0.085898774252518,1.04374931641243
+"653","Sediment (saline)","Aigarchaeota",0.604436229205176,541,1.81931476368211,0.000606933863020168,0.00182683248326001
+"654","Sediment (saline)","Aminicenantes",189.510166358595,541,317.555242187715,0.190293254758846,0.318867434727959
+"655","Sediment (saline)","Ancient Archaeal Group(AAG)",8.8003696857671,541,38.0754231981068,0.00883673431755052,0.0382327573549703
+"656","Sediment (saline)","aquifer1",4.54343807763401,541,61.4917975440202,0.0045622123403779,0.0617458921622277
+"657","Sediment (saline)","Aquificae",0.0055452865064695,541,0.128980074117704,5.56820057816668e-06,0.000129513041830444
+"658","Sediment (saline)","Armatimonadetes",38.2957486136784,541,68.105510195059,0.0384539931928191,0.0683869338044184
+"659","Sediment (saline)","Atribacteria",1937.65064695009,541,28882.1378991883,1.94565735062474,29.001483829794
+"660","Sediment (saline)","Bacteroidetes",9904.43068391867,541,12878.3995463442,9.94535748446293,12.9316152945667
+"661","Sediment (saline)","Caldiserica",0.726432532347505,541,7.12500968352655,0.000729434275739835,0.00715445144141245
+"662","Sediment (saline)","Candidate division OP3",144.817005545287,541,212.424648442292,0.145415414165682,0.213302423399272
+"663","Sediment (saline)","Candidate division SR1",10.3327171903882,541,41.0924457080601,0.0103754137439839,0.0412622467176326
+"664","Sediment (saline)","Candidate division WS6",0.00369685767097967,541,0.0607454659892871,3.71213371877779e-06,6.09964766379403e-05
+"665","Sediment (saline)","Chlamydiae",22.4436229205176,541,40.0118855142531,0.0225363638067,0.0401772214644052
+"666","Sediment (saline)","Chlorobi",368.373382624769,541,748.037883493914,0.369895564407613,0.751128903890172
+"667","Sediment (saline)","Chloroflexi",2271.19408502773,541,2829.15673558102,2.28057904720088,2.84084729479848
+"668","Sediment (saline)","Chrysiogenetes",0.00184842883548983,541,0.0429933580392348,1.85606685938889e-06,4.31710139434814e-05
+"669","Sediment (saline)","CKC4",0.0609981515711645,541,0.405944397301257,6.12502063598335e-05,0.000407621828938735
+"670","Sediment (saline)","Cloacimonetes",20.7855822550832,541,69.9253984421915,0.0208714718338281,0.0702143421408605
+"671","Sediment (saline)","Crenarchaeota",0.00924214417744917,541,0.142424699267086,9.28033429694447e-06,0.000143013222469025
+"672","Sediment (saline)","Cyanobacteria",1173.55452865065,541,3823.7638078986,1.17840385655799,3.83956425354646
+"673","Sediment (saline)","Deferribacteres",251.186691312384,541,288.768791737975,0.252224637656076,0.28996203374451
+"674","Sediment (saline)","Deinococcus-Thermus",19.0665434380776,541,96.7316793299538,0.0191453296545964,0.0971313911632323
+"675","Sediment (saline)","Diapherotrites",0.197781885397412,541,0.988674138600742,0.000198599153954612,0.00099275950913491
+"676","Sediment (saline)","Dictyoglomi",0.0129390018484288,541,0.1421360002555,1.29924680157223e-05,0.000142723330503776
+"677","Sediment (saline)","Elusimicrobia",37.173752310536,541,67.9652643755237,0.0373273606091701,0.0682461084651847
+"678","Sediment (saline)","Euryarchaeota",579.391866913124,541,2576.98398323693,0.581786013142308,2.58763252153797
+"679","Sediment (saline)","Fibrobacteres",70.9260628465804,541,169.457888587859,0.0712191414616113,0.170158117548838
+"680","Sediment (saline)","Firmicutes",1695.98890942699,541,4052.14783511838,1.70299702549509,4.06889200260425
+"681","Sediment (saline)","Fusobacteria",92.0295748613678,541,894.373067745722,0.0924098567952543,0.898068770136291
+"682","Sediment (saline)","GAL08",0.0147874306839187,541,0.13527544297229,1.48485348751112e-05,0.000135834424225201
+"683","Sediment (saline)","Gemmatimonadetes",649.046210720887,541,683.786329314144,0.65172818060466,0.686611851306052
+"684","Sediment (saline)","GOUTA4",2.57486136783734,541,9.13501790168355,0.00258550113512873,0.00917276535709636
+"685","Sediment (saline)","Gracilibacteria",65.3382624768946,541,114.529513404533,0.0656082513456786,0.115002768930381
+"686","Sediment (saline)","Hyd24-12",70.003696857671,541,139.951830288577,0.0702929640987762,0.140530135173211
+"687","Sediment (saline)","Hydrogenedentes",80.0720887245841,541,106.632009895401,0.0804029602818675,0.107072631586833
+"688","Sediment (saline)","JL-ETNP-Z39",11.2088724584104,541,17.7946827998849,0.0112551894353343,0.0178682134708483
+"689","Sediment (saline)","Kazan-3B-09",10.4972273567468,541,30.5060785030057,0.0105406036944695,0.0306321348337656
+"690","Sediment (saline)","Latescibacteria",447.410351201479,541,458.047306512947,0.449259127248222,0.459940036277206
+"691","Sediment (saline)","LCP-89",9.48798521256932,541,19.915616983212,0.00952719118924319,0.019997911716751
+"692","Sediment (saline)","LD1-PA38",2.48798521256932,541,4.79412678950557,0.00249826599273745,0.00481393694085698
+"693","Sediment (saline)","Lentisphaerae",387.007393715342,541,856.027216998109,0.388606574417112,0.859564467778957
+"694","Sediment (saline)","Marine Hydrothermal Vent Group(MHVG)",33.0536044362292,541,87.700853552493,0.0331901875795922,0.0880632484700255
+"695","Sediment (saline)","Marinimicrobia (SAR406 clade)",130.730129390018,541,330.649424390544,0.13127032863028,0.332015724329831
+"696","Sediment (saline)","Microgenomates",11.5951940850277,541,74.7816617883246,0.0116431074089465,0.075090672397218
+"697","Sediment (saline)","Miscellaneous Crenarchaeotic Group",79.1792975970425,541,188.601694781146,0.0795064799887827,0.189381029221555
+"698","Sediment (saline)","Miscellaneous Euryarchaeotic Group(MEG)",0.123844731977819,541,0.491977120360599,0.000124356479579056,0.000494010053915279
+"699","Sediment (saline)","Nanohaloarchaeota",0.319778188539741,541,4.72340084115927,0.000321099566674279,0.00474291874080298
+"700","Sediment (saline)","Nitrospirae",500.916820702403,541,638.042488508772,0.502986694626953,0.640678989131504
+"701","Sediment (saline)","OC31",2.32162661737523,541,6.30050511916493,0.00233121997539245,0.00632653988325883
+"702","Sediment (saline)","Omnitrophica",54.6266173752311,541,89.2838023623401,0.05485234389552,0.0896527382949273
+"703","Sediment (saline)","Parcubacteria",58.2347504621072,541,112.893387815192,0.0584753864050471,0.113359882590442
+"704","Sediment (saline)","Parvarchaeota",0.00369685767097967,541,0.0859867160784696,3.71213371877779e-06,8.63420278869629e-05
+"705","Sediment (saline)","PAUC34f",37.3197781885397,541,77.3358198639206,0.0374739898910618,0.077655384690563
+"706","Sediment (saline)","Planctomycetes",2121.81330868762,541,2383.53470716644,2.13058100395937,2.39338387999259
+"707","Sediment (saline)","Proteobacteria",66006.280961183,541,49321.7458720701,66.2790301965281,49.5255517565495
+"708","Sediment (saline)","RsaHF231",0.0184842883548983,541,0.210005101862413,1.85606685938889e-05,0.000210872878839353
+"709","Sediment (saline)","Saccharibacteria",0.88724584103512,541,9.66188789890111,0.000890912092506669,0.00970181247119999
+"710","Sediment (saline)","SBYG-2791",0.033271719038817,541,0.216884971463802,3.34092034690001e-05,0.000217781177237907
+"711","Sediment (saline)","SHA-109",9.20887245841035,541,29.3412677846029,0.00924692509347547,0.029462510918374
+"712","Sediment (saline)","SM1K20",0.0314232902033272,541,0.395497352303127,3.15531366096112e-05,0.000397131614964966
+"713","Sediment (saline)","SM2F11",0.937153419593346,541,11.712439036267,0.000941025897710169,0.0117608368363649
+"714","Sediment (saline)","Spirochaetae",373.855822550832,541,770.905750056818,0.37540065871256,0.774091264386504
+"715","Sediment (saline)","Synergistetes",2.86506469500924,541,11.1084843886317,0.00287690363205279,0.011154386544892
+"716","Sediment (saline)","TA06",124.09426987061,541,178.029451330893,0.124607048605073,0.178765099454258
+"717","Sediment (saline)","Tenericutes",89.9426987060998,541,254.136166562191,0.0903143573110042,0.255186300641766
+"718","Sediment (saline)","Thaumarchaeota",1904.31608133087,541,3851.6587477562,1.91218504088252,3.86757446006361
+"719","Sediment (saline)","Thermotogae",0.818853974121996,541,4.26750158703001,0.00082223761870928,0.00428513563302906
+"720","Sediment (saline)","TM6",43.0092421441774,541,84.2413964591492,0.0431869636842608,0.0845894963086491
+"721","Sediment (saline)","uncultured archaeon",10.0822550831793,1082,74.5479852746432,0.0101239166845367,0.0748560302922398
+"722","Sediment (saline)","uncultured bacterium",0.151571164510166,541,1.82755207885979,0.000152197482469889,0.00183510383643201
+"723","Sediment (saline)","Verrucomicrobia",2251.32347504621,541,5036.4660718919,2.26062632846245,5.05727761058104
+"724","Sediment (saline)","WCHB1-60",2.25138632162662,541,7.5104632520064,0.00226068943473567,0.0075414977699226
+"725","Sediment (saline)","WD272",1.34935304990758,541,20.3182536192517,0.00135492880735389,0.0204022121161932
+"726","Sediment (saline)","Woesearchaeota (DHVEG-6)",106.417744916821,541,474.365427175453,0.106857481228737,0.476325586203536
+"727","Soil (non-saline)","Acetothermia",0.00419287211740042,954,0.0646503917200793,4.04595721885756e-06,6.2385093501015e-05
+"728","Soil (non-saline)","Acidobacteria",21342.5597484277,954,22300.8582832845,20.5947334584074,21.5194539760769
+"729","Soil (non-saline)","Actinobacteria",9427.50524109015,954,12099.2204181354,9.09717296831247,11.675273374103
+"730","Soil (non-saline)","Aenigmarchaeota",0.371069182389937,954,2.44147477265547,0.000358067213868894,0.00235592744173854
+"731","Soil (non-saline)","Aerophobetes",5.10901467505241,954,10.5924532359069,0.00492999887117794,0.010221302113502
+"732","Soil (non-saline)","Aigarchaeota",4.23794549266247,954,88.1530612642304,0.00408945125896028,0.0850642482288578
+"733","Soil (non-saline)","Aminicenantes",16.3731656184486,954,97.7059916850782,0.0157994629396388,0.0942824515785551
+"734","Soil (non-saline)","aquifer1",5.83018867924528,954,161.921756688706,0.00562590351282144,0.156248147336997
+"735","Soil (non-saline)","Aquificae",16.2106918238994,954,323.284431032975,0.015642682097408,0.311956802129486
+"736","Soil (non-saline)","Armatimonadetes",391.151991614256,954,679.866341534678,0.377446337457917,0.656044366575137
+"737","Soil (non-saline)","Atribacteria",2.29979035639413,954,14.758932413968,0.00221920753454337,0.0142417911805875
+"738","Soil (non-saline)","Bacteroidetes",11107.5031446541,954,14660.2748506725,10.7183050837857,14.1465904997097
+"739","Soil (non-saline)","Caldiserica",63.8186582809224,954,467.471923873007,0.0615825033389262,0.451092080094223
+"740","Soil (non-saline)","Candidate division OP3",42.4685534591195,954,152.4774063617,0.0409804891805035,0.147134719521159
+"741","Soil (non-saline)","Candidate division SR1",5.11425576519916,954,23.0700958898491,0.00493505631770151,0.0222617381097572
+"742","Soil (non-saline)","Candidate division WS6",0.0010482180293501,954,0.0323761954119088,1.01148930471439e-06,3.12417593187104e-05
+"743","Soil (non-saline)","Chlamydiae",67.4234800838574,954,153.493371257476,0.065061015057839,0.148115085816404
+"744","Soil (non-saline)","Chlorobi",364.948637316562,954,1037.95654362126,0.352161127818667,1.00158737327019
+"745","Soil (non-saline)","Chloroflexi",2392.95178197065,954,3026.38495830021,2.30910465798917,2.92034284047479
+"746","Soil (non-saline)","CKC4",0.0115303983228512,954,0.179988240313216,1.11263823518583e-05,0.000173681595768827
+"747","Soil (non-saline)","Cloacimonetes",0.775681341719078,954,10.2369613949352,0.000748502085488649,0.0098782664234185
+"748","Soil (non-saline)","Crenarchaeota",18.4109014675052,954,359.586166079721,0.0177657981480035,0.346986553301697
+"749","Soil (non-saline)","Cyanobacteria",629.766247379455,954,2090.21982829843,0.607699739804491,2.01698019078782
+"750","Soil (non-saline)","Deferribacteres",0.631027253668763,954,5.27801291678304,0.000608916561438063,0.00509307554915881
+"751","Soil (non-saline)","Deinococcus-Thermus",23.646750524109,954,102.965239068223,0.0228181872250519,0.0993574191234239
+"752","Soil (non-saline)","Diapherotrites",0.019916142557652,954,0.15406895776742,1.92182967895734e-05,0.000148670504233607
+"753","Soil (non-saline)","Dictyoglomi",0.00628930817610063,954,0.137288477581117,6.06893582828634e-06,0.000132477998704065
+"754","Soil (non-saline)","Elusimicrobia",214.894129979036,954,280.892256788139,0.207364410870192,0.27105001589645
+"755","Soil (non-saline)","Euryarchaeota",193.255765199161,954,656.211929265603,0.186484237152973,0.633218786066558
+"756","Soil (non-saline)","Fibrobacteres",77.7620545073375,954,299.257961252327,0.075037334070237,0.288772200708124
+"757","Soil (non-saline)","Firmicutes",4338.61530398323,954,12301.7166248439,4.18659368029574,11.8706742750566
+"758","Soil (non-saline)","Fusobacteria",27.9266247379455,954,288.232258975456,0.0269480980562008,0.278132830254884
+"759","Soil (non-saline)","GAL08",0.30083857442348,954,1.36230905807646,0.00029029743045303,0.00131457483402972
+"760","Soil (non-saline)","Gemmatimonadetes",2564.02306079665,954,3689.20707142294,2.47418173549717,3.55994019482243
+"761","Soil (non-saline)","GOUTA4",4.11425576519916,954,23.1575321889999,0.00397009552100398,0.022346110710646
+"762","Soil (non-saline)","Gracilibacteria",2.90670859538784,954,14.1907517977188,0.002804859841973,0.0136935191604636
+"763","Soil (non-saline)","Hyd24-12",0.0356394129979036,954,0.454415506130718,3.43906363602893e-05,0.000438493148827608
+"764","Soil (non-saline)","Hydrogenedentes",19.2966457023061,954,38.8876964774246,0.0186205066104872,0.0375251025745873
+"765","Soil (non-saline)","JL-ETNP-Z39",20.8605870020964,954,116.125833882617,0.0201296486531211,0.112056877180535
+"766","Soil (non-saline)","Kazan-3B-09",0.0775681341719078,954,0.442092655593099,7.48502085488649e-05,0.000426602081155243
+"767","Soil (non-saline)","Latescibacteria",234.099580712788,954,474.101464759968,0.225896917911169,0.457489327150243
+"768","Soil (non-saline)","LCP-89",0.00733752620545073,954,0.0853892839764348,7.08042513300073e-06,8.2397311495332e-05
+"769","Soil (non-saline)","Lentisphaerae",31.832285115304,954,88.7654227653888,0.0307169072055666,0.0856551530708825
+"770","Soil (non-saline)","Marine Hydrothermal Vent Group(MHVG)",0.00943396226415094,954,0.133226543915998,9.10340374242951e-06,0.000128558391958439
+"771","Soil (non-saline)","Marinimicrobia (SAR406 clade)",0.80398322851153,954,13.1911583183344,0.000775812296715937,0.0127289506402231
+"772","Soil (non-saline)","Microgenomates",22.8176100628931,954,110.442524278914,0.0220180991850228,0.106572706217467
+"773","Soil (non-saline)","Miscellaneous Crenarchaeotic Group",80.3280922431866,954,1010.26542194499,0.0775134598881778,0.974866526435997
+"774","Soil (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",0.0440251572327044,954,0.380741728465073,4.24825507980044e-05,0.000367400841635651
+"775","Soil (non-saline)","Nitrospirae",983.87106918239,954,1564.73834868124,0.949397010765888,1.50991116356662
+"776","Soil (non-saline)","OC31",0.0188679245283019,954,0.218888677783468,1.8206807484859e-05,0.000211218992902004
+"777","Soil (non-saline)","Omnitrophica",20.0639412997904,954,60.5799628493243,0.0193609167815381,0.0584572892149906
+"778","Soil (non-saline)","Parcubacteria",34.8700209643606,954,98.4334690572249,0.0336482032106289,0.0949844387231611
+"779","Soil (non-saline)","Parvarchaeota",0.487421383647799,954,2.45256125765786,0.000470342526692191,0.00236662546513902
+"780","Soil (non-saline)","PAUC34f",0.446540880503145,954,2.53987581078558,0.00043089444380833,0.00245088058588843
+"781","Soil (non-saline)","Planctomycetes",1987.25576519916,954,2463.96632569071,1.91762390642834,2.37763090867439
+"782","Soil (non-saline)","Proteobacteria",34608.4350104822,954,28725.3835244716,33.3957830201695,27.7188689712162
+"783","Soil (non-saline)","RsaHF231",0.0146750524109015,954,0.209417693805343,1.41608502660015e-05,0.000202079864656963
+"784","Soil (non-saline)","Saccharibacteria",9.68553459119497,954,21.4016126619066,0.00934616117556096,0.0206517172048453
+"785","Soil (non-saline)","SHA-109",7.42452830188679,954,14.4341710845458,0.00716437874529202,0.0139284092294118
+"786","Soil (non-saline)","SM1K20",0.436058700209644,954,2.83224566548651,0.000420779550761186,0.00273300603381099
+"787","Soil (non-saline)","SM2F11",27.0639412997904,954,63.664759274947,0.0261156423584208,0.0614339968315092
+"788","Soil (non-saline)","Spirochaetae",61.1991614255765,954,264.791636707487,0.0590547915664449,0.255513548716099
+"789","Soil (non-saline)","Synergistetes",0.363731656184486,954,2.41514657208256,0.000350986788735893,0.0023305217603381
+"790","Soil (non-saline)","TA06",10.3595387840671,954,54.6227708149032,0.00999654879849231,0.0527088324433755
+"791","Soil (non-saline)","Tenericutes",33.541928721174,954,615.328428861374,0.0323666462615558,0.593767810944709
+"792","Soil (non-saline)","Thaumarchaeota",816.495807127883,954,2454.22427536512,0.787886444546313,2.36823021203073
+"793","Soil (non-saline)","Thermotogae",5.47798742138365,954,50.8844548127481,0.0052860431064374,0.0491015040556288
+"794","Soil (non-saline)","TM6",47.0429769392034,954,98.5089213975368,0.0453946285062771,0.0950572472735813
+"795","Soil (non-saline)","uncultured archaeon",2.41509433962264,1908,33.1272138026691,0.00233047135806195,0.0319664626233929
+"796","Soil (non-saline)","Verrucomicrobia",10922.2568134172,954,12721.663008592,10.5395496364101,12.2759060720884
+"797","Soil (non-saline)","WCHB1-60",38.5849056603774,954,84.1260585541156,0.0372329213065367,0.0811783484854022
+"798","Soil (non-saline)","WD272",239.870020964361,954,1303.62875812724,0.231465166533622,1.25795064504027
+"799","Soil (non-saline)","Woesearchaeota (DHVEG-6)",10.3092243186583,954,54.8266731719888,0.00994799731186602,0.0529055902243173
+"800","Surface (non-saline)","Acetothermia",3.34312696747114,953,55.2425590780253,0.00578144992394699,0.0955339393591377
+"801","Surface (non-saline)","Acidobacteria",1638.03672612802,953,4822.3452384125,2.8327453302974,8.33954192680739
+"802","Surface (non-saline)","Actinobacteria",7052.20146904512,953,9451.02232828299,12.195752672149,16.3441630703021
+"803","Surface (non-saline)","Aenigmarchaeota",0.0409233997901364,953,0.354153012864782,7.0771044266771e-05,0.000612455922020067
+"804","Surface (non-saline)","Aerophobetes",0.797481636935992,953,4.45188020376386,0.00137912804212169,0.00769887674500769
+"805","Surface (non-saline)","Aigarchaeota",3.32633788037775,953,31.2749649678246,0.005752415649376,0.0540854851143894
+"806","Surface (non-saline)","Aminicenantes",1.57502623294858,953,20.260978080998,0.00272377788319034,0.0350384030655241
+"807","Surface (non-saline)","aquifer1",2.86358866736621,953,15.2858019792864,0.00495215845651328,0.0264345624771359
+"808","Surface (non-saline)","Aquificae",286,953,987.7483753169,0.494595238032374,1.7081665832376
+"809","Surface (non-saline)","Armatimonadetes",450.692549842602,953,739.349724872625,0.779406954436431,1.27859738868023
+"810","Surface (non-saline)","Atribacteria",1.29590766002099,953,9.90132800488762,0.00224108306844775,0.017122900983965
+"811","Surface (non-saline)","Bacteroidetes",3868.03672612802,953,5950.28096802493,6.68920470376661,10.2901420690203
+"812","Surface (non-saline)","Caldiserica",1.34522560335782,953,20.2997345673465,0.00232637125000001,0.0351054267494082
+"813","Surface (non-saline)","Calescamantes",0.396642182581322,953,3.03101427524652,0.000685934736739473,0.00524169659771005
+"814","Surface (non-saline)","Candidate division OP3",4.7607555089192,953,31.4424486307793,0.00823303148303436,0.05437512365336
+"815","Surface (non-saline)","Candidate division SR1",18.4165792235047,953,128.32799861699,0.0318487845622076,0.221924535042617
+"816","Surface (non-saline)","Candidate division WS6",0.0503672612801679,953,0.345411658339678,8.71028237129489e-05,0.000597339025789056
+"817","Surface (non-saline)","Chlamydiae",26.9013641133263,953,219.392674724858,0.0465219810735182,0.379407595028322
+"818","Surface (non-saline)","Chlorobi",331.549842602309,953,635.195323200704,0.573367039585611,1.09847755970455
+"819","Surface (non-saline)","Chloroflexi",875.471143756558,953,1584.02145702633,1.51399950607255,2.73933380974239
+"820","Surface (non-saline)","Chrysiogenetes",0.0157397691500525,953,0.322092527194153,2.72196324102965e-05,0.000557011993552591
+"821","Surface (non-saline)","CKC4",0.0346274921301154,953,0.526460845463757,5.98831913026524e-05,0.00091043715796109
+"822","Surface (non-saline)","Cloacimonetes",0.246589716684155,953,3.00543125594679,0.000426440907761313,0.00519745450148579
+"823","Surface (non-saline)","Crenarchaeota",0.654774396642183,953,5.65029752846557,0.00113233670826834,0.00977136451414392
+"824","Surface (non-saline)","Cyanobacteria",4063.86778593914,953,5188.82160621008,7.02786592628904,8.97330929171677
+"825","Surface (non-saline)","Deferribacteres",1.10388247639035,953,16.3454923898048,0.00190900355304213,0.0282671423052162
+"826","Surface (non-saline)","Deinococcus-Thermus",364.487932843652,953,756.586157395319,0.630328657009558,1.30840528184943
+"827","Surface (non-saline)","Diapherotrites",0.100734522560336,953,2.82216792782624,0.000174205647425898,0.00488052733577116
+"828","Surface (non-saline)","Dictyoglomi",0.0566631689401889,953,0.483922380831223,9.79906766770675e-05,0.000836873094882558
+"829","Surface (non-saline)","Elusimicrobia",8.56768100734523,953,46.83275137598,0.0148165532420047,0.0809904049458524
+"830","Surface (non-saline)","Euryarchaeota",12.1951731374607,953,66.9245914672886,0.0210897711914978,0.115736308555885
+"831","Surface (non-saline)","Fibrobacteres",3.40083945435467,953,13.9015475579038,0.00588125524278474,0.0240406965853838
+"832","Surface (non-saline)","Firmicutes",11291.4826862539,953,16133.9669675907,19.5269705137979,27.9013399746222
+"833","Surface (non-saline)","Fusobacteria",229.789087093389,953,706.496270074147,0.397386672126562,1.22178213589618
+"834","Surface (non-saline)","GAL08",0.328436516264428,953,2.52470968678197,0.000567982996294855,0.00436611674299499
+"835","Surface (non-saline)","Gemmatimonadetes",248.374606505771,953,735.505722136592,0.42952761407664,1.27194974725287
+"836","Surface (non-saline)","GOUTA4",0.376705141657922,953,3.36032255950729,0.000651456535686431,0.00581118718945826
+"837","Surface (non-saline)","Gracilibacteria",8.32423924449108,953,62.1261322882921,0.0143955562607255,0.107438074080974
+"838","Surface (non-saline)","Hyd24-12",0.0535152151101784,953,1.09346354545588,9.25467501950083e-05,0.00189098553337229
+"839","Surface (non-saline)","Hydrogenedentes",3.82476390346275,953,33.1426718450593,0.00661437067570206,0.0573154114343914
+"840","Surface (non-saline)","JL-ETNP-Z39",0.336831059811123,953,2.52235326583921,0.000582500133580346,0.00436204165706112
+"841","Surface (non-saline)","Kazan-3B-09",0.0314795383001049,953,0.393026948969906,5.44392648205931e-05,0.000679682718108071
+"842","Surface (non-saline)","Latescibacteria",32.1752360965372,953,298.333177163032,0.0556423725731282,0.515923667034629
+"843","Surface (non-saline)","LCP-89",0.061909758656873,953,0.858317758292864,0.0001070638874805,0.00148433523066529
+"844","Surface (non-saline)","Lentisphaerae",9.63273871983211,953,36.7364772260914,0.0166584150351015,0.0635303730703131
+"845","Surface (non-saline)","Marinimicrobia (SAR406 clade)",0.295907660020986,953,3.82969298524206,0.000511729089313575,0.0066228948028906
+"846","Surface (non-saline)","Microgenomates",1.56873032528856,953,13.8644301917423,0.00271289003022622,0.0239765075205175
+"847","Surface (non-saline)","Miscellaneous Crenarchaeotic Group",1.21511017838405,953,13.8186370321343,0.00210135562207489,0.0238973149377323
+"848","Surface (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",5.96432318992655,953,22.3122132537764,0.0103144260413417,0.0385857147737084
+"849","Surface (non-saline)","Nanoarchaeota",0.00104931794333683,953,0.0323931774195868,1.81464216068644e-06,5.60192702673618e-05
+"850","Surface (non-saline)","Nitrospirae",221.92130115425,953,1966.34026317031,0.383780485205735,3.40049835844532
+"851","Surface (non-saline)","OC31",0.0115424973767051,953,0.212213802648444,1.99610637675508e-05,0.000366992784037281
+"852","Surface (non-saline)","Omnitrophica",3.3588667366212,953,26.4217822106109,0.00580866955635728,0.0456926142017364
+"853","Surface (non-saline)","Parcubacteria",10.0881427072403,953,38.2378749389288,0.0174459697328394,0.0661268211792714
+"854","Surface (non-saline)","Parvarchaeota",0.0293809024134313,953,0.368361884103268,5.08099804992202e-05,0.000637028090035347
+"855","Surface (non-saline)","PAUC34f",0.284365162644281,953,5.3355806864365,0.000491768025546024,0.0092271076910804
+"856","Surface (non-saline)","Planctomycetes",444.813221406086,953,1198.31250341195,0.769239514410105,2.07230649602169
+"857","Surface (non-saline)","Proteobacteria",21388.5173137461,953,25991.2829168113,36.9883175243069,44.9481285349897
+"858","Surface (non-saline)","RsaHF231",0.0797481636935992,953,1.95805252340457,0.000137912804212169,0.00338616592270341
+"859","Surface (non-saline)","S2R-29",19.3095487932844,953,54.7512680017586,0.0333930450409518,0.0946843231814829
+"860","Surface (non-saline)","Saccharibacteria",3.27177334732424,953,11.8627750299312,0.00565805425702031,0.0205149372015851
+"861","Surface (non-saline)","SHA-109",2.79538300104932,953,8.53090647091803,0.00483420671606867,0.0147529570511036
+"862","Surface (non-saline)","SM1K20",0.0335781741867786,953,0.486072299004241,5.8068549141966e-05,0.00084059106442988
+"863","Surface (non-saline)","SM2F11",3.58551941238195,953,23.8174358879623,0.00620063226306555,0.0411887775256207
+"864","Surface (non-saline)","Spirochaetae",14.9674711437566,953,46.933978208862,0.0258840557800313,0.0811654619720921
+"865","Surface (non-saline)","Synergistetes",1.38405036726128,953,7.11633798736412,0.00239351300994541,0.0123066674153118
+"866","Surface (non-saline)","TA06",5.72298006295908,953,56.1111860162652,0.00989705834438382,0.097036102811166
+"867","Surface (non-saline)","Tenericutes",3885.11542497377,953,7795.1788143164,6.71873981957394,13.4806235006005
+"868","Surface (non-saline)","Thaumarchaeota",62.2140608604407,953,542.950032455346,0.107590133707099,0.938952799097681
+"869","Surface (non-saline)","Thermodesulfobacteria",0.21511017838405,953,1.5170260648174,0.000372001642940719,0.00262347506164223
+"870","Surface (non-saline)","Thermotogae",140.11962224554,953,309.532943704725,0.242316426285103,0.535292027868881
+"871","Surface (non-saline)","TM6",8.79748163693599,953,55.2268993681453,0.0152139598751951,0.0955068581775447
+"872","Surface (non-saline)","uncultured archaeon",0.000524658971668416,1906,0.0229054354175688,9.07321080343218e-07,3.96116058831735e-05
+"873","Surface (non-saline)","Verrucomicrobia",748.821615949633,953,1917.85219714098,1.29497764120418,3.31664532851697
+"874","Surface (non-saline)","WCHB1-60",1.95068205666317,953,8.97104832462257,0.00337341977671608,0.015514118117191
+"875","Surface (non-saline)","WD272",0.557187827911857,953,3.66981974452843,0.000963574987324498,0.00634641737790539
+"876","Surface (non-saline)","Woesearchaeota (DHVEG-6)",1.42392444910808,953,12.3118928004763,0.00246246941205149,0.0212916208051771
+"877","Surface (saline)","Acetothermia",70.5726495726496,117,378.326289483656,0.0461516589794279,0.247410094433648
+"878","Surface (saline)","Acidobacteria",1374.44444444444,117,3427.47648812189,0.898831086409326,2.24143102175822
+"879","Surface (saline)","Actinobacteria",5010.54700854701,117,7693.12181095569,3.27669512536586,5.03099056725831
+"880","Surface (saline)","Aenigmarchaeota",0.205128205128205,117,0.86640817746226,0.00013414555110891,0.000566595911948338
+"881","Surface (saline)","Aerophobetes",3.71794871794872,117,9.90980544873764,0.00243138811384899,0.00648061202735208
+"882","Surface (saline)","Aminicenantes",11.8888888888889,117,37.3443384846785,0.00777485256635391,0.0244216872257712
+"883","Surface (saline)","Ancient Archaeal Group(AAG)",0.0170940170940171,117,0.18490006540841,1.11787959257425e-05,0.000120917165724638
+"884","Surface (saline)","aquifer1",0.384615384615385,117,3.03668987734022,0.000251522908329206,0.00198587238107043
+"885","Surface (saline)","Aquificae",107.735042735043,117,962.664911023869,0.0704543613219921,0.62954392323472
+"886","Surface (saline)","Armatimonadetes",123.794871794872,117,397.557728153855,0.0809568400942272,0.259986677636425
+"887","Surface (saline)","Atribacteria",30.1709401709402,117,169.209892645011,0.0197305748089355,0.110656427221979
+"888","Surface (saline)","Bacteroidetes",20891.8461538462,117,17969.3576807544,13.6624225529525,11.7512332721449
+"889","Surface (saline)","Caldiserica",0.188034188034188,117,0.964290197517323,0.000122966755183168,0.000630606794877545
+"890","Surface (saline)","Candidate division OP3",54.8974358974359,117,303.718744230278,0.035900703115522,0.198619776843524
+"891","Surface (saline)","Candidate division SR1",12.7350427350427,117,46.3876828855413,0.00832820296467816,0.0303356687660631
+"892","Surface (saline)","Chlamydiae",8.22222222222222,117,21.7897916272067,0.00537700084028214,0.0142496425811023
+"893","Surface (saline)","Chlorobi",180.923076923077,117,384.324018151848,0.118316376078059,0.251332366444431
+"894","Surface (saline)","Chloroflexi",819.871794871795,117,1807.37764186633,0.536162999588425,1.18195189042165
+"895","Surface (saline)","CKC4",0.0427350427350427,117,0.203129073674266,2.79469898143563e-05,0.000132838199979599
+"896","Surface (saline)","Cloacimonetes",6.17948717948718,117,24.2311481592197,0.00404113472715591,0.0158461910286234
+"897","Surface (saline)","Cyanobacteria",22891.358974359,117,43067.491541337,14.9700230805805,28.1643978899935
+"898","Surface (saline)","Deferribacteres",105.401709401709,117,438.342903480295,0.0689284556781283,0.286658533014964
+"899","Surface (saline)","Deinococcus-Thermus",43.5982905982906,117,173.89860600208,0.0285115190086062,0.113722656153698
+"900","Surface (saline)","Diapherotrites",0.0598290598290598,117,0.329330519717216,3.91257857400988e-05,0.000215368842314193
+"901","Surface (saline)","Dictyoglomi",0.0854700854700855,117,0.676867143952876,5.58939796287125e-05,0.000442643740758728
+"902","Surface (saline)","Elusimicrobia",16.5213675213675,117,54.0604065535439,0.0108043062622301,0.0353533197726973
+"903","Surface (saline)","Euryarchaeota",109.940170940171,117,271.198371555681,0.0718964259964129,0.177352768184357
+"904","Surface (saline)","Fibrobacteres",25.1025641025641,117,71.0985698259799,0.0164160618169529,0.0464955895577618
+"905","Surface (saline)","Firmicutes",10261.3247863248,117,23702.5035782375,6.71049145927415,15.5004788501725
+"906","Surface (saline)","Fusobacteria",190.213675213675,117,1619.94860938635,0.1243920516637,1.05938088249944
+"907","Surface (saline)","Gemmatimonadetes",267.17094017094,117,641.633466248695,0.174718990921392,0.419602340331776
+"908","Surface (saline)","GOUTA4",0.324786324786325,117,2.03770095192267,0.000212397122589108,0.00133257402130523
+"909","Surface (saline)","Gracilibacteria",104.094017094017,117,358.107790142086,0.068073277789809,0.234188013466894
+"910","Surface (saline)","Hyd24-12",3.87179487179487,117,14.1491674310555,0.00253199727718068,0.00925298333100952
+"911","Surface (saline)","Hydrogenedentes",17.8461538461538,117,44.0459429781926,0.0116706629464752,0.0288042655627412
+"912","Surface (saline)","JL-ETNP-Z39",2.47863247863248,117,10.1756964436722,0.00162092540923266,0.00665449398584776
+"913","Surface (saline)","Kazan-3B-09",0.914529914529915,117,3.12821599916941,0.000598065582027224,0.00204572676358192
+"914","Surface (saline)","Latescibacteria",111.760683760684,117,286.925036754846,0.0730869677625045,0.187637371264313
+"915","Surface (saline)","LCP-89",0.444444444444444,117,2.11498937979091,0.000290648694069305,0.00138311752771503
+"916","Surface (saline)","LD1-PA38",0.683760683760684,117,2.54493944325208,0.0004471518370297,0.00166428748275003
+"917","Surface (saline)","Lentisphaerae",254.786324786325,117,723.525359146877,0.166619953273192,0.473156326714646
+"918","Surface (saline)","Marine Hydrothermal Vent Group(MHVG)",0.282051282051282,117,1.31860789867607,0.000184450132774751,0.00086231624341426
+"919","Surface (saline)","Marinimicrobia (SAR406 clade)",43.4786324786325,117,138.422989811876,0.0284332674371261,0.0905230377404782
+"920","Surface (saline)","Microgenomates",2.46153846153846,117,11.9022878571064,0.00160974661330692,0.00778361494973606
+"921","Surface (saline)","Miscellaneous Crenarchaeotic Group",3.66666666666667,117,14.5359245818171,0.00239785172607177,0.00950590686778889
+"922","Surface (saline)","Miscellaneous Euryarchaeotic Group(MEG)",0.0256410256410256,117,0.277350098112615,1.67681938886137e-05,0.000181375748586956
+"923","Surface (saline)","Nitrospirae",1321.48717948718,117,5460.70707278352,0.864199176631375,3.57108160364898
+"924","Surface (saline)","OC31",0.162393162393162,117,1.75655062137989,0.000106198561294554,0.00114871307438406
+"925","Surface (saline)","Omnitrophica",277.162393162393,117,828.632098361874,0.181252997139989,0.54189188381877
+"926","Surface (saline)","Parcubacteria",60.0940170940171,117,129.694600351934,0.0392990570769478,0.0848150239952929
+"927","Surface (saline)","Parvarchaeota",0.0598290598290598,117,0.561564905368337,3.91257857400988e-05,0.000367240739356035
+"928","Surface (saline)","PAUC34f",11.1709401709402,117,60.5878232045036,0.00730534313747272,0.0396219863045045
+"929","Surface (saline)","Planctomycetes",3328.11111111111,117,6569.50323632089,2.17645008336447,4.29618945672166
+"930","Surface (saline)","Proteobacteria",80231.5299145299,117,46373.1884623545,52.4681761338911,30.3261899994294
+"931","Surface (saline)","RsaHF231",0.0170940170940171,117,0.18490006540841,1.11787959257425e-05,0.000120917165724638
+"932","Surface (saline)","Saccharibacteria",1.63247863247863,117,3.76599643497526,0.00106757501090841,0.00246280937781424
+"933","Surface (saline)","SHA-109",16.3418803418803,117,40.3397558660236,0.0106869289050098,0.0263805690634523
+"934","Surface (saline)","SM1K20",0.0598290598290598,117,0.42121741234022,3.91257857400988e-05,0.000275459154335858
+"935","Surface (saline)","SM2F11",3.72649572649573,117,23.1176242409388,0.00243697751181186,0.015117991415131
+"936","Surface (saline)","Spirochaetae",100.623931623932,117,271.892655241116,0.0658039822168832,0.177806801638949
+"937","Surface (saline)","Synergistetes",2.65811965811966,117,16.0399084146723,0.00173830276645296,0.0104894514758605
+"938","Surface (saline)","TA06",7.60683760683761,117,24.1628659470503,0.00497456418695541,0.0158015372230842
+"939","Surface (saline)","Tenericutes",33.0769230769231,117,153.916970107271,0.0216309701163117,0.100655474302761
+"940","Surface (saline)","Thaumarchaeota",291.700854700855,117,847.332531159599,0.190760563074833,0.554121210653946
+"941","Surface (saline)","Thermotogae",1.00854700854701,117,6.40917409076929,0.000659548959618808,0.00419134067897607
+"942","Surface (saline)","TM6",24.8461538461538,117,53.2404460240351,0.0162483798780667,0.0348170987442445
+"943","Surface (saline)","uncultured archaeon",0.961538461538462,234,6.10798880456667,0.000628807270823016,0.00399437768123379
+"944","Surface (saline)","Verrucomicrobia",3967.20512820513,117,6639.73059868222,2.59439172664021,4.34211531182773
+"945","Surface (saline)","WCHB1-60",13.8547008547009,117,47.1011869235587,0.0090604140978143,0.0308022715540048
+"946","Surface (saline)","WD272",0.188034188034188,117,1.21009848510305,0.000122966755183168,0.000791355474878501
+"947","Surface (saline)","Woesearchaeota (DHVEG-6)",53.0854700854701,117,134.398056010775,0.0347157507473933,0.0878908937962163
+"948","Water (non-saline)","Acetothermia",0.60377358490566,954,3.52002611586085,0.000448747215220664,0.00261621567502557
+"949","Water (non-saline)","Acidobacteria",1589.5607966457,954,4700.1276869724,1.1814213121466,3.49331150523911
+"950","Water (non-saline)","Actinobacteria",24041.2987421384,954,51849.7673618233,17.8683965819875,38.5366953691639
+"951","Water (non-saline)","Aenigmarchaeota",0.552410901467505,954,2.71753071649543,0.000410572538925851,0.00201977094028465
+"952","Water (non-saline)","Aerophobetes",1.42662473794549,954,4.68004221150013,0.0010603211109641,0.00347838322515218
+"953","Water (non-saline)","Aminicenantes",40.8888888888889,954,278.576809978766,0.0303901586307772,0.207048752758139
+"954","Water (non-saline)","aquifer1",0.711740041928721,954,8.29288931124571,0.000528991942942415,0.00616358694316876
+"955","Water (non-saline)","Aquificae",0.00209643605870021,954,0.0647523908238176,1.55815005284953e-06,4.81264099448943e-05
+"956","Water (non-saline)","Armatimonadetes",229.263102725367,954,1351.25313762153,0.170396952554545,1.00430210549968
+"957","Water (non-saline)","Atribacteria",1.9643605870021,954,16.937660784288,0.00145998659952001,0.0125887059310306
+"958","Water (non-saline)","Bacteroidetes",26066.8427672956,954,50660.8710654339,19.3738570117249,37.6530629686603
+"959","Water (non-saline)","Caldiserica",0.893081761006289,954,8.33500402320001,0.000663771922513899,0.00619488817956231
+"960","Water (non-saline)","Candidate division OP3",160.927672955975,954,423.04027776337,0.119607493431862,0.314419430260684
+"961","Water (non-saline)","Candidate division SR1",16.6341719077568,954,45.2841017342751,0.0123631415943346,0.0336568459685105
+"962","Water (non-saline)","Candidate division WS6",0.00628930817610063,954,0.112036683352016,4.67445015854859e-06,8.32698728690359e-05
+"963","Water (non-saline)","Chlamydiae",104.349056603774,954,1488.40519972798,0.0775561398055589,1.10623867157462
+"964","Water (non-saline)","Chlorobi",784.954926624738,954,2952.226765722,0.583407996313105,2.19420586282299
+"965","Water (non-saline)","Chloroflexi",1471.40041928721,954,3661.64597749017,1.09360007979286,2.7214728775844
+"966","Water (non-saline)","CKC4",0.243186582809224,954,6.31123356907914,0.000180745406130545,0.00469074593446144
+"967","Water (non-saline)","Cloacimonetes",3.22536687631027,954,21.1758377156784,0.002397213856309,0.0157386782768249
+"968","Water (non-saline)","Crenarchaeota",0.653039832285115,954,4.69401129753336,0.000485363741462628,0.0034887655747834
+"969","Water (non-saline)","Cyanobacteria",14013.1572327044,954,33077.2489480784,10.4151050026608,24.5842543027617
+"970","Water (non-saline)","Deferribacteres",3.4622641509434,954,38.307820750468,0.002573284812281,0.0284718118061274
+"971","Water (non-saline)","Deinococcus-Thermus",18.6708595387841,954,73.9276939639828,0.0138768843706779,0.0549458400026002
+"972","Water (non-saline)","Diapherotrites",0.255765199161426,954,1.86861000446806,0.000190094306447642,0.00138882116873254
+"973","Water (non-saline)","Dictyoglomi",0.0146750524109015,954,0.158012808021013,1.09070503699467e-05,0.000117441056285539
+"974","Water (non-saline)","Elusimicrobia",128.399371069182,954,465.416363299902,0.0954312372118486,0.345914929321715
+"975","Water (non-saline)","Euryarchaeota",99.0723270440252,954,496.252328525607,0.0736342761225366,0.368833377345304
+"976","Water (non-saline)","Fibrobacteres",38.5429769392034,954,120.095986173606,0.0286465887216386,0.0892598495560317
+"977","Water (non-saline)","Firmicutes",1851.03144654088,954,10266.0892935971,1.37575612396307,7.63014331345452
+"978","Water (non-saline)","Fusobacteria",25.4748427672956,954,188.485697688674,0.018933860367201,0.140089652911749
+"979","Water (non-saline)","GAL08",0.29874213836478,954,1.76709414321428,0.000222036382531058,0.001313370766169
+"980","Water (non-saline)","Gemmatimonadetes",331.860587002096,954,1243.86948822356,0.246651257990948,0.92449054230402
+"981","Water (non-saline)","GOUTA4",1.37002096436059,954,8.08872510792296,0.00101825105953717,0.00601184443574663
+"982","Water (non-saline)","Gracilibacteria",23.3039832285115,954,62.8614780257686,0.0173203959874754,0.0467210125019402
+"983","Water (non-saline)","Hyd24-12",0.754716981132076,954,5.56640761903998,0.00056093401902583,0.00413716330140143
+"984","Water (non-saline)","Hydrogenedentes",4.35010482180294,954,13.5125399374388,0.00323316135966277,0.0100430274180198
+"985","Water (non-saline)","JL-ETNP-Z39",0.050314465408805,954,0.533834163995594,3.73956012683887e-05,0.000396765609611929
+"986","Water (non-saline)","Kazan-3B-09",0.681341719077568,954,4.82942275184666,0.000506398767176097,0.00358940845574277
+"987","Water (non-saline)","Latescibacteria",48.5890985324948,954,152.303291765845,0.0361132437748935,0.11319752926843
+"988","Water (non-saline)","LCP-89",0.477987421383648,954,3.36172483208266,0.000355258212049692,0.00249856021271776
+"989","Water (non-saline)","Lentisphaerae",89.045073375262,954,517.406768382824,0.0661816444197573,0.384556151929692
+"990","Water (non-saline)","Marine Hydrothermal Vent Group(MHVG)",0.0272536687631027,954,0.359683031457894,2.02559506870439e-05,0.000267329944144668
+"991","Water (non-saline)","Marinimicrobia (SAR406 clade)",9.78930817610063,954,88.0995135781141,0.00727578167178087,0.0654788688489097
+"992","Water (non-saline)","Microgenomates",16.895178197065,954,49.5406128010629,0.0125571312759143,0.0368204449326411
+"993","Water (non-saline)","Miscellaneous Crenarchaeotic Group",32.8668763102725,954,241.285134980008,0.0244278974535485,0.179332178656571
+"994","Water (non-saline)","Miscellaneous Euryarchaeotic Group(MEG)",0.431865828092243,954,1.98897044737496,0.000320978910887003,0.00147827757246977
+"995","Water (non-saline)","Nitrospirae",195.487421383648,954,563.387131710864,0.145293597053086,0.418730485676863
+"996","Water (non-saline)","OC31",0.481132075471698,954,3.75539631001669,0.000357595437128967,0.00279115164740648
+"997","Water (non-saline)","Omnitrophica",77.2819706498952,954,220.421777198803,0.0574388644732186,0.163825747208546
+"998","Water (non-saline)","Parcubacteria",242.394129979036,954,1059.45078419,0.180156425410568,0.787423631894888
+"999","Water (non-saline)","Parvarchaeota",1.86477987421384,954,7.96539977014264,0.00138597447200966,0.00592018441073293
+"1000","Water (non-saline)","PAUC34f",1.70020964360587,954,9.79283096229626,0.00126365969286097,0.0072783999388509
+"1001","Water (non-saline)","Planctomycetes",2245.26729559748,954,3986.30033802414,1.66876702047645,2.96276819728878
+"1002","Water (non-saline)","Proteobacteria",54264.7379454927,954,86305.8520717971,40.331592249972,64.1457522202085
+"1003","Water (non-saline)","RsaHF231",0.712788259958071,954,6.15907557549231,0.00052977101796884,0.00457765639625927
+"1004","Water (non-saline)","Saccharibacteria",43.9014675052411,954,132.077550186705,0.032629220256722,0.0981649981403414
+"1005","Water (non-saline)","SHA-109",3.25471698113208,954,10.4971441563517,0.00241902795704889,0.00780187196938852
+"1006","Water (non-saline)","SM1K20",1.5230607966457,954,10.6750138616763,0.00113199601339518,0.00793407141787719
+"1007","Water (non-saline)","SM2F11",45.1740041928721,954,160.732593280941,0.0335750173388016,0.119462502887217
+"1008","Water (non-saline)","Spirochaetae",49.7012578616352,954,206.872767490458,0.0369398423779302,0.15375561408643
+"1009","Water (non-saline)","Synergistetes",2.55660377358491,954,37.3565032510832,0.00190016398945,0.0277647568946306
+"1010","Water (non-saline)","TA06",7.76939203354298,954,30.911837982186,0.00577450409586035,0.0229748395071403
+"1011","Water (non-saline)","Tenericutes",8.17819706498952,954,53.5526700018037,0.00607834335616601,0.0398023565981204
+"1012","Water (non-saline)","Thaumarchaeota",74.475890985325,954,307.647803472785,0.0553532806274795,0.228655407471557
+"1013","Water (non-saline)","Thermotogae",0.570230607966457,954,4.53733429065208,0.000423816814375072,0.00337231733609792
+"1014","Water (non-saline)","TM6",48.8270440251572,954,180.394439175607,0.0362900938058919,0.134075925554106
+"1015","Water (non-saline)","uncultured archaeon",0.0183438155136268,1908,0.544003862717739,1.36338129624334e-05,0.000404324111830785
+"1016","Water (non-saline)","Verrucomicrobia",5904.15828092243,954,12303.3534007427,4.38819228436425,9.14431454851019
+"1017","Water (non-saline)","WCHB1-60",44.104821802935,954,124.043427040879,0.0327803608118484,0.0921937359345053
+"1018","Water (non-saline)","WD272",1.20230607966457,954,6.96249546139698,0.000893599055309204,0.00517478824413392
+"1019","Water (non-saline)","Woesearchaeota (DHVEG-6)",25.8605870020964,954,80.489129427541,0.0192205599769254,0.059822545386427
+"1020","Water (saline)","Acetothermia",0.387096774193548,682,6.13573898405798,0.000225408306014316,0.00357287020390149
+"1021","Water (saline)","Acidobacteria",708.024926686217,682,9258.25493547166,0.412286306628981,5.39112620093782
+"1022","Water (saline)","Actinobacteria",4280.44721407625,682,8209.20908928862,2.49252491839728,4.78026177921251
+"1023","Water (saline)","Aenigmarchaeota",0.0293255131964809,682,0.385899581667036,1.70763868192664e-05,0.000224711175070933
+"1024","Water (saline)","Aerophobetes",2.75366568914956,682,33.7772920234912,0.00160347272232911,0.0196686789566456
+"1025","Water (saline)","Aigarchaeota",0.0703812316715543,682,0.795196390448872,4.09833283662393e-05,0.000463046667576096
+"1026","Water (saline)","Aminicenantes",2.70527859237537,682,29.9662012494603,0.00157529668407732,0.0174494625417561
+"1027","Water (saline)","Ancient Archaeal Group(AAG)",0.00293255131964809,682,0.0541132615620974,1.70763868192664e-06,3.15104114391901e-05
+"1028","Water (saline)","aquifer1",0.0527859237536657,682,0.821963290912517,3.07374962746795e-05,0.000478633161943903
+"1029","Water (saline)","Aquificae",0.00586510263929619,682,0.093680962554532,3.41527736385328e-06,5.45508732776198e-05
+"1030","Water (saline)","Armatimonadetes",3.33577712609971,682,20.1076437653595,0.00194243900069155,0.0117087772909799
+"1031","Water (saline)","Atribacteria",1.11143695014663,682,20.291688322215,0.000647195060450196,0.0118159473181092
+"1032","Water (saline)","Bacteroidetes",49447.0425219941,682,67126.8254970796,28.7932497384431,39.0882720604896
+"1033","Water (saline)","Caldiserica",0.337243401759531,682,5.98191523379513,0.000196378448421563,0.00348329789722507
+"1034","Water (saline)","Candidate division OP3",11.208211143695,682,84.5428618975203,0.00652659504232361,0.0492297134886327
+"1035","Water (saline)","Candidate division SR1",0.212609970674487,682,1.65717040042753,0.000123803804439681,0.000964978262905045
+"1036","Water (saline)","Chlamydiae",3.04985337243402,682,17.862597819453,0.0017759442292037,0.0104014762817029
+"1037","Water (saline)","Chlorobi",31.6510263929619,682,351.644917821214,0.0184305442940342,0.204764520215277
+"1038","Water (saline)","Chloroflexi",495.709677419355,682,1814.09394321944,0.288654119876833,1.0563555936208
+"1039","Water (saline)","CKC4",0.063049853372434,682,1.0255823576164,3.67142316614227e-05,0.000597201519930245
+"1040","Water (saline)","Cloacimonetes",12.3929618768328,682,157.983050291691,0.00721648106982197,0.0919942870084969
+"1041","Water (saline)","Crenarchaeota",0.0835777126099707,682,1.74608270202815,4.86677024349092e-05,0.00101675232206475
+"1042","Water (saline)","Cyanobacteria",21918.7082111437,682,50274.6310206233,12.7633687937313,29.2751584857882
+"1043","Water (saline)","Deferribacteres",7.29325513196481,682,85.2127108621258,0.00424689740195155,0.0496197697496587
+"1044","Water (saline)","Deinococcus-Thermus",1.67302052785924,682,14.033319045499,0.000974207868039147,0.00817166890732795
+"1045","Water (saline)","Diapherotrites",0.0234604105571848,682,0.386301095791253,1.36611094554131e-05,0.000224944978668933
+"1046","Water (saline)","Dictyoglomi",0.0161290322580645,682,0.308524461090656,9.39201275059651e-06,0.00017965527169093
+"1047","Water (saline)","Elusimicrobia",1.55131964809384,682,10.8292517203538,0.000903340862739192,0.00630592515469287
+"1048","Water (saline)","Euryarchaeota",839.778592375367,682,2878.64019271771,0.489007097330581,1.67624597445183
+"1049","Water (saline)","Fibrobacteres",7.76392961876833,682,53.6987708627604,0.00452097341040077,0.0312690515193332
+"1050","Water (saline)","Firmicutes",210.482404692082,682,986.194949861308,0.122564912575943,0.57426604370762
+"1051","Water (saline)","Fusobacteria",62.466275659824,682,1043.09224135315,0.0363744115637193,0.607397609111897
+"1052","Water (saline)","GAL08",0.0161290322580645,682,0.34873924521475,9.39201275059651e-06,0.000203072533136801
+"1053","Water (saline)","Gemmatimonadetes",100.039589442815,682,379.474000144587,0.0582535321759044,0.220969528168425
+"1054","Water (saline)","GOUTA4",0.168621700879765,682,2.47383028452848,9.81892242107817e-05,0.0014405232256564
+"1055","Water (saline)","Gracilibacteria",26.5,682,47.7911280850505,0.0154310769492301,0.0278290028290915
+"1056","Water (saline)","Hyd24-12",2.53225806451613,682,61.636037839339,0.00147454600184365,0.0358909601035659
+"1057","Water (saline)","Hydrogenedentes",1.43255131964809,682,9.13605734703526,0.000834181496121163,0.00531996995979923
+"1058","Water (saline)","JL-ETNP-Z39",2.09677419354839,682,21.9121062597586,0.00122096165757755,0.0127595244458128
+"1059","Water (saline)","Kazan-3B-09",0.574780058651026,682,13.430994368125,0.000334697181657621,0.00782093236223445
+"1060","Water (saline)","Latescibacteria",9.1466275659824,682,73.8011908228942,0.00532612504892918,0.0429747869635054
+"1061","Water (saline)","LCP-89",0.763929618768328,682,9.44362612576665,0.000444839876641889,0.00549906873307413
+"1062","Water (saline)","LD1-PA38",0.00293255131964809,682,0.0541132615620974,1.70763868192664e-06,3.15104114391901e-05
+"1063","Water (saline)","Lentisphaerae",18.1173020527859,682,101.875255669964,0.0105497917769428,0.0593224494138
+"1064","Water (saline)","Marine Hydrothermal Vent Group(MHVG)",0.0659824046920821,682,0.636656547253946,3.84218703433494e-05,0.000370728157392708
+"1065","Water (saline)","Marinimicrobia (SAR406 clade)",3424.55425219941,682,9294.07075910871,1.99413434650952,5.4119819266187
+"1066","Water (saline)","Microgenomates",0.287390029325513,682,2.05563998139662,0.000167348590828811,0.00119700900878661
+"1067","Water (saline)","Miscellaneous Crenarchaeotic Group",2.26539589442815,682,34.8207696080736,0.00131915088178833,0.0202763009529659
+"1068","Water (saline)","Miscellaneous Euryarchaeotic Group(MEG)",0.0351906158357771,682,0.671592038886666,2.04916641831197e-05,0.000391071261530206
+"1069","Water (saline)","Nitrospirae",57.1495601173021,682,269.557005227751,0.0332784626333863,0.156964335466922
+"1070","Water (saline)","OC31",0.0351906158357771,682,0.844047504439342,2.04916641831197e-05,0.000491492905275815
+"1071","Water (saline)","Omnitrophica",1.94868035190616,682,11.7660256454528,0.00113472590414025,0.00685141309892814
+"1072","Water (saline)","Parcubacteria",7.05131964809384,682,36.9171235933772,0.0041060172106926,0.0214970179212695
+"1073","Water (saline)","Parvarchaeota",0.0513196480938416,682,0.411301098600893,2.98836769337162e-05,0.000239502600068424
+"1074","Water (saline)","PAUC34f",51.549853372434,682,220.883504305507,0.0300177265702474,0.128621522707693
+"1075","Water (saline)","Planctomycetes",949.458944281525,682,3827.65703158852,0.552874491673319,2.22886302602657
+"1076","Water (saline)","Proteobacteria",86484.2214076246,682,90270.0458230476,50.360176431521,52.5646801247536
+"1077","Water (saline)","RsaHF231",0.00439882697947214,682,0.114875937160123,2.56145802288996e-06,6.68928085257648e-05
+"1078","Water (saline)","Saccharibacteria",18.1524926686217,682,191.297179992473,0.0105702834411259,0.111393264325833
+"1079","Water (saline)","SBYG-2791",0.0234604105571848,682,0.575598562783849,1.36611094554131e-05,0.000335173800535238
+"1080","Water (saline)","SHA-109",1.2375366568915,682,7.61861842066024,0.000720623523773041,0.00443635800362376
+"1081","Water (saline)","SM1K20",0.0689149560117302,682,0.941583785471231,4.0129509025276e-05,0.000548288748971845
+"1082","Water (saline)","SM2F11",0.208211143695015,682,1.35071309691733,0.000121242346416791,0.000786526706976007
+"1083","Water (saline)","Spirochaetae",25.2683284457478,682,411.857188184768,0.0147138687028209,0.239826413697082
+"1084","Water (saline)","Synergistetes",0.196480938416422,682,2.13552276860511,0.000114411791689085,0.00124352513845956
+"1085","Water (saline)","TA06",3.71700879765396,682,61.3440549114411,0.00216443202934201,0.0357209370458959
+"1086","Water (saline)","Tenericutes",4.63489736070381,682,32.6360720730384,0.00269892293678505,0.0190041411124405
+"1087","Water (saline)","Thaumarchaeota",1250.06598240469,682,5227.86923489833,0.727919410041573,3.04421329978221
+"1088","Water (saline)","Thermotogae",0.0718475073313783,682,1.39617658745201,4.18371477072026e-05,0.000813000315308883
+"1089","Water (saline)","TM6",3.87390029325513,682,22.391102288879,0.00225579069882509,0.0130384461282179
+"1090","Water (saline)","uncultured archaeon",0.0146627565982405,1364,0.376985324125545,8.53819340963319e-06,0.000219520360200442
+"1091","Water (saline)","Verrucomicrobia",1229.84750733138,682,5687.00923546459,0.71614609514903,3.3115727216391
+"1092","Water (saline)","WCHB1-60",0.0777126099706745,682,0.51251765726046,4.52524250710559e-05,0.000298441487057558
+"1093","Water (saline)","WD272",0.390029325513196,682,4.76653967146686,0.000227115944696243,0.00277557888497973
+"1094","Water (saline)","Woesearchaeota (DHVEG-6)",3.01759530791789,682,24.8124769918943,0.00175716020370251,0.0144484242174687

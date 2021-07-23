@@ -29,7 +29,6 @@ library(viridis) # Default Color Maps from 'matplotlib'
 library(phyloseq) # Handling and analysis of high-throughput microbiome census data, Bioconductor v1.32.0 
 library(speedyseq) # Faster implementations of phyloseq functions, [github::mikemc/speedyseq] v0.5.3.9001 
 library(patchwork) # The Composer of Plots 
-library(MicrobiomeR) # Analyze Microbiome Data, Bioconductor v0.7.0 
 library(kableExtra) # Construct Complex Table with 'kable' and Pipe Syntax # CRAN v1.3.1 
 library(metacoder) # Tools for Parsing, Manipulating, and Graphing Taxonomic Abundance Data  # [::NA/NA] v0.3.4 # CRAN v0.3.4 
 ```
@@ -50,7 +49,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r functions, include=F}
+```{r functions, include=F, cache=T}
 PS_merge_samples <- function(ps = Ps_obj, grouping_name = "empo_3", fun = "mean") {
   # Like phyloseq::merge_samples() but retains chr and fct information in sample_data()
 
@@ -110,15 +109,59 @@ PS_merge_samples <- function(ps = Ps_obj, grouping_name = "empo_3", fun = "mean"
                   sample_data(merged_SD),
                   tax_table(ps)))
 }
+
+parse_taxonomy_silva_128 <- function(char.vec){
+  # from: <https://gist.github.com/grabear/018e86413b19b62a6bb8e72a9adba349>
+  # Use default to assign names to elements in case problem with greengenes prefix
+  char.vec = parse_taxonomy_default(char.vec)
+  # Check for unassigned taxa
+  if (char.vec["Rank1"] == "Unassigned") {
+    char.vec <- c(Rank1="D_0__Unassigned", Rank2="D_1__Unassigned", Rank3="D_2__Unassigned", Rank4="D_3__Unassigned",
+                  Rank5="D_4__Unassigned", Rank6="D_5__Unassigned", Rank7="D_6__Unassigned")
+  }
+  # Define the meaning of each prefix according to SILVA taxonomy
+  Tranks = c(D_0="Kingdom", D_1="Phylum", D_2="Class", D_3="Order", D_4="Family", D_5="Genus", D_6="Species")
+  # Check for prefix using regexp, warn if there were none. trim indices, ti
+  ti = grep("[[:alpha:]]\\_[[:digit:]]{1}\\_\\_", char.vec)
+  if( length(ti) == 0L ){
+    warning(
+      "No silva prefixes were found. \n",
+      "Consider using parse_taxonomy_delfault() instead if true for all OTUs. \n",
+      "Dummy ranks may be included among taxonomic ranks now."
+    )
+    # Will want to return without further modifying char.vec
+    taxvec = char.vec
+    # Replace names of taxvec according to prefix, if any present...
+  } else {
+    # Format character vectors for Ambiguous taxa
+    if( length(ti) < 7 ){
+        for (key in names(char.vec)) {
+          if ( char.vec[key] == "Ambiguous_taxa" ) {
+            tax_no <- (as.numeric(substr(key, 5, 5)) - 1)
+            char.vec[key] = sprintf("D_%s__Ambiguous_taxa", tax_no)
+          }
+        }
+      # Reset the trimmed indicies if Ambiguous taxa
+      ti = grep("[[:alpha:]]\\_[[:digit:]]{1}\\_\\_", char.vec)
+    }
+    # Remove prefix using sub-"" regexp, call result taxvec
+    taxvec = gsub("[[:alpha:]]\\_[[:digit:]]{1}\\_\\_", "", char.vec)
+    # Define the ranks that will be replaced
+    repranks = Tranks[substr(char.vec[ti], 1, 3)]
+    # Replace, being sure to avoid prefixes notK present in Tranks
+    names(taxvec)[ti[!is.na(repranks)]] = repranks[!is.na(repranks)]
+  }
+  return(taxvec)
+}
 ```
 
 ## Summarise the taxonmic distribution across different sample types in the Earth Microbiome Project
 The Earth Microbiome Project ([EMP][1]) is collaborative effort to curate and characterise microbial taxonomy and function on Earth [@thompson_communal_2017].  
-The aim of this script is to summarise the taxonmic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonimc levels. The script uses the 3^rd^ calssification level of the [EMP Ontology][2] (`empo_3`), but this can also be altered.
+The aim of this script is to summarise the taxonomic distribution across different sample types, as defined by the EMP. The script summarises phyla by default but can also summarise the sequences at different taxonomy levels. The script uses the 3^rd^ classification level of the [EMP Ontology][2] (`empo_3`), but this can also be altered.
 
 ### Set main parameters and download data tables from the EMP FTP site
 
-```{r parameters}
+```{r parameters, cache=T}
 ftp <- "ftp://ftp.microbio.me/emp/release1/"
 biom_file <- "emp_cr_silva_16S_123.subset_10k.biom"
 map_file <- "emp_qiime_mapping_subset_10k.tsv"
@@ -126,20 +169,21 @@ new_map_file <- "emp_qiime_mapping_subset_10k_noBLNK.csv"
 Rank <- "Phylum"
 Grouping_var <- "empo_3"
 EMPO_levels2keep <- c("Soil (non-saline)", "Plant rhizosphere", "Animal corpus", "Water (saline)", "Sediment (saline)", "Water (non-saline)", "Hypersaline (saline)", "Sediment (non-saline)", "Animal distal gut", "Animal proximal gut", "Aerosol (non-saline)", "Animal secretion", "Animal surface", "Plant corpus", "Surface (non-saline)", "Plant surface", "Surface (saline)") # remove unwanted environments
+s_size = 1000 # genomes to sample per community
 ```
 
-```{r download files}
+```{r download files, cache=T}
 biom_ftp <- paste0(ftp, "otu_tables/closed_ref_silva/", biom_file)
 map_ftp <- paste0(ftp, "mapping_files/", map_file)
 download.file(biom_ftp, biom_file)
 download.file(map_ftp, map_file)
 
 # fill-in missing values with NA, convert to CSV
-system("awk 'BEGIN { FS = OFS = \"\t\" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = \"NA\" }; 1' emp_qiime_mapping_subset_2k.tsv  |  awk 'BEGIN { FS=\",\"; OFS=\";\" } {$1=$1; print}' |  awk 'BEGIN { FS=\"\t\"; OFS=\",\" } {$1=$1; print}' > emp_qiime_mapping_subset_10k_noBLNK.csv")
+system("awk 'BEGIN { FS = OFS = \"\t\" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = \"NA\" }; 1' emp_qiime_mapping_subset_10k.tsv  |  awk 'BEGIN { FS=\",\"; OFS=\";\" } {$1=$1; print}' |  awk 'BEGIN { FS=\"\t\"; OFS=\",\" } {$1=$1; print}' > emp_qiime_mapping_subset_10k_noBLNK.csv")
 ```
 
 ### Generate a phyloseq object from the biom and (modified) map files
-```{r generate phyloseq obj}
+```{r generate phyloseq obj, cache=T}
 (EMP_otu_tax <- import_biom(biom_file, parseFunction = parse_taxonomy_silva_128, 
                             parallel = TRUE))
 read_csv(new_map_file,
@@ -161,47 +205,78 @@ EMP <- merge_phyloseq(EMP_otu_tax, EMP_map)
 EMP %>% 
   PS_merge_samples(grouping_name = Grouping_var, fun = "mean") ->
   EMP_merge
+
+save(EMP, file = paste0("EMP.RDS"))
+save(EMP_merge, file = paste0("EMP_merge.RDS"))
+# load("./EMP.RDS")
+# load("./EMP_merge.RDS")
 ```
 
 ### Generate a summary table of taxonomic distributions across sample types
 
-```{r summarise phyla}
+```{r summarise phyla, cache=T}
 # summarise abundance by environment and phylum
-EMP_merge %>%
+EMP %>%
   tax_glom(taxrank = Rank) %>%                     # agglomerate at 'Rank' level
   psmelt() %>%                                         # Melt to long format
-  arrange(Rank)  %>%                                  # arrange by 'Rank'
+  arrange(Rank) %>%                                  # arrange by 'Rank'
   group_by_at(c(Grouping_var, Rank)) %>% 
   # summarise and create a column with the relative abundance
-  summarise(Abundance = sum(Abundance)) %>%
-  mutate(Rreq = paste0(round(100 * Abundance / sum(Abundance), 2), "%")) ->
+  summarise(`Abundance (mean)` = mean(Abundance),
+            n = n(),  # calculates the sample size per group
+            SD = sd(Abundance, na.rm = T)) %>%  # calculates the standard error of each group
+  mutate(Freq = (100 * `Abundance (mean)` / sum(`Abundance (mean)`)),
+         `Freq SD` = (100 * SD / sum(`Abundance (mean)`))) -> # abundance per empo_3 cat
   taxa_sum_df
 
 # determine the phylum order by decreasing abundance (for plotting)
 EMP_merge %>%
   tax_glom(taxrank = Rank) %>%                     # agglomerate at 'Rank' level
-    transform_sample_counts(., function(x) x / sum(x) ) %>% 
+    transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
   psmelt() %>%                                        # Melt to long format
   arrange(Rank)  %>%                                  # arrange by 'Rank'
   group_by_at(c("OTU", Rank)) %>% 
-  summarise(Abundance = sum(Abundance)) %>%
-  arrange(Abundance) ->
-  Rank_order 
+  summarise(`Abundance (mean)` = mean(Abundance)) %>%
+  arrange(`Abundance (mean)`) ->
+  Rank_order
 
 # print summary table
 taxa_sum_df %>% 
-  filter(Abundance != 0) %>%
+  filter(`Abundance (mean)` != 0) %>%
   kable(., digits = c( 0, 1)) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = F)
 
 # save summary table
 taxa_sum_df %>% 
-  filter(Abundance != 0) %>% 
+  filter(`Abundance (mean)` != 0) %>% 
   write.csv(file = paste0("EMP_", Grouping_var,"_", Rank,".csv"))
 ```
 
-### Plot a heatmap
-```{r plot heatmanp, fig.width=18, fig.height=25}
+### Plot heatmaps
+```{r plot full heatmap, fig.width=18, fig.height=25, cache=T}
+# Agglomerate taxa
+EMP %>% 
+  tax_glom(Rank, NArm = TRUE) %>% 
+  transform_sample_counts(function(x) x / sum(x) * 100) ->
+  Ps_obj_filt_glom
+
+plot_heatmap(
+  Ps_obj_filt_glom,
+  # method = "NMDS",
+  # distance = "bray",
+  trans = log_trans(4),
+  sample.order = Grouping_var,
+  sample.label = Grouping_var,
+  taxa.label = Rank,
+  taxa.order = Rank_order$OTU
+) + 
+  theme_bw(base_size = 18) + 
+  theme(axis.text.x = element_text(angle = 45.0, vjust = 1, hjust = 1)) +
+  scale_fill_viridis(trans = "log", labels = scales::number_format(accuracy = 0.1), option = "magma", na.value = "black") +
+  labs(fill = "Abundance (%)")
+```
+
+```{r plot merged heatmap, fig.width=18, fig.height=25, cache=T}
 # Agglomerate taxa
 EMP_merge %>% 
   tax_glom(Rank, NArm = TRUE) %>% 
@@ -225,7 +300,7 @@ plot_heatmap(
 ```
 
 ### Plot a bar chart
-```{r plot bar, fig.width=18, fig.height=30}
+```{r plot bar, fig.width=18, fig.height=30, cache=T}
 EMP_merge %>% 
   tax_glom(., Rank) %>% 
   transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
@@ -238,18 +313,19 @@ EMP_merge %>%
   theme(axis.text.x = element_text(angle = 45.0, vjust = 1, hjust = 1),
         legend.position = "bottom") +
   labs(y = "Log10 rel. abundance") +
-  facet_wrap(~get(Rank), ncol = 5) 
+  facet_wrap(~get(Rank), ncol = 5) +
+  theme(legend.position = "none")
 ```
 
 ### Plot a violin and dot chart
-```{r plot violin, fig.width=12, fig.height=12}
+```{r plot violin, fig.width=12, fig.height=12, cache=T}
 EMP %>% 
   tax_glom(., Rank) %>% 
   transform_sample_counts(., function(x) x / sum(x) * 100) %>% 
   psmelt() %>%  
   mutate_if(is.character, as.factor) %>% 
   mutate(Taxa = fct_relevel(pull(., Rank), rev(unique(pull(Rank_order, Rank))))) %>%
-  mutate(Taxa = fct_other(Taxa, drop = pull(Rank_order, Rank)[Rank_order$Abundance < 0.1], other_level = "Rare")) %>% 
+  mutate(Taxa = fct_other(Taxa, drop = pull(Rank_order, Rank)[Rank_order$`Abundance (mean)` < 0.1], other_level = "Rare")) %>% 
   ggplot(aes(x = Taxa, y = Abundance)) +
   geom_violin(aes(group = interaction(Taxa, !!sym(Grouping_var))),
               scale = "width") +
@@ -264,17 +340,18 @@ EMP %>%
   # scale_color_manual(values = pal("d3js")[c(3, 4, 2)]) +
   labs(x = NULL, y = "Abundance (%)", colour = Rank) + 
   guides(colour = guide_legend(override.aes = list(size = 5, alpha = 1))) + 
-  facet_wrap(~get(Grouping_var), ncol = 2) 
+  facet_wrap(~get(Grouping_var), ncol = 2)  +
+  theme(legend.position = "none")
 ```
 
 ## Generate heat-tree plots using [Metacoder][3] [@foster_metacoder_2017]
 
-```{r plot metacoder, fig.height = 30, fig.width = 18}
+```{r plot metacoder, fig.height = 30, fig.width = 18, cache=T}
 # Convert phyloseq to taxmap
 EMP %>% 
   # transform_sample_counts(function(x) x / sum(x) ) %>% # not really needed
   parse_phyloseq() %>% 
-  taxa::filter_taxa(., !taxon_ranks %in% c("Species", "Genus", "Family", "Order")) -> # tips will be Class
+  filter_taxa(., !taxon_ranks %in% c("Species", "Genus", "Family", "Order")) -> # tips will be Class
   EMP_taxmap
 
 # Potentially drop out low reads
